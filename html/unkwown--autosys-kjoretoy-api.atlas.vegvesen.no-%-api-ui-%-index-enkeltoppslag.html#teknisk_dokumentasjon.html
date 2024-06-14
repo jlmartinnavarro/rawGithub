@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="/webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <script src="/webjars/jquery/3.3.1-1/jquery.min.js"></script>
+        <script src="/webjars/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+
+        <div class="container-fluid">
+
+          <!-- Topp -->
+          <div class="container-fluid text-white p-1" style="background-color: #444f55;">
+            <div class="row align-items-center">
+                <div class="col-1 ml-4 mt-2 mr-4">
+                    <a href="/">
+                        <img style="width: 128px; height: 67px" src="/logo.svg"/>
+                    </a>
+                </div>
+                <div class="col-6 ml-4 border-left">
+                    <h3 id="tittel" class="mt-2">Tittel</h3>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+          </div>
+
+          <!-- Info om API -->
+          <div class="container-fluid bg-light p-1">
+
+            <div class="row mt-4 m-2 d-flex justify-content-center">
+
+                <div id="api" class="col-8 border-left border-right">
+                </div>
+
+            </div>
+          
+          </div>
+      
+      </div>
+            
+    </body>
+
+    <script>
+        function getParams() {
+            var idx = document.URL.indexOf('?');
+            var params = new Array();
+            if (idx != -1) {
+                var pairs = document.URL.substring(idx+1, document.URL.length).split('&');
+                for (var i = 0; i < pairs.length; i++) {
+                    nameVal = pairs[i].split('=');
+                    params[nameVal[0]] = nameVal[1];
+                }
+            }
+            return params;
+        }
+
+        async function fetchApiJSON(apiId) {
+            let gyldigInput = /^[a-zA-Z0-9_-]*$/
+            if (apiId == null || !gyldigInput.test(apiId) || apiId.length == 0 || apiId.length > 50) {
+                throw new Error("Ugyldig input!");
+            }
+
+            const response = await fetch('./' + apiId + '.json?nocache=' + (new Date()).getTime());
+            if(response.ok) {
+                var api = await response.json();
+
+                // Tittel
+                var tittel = document.getElementById('tittel');
+                tittel.innerText = 'API - ' + api.navn;
+
+                render(api.beskrivelse);
+                render(api.bakgrunn);
+                render(api.hva_er_tjenesten);
+                render(api.hvem_kan_benytte);
+                render(api.hvordan_benytte);
+                render(api.ta_i_bruk.innledning);
+                render(api.ta_i_bruk.skjema);
+                render(api.ta_i_bruk.oppsett);
+                render(api.ta_i_bruk.forvaltning);
+                render(api.ta_i_bruk.tilgangsstyring);
+                render(api.ta_i_bruk.teknisk_dokumentasjon);
+                render(api.ta_i_bruk.testmiljo);
+                render(api.ta_i_bruk.kodeverk);
+                render(api.faq);
+            } 
+        }
+
+        function render(blokk) {
+            if(blokk != null) {
+		        return blokk.map(({ overskrift, tekst, lenke, farge, bilde, tabell, kode, merknad, brukseksempel, faq }) => { renderBlokk(overskrift, tekst, lenke, farge, bilde, tabell, kode, merknad, brukseksempel, faq ) } )
+	        }
+        } 
+
+        function renderBlokk(overskrift, tekst, lenke, farge, bilde, tabell, kode, merknad, brukseksempel, faq) {
+            var node = document.getElementById("api");
+
+            renderOverskrift(node, overskrift);
+            renderTekst(node, tekst, lenke, farge);
+            renderBilde(node, bilde);
+            renderTabell(node, tabell);
+            renderKode(node, kode);
+            renderMerknad(node, merknad);
+            renderBrukseksempel(node, brukseksempel);
+            renderFAQ(node, faq);
+        }
+
+        function renderOverskrift(node, overskrift) {
+            if(overskrift != null && overskrift.type != null) {
+                opprettElement(node, { 'type': overskrift.type, 'text': overskrift.tekst} );
+            }
+        } 
+
+        function renderTekst(node, tekst, lenke, farge) {
+            var p = opprettElement(node, {'type': 'p', 'text': tekst}); 
+            if(lenke) { opprettElement(p, {'type': 'a', 'href': lenke.uri, 'text': ((tekst) ? ' ' : '') + lenke.navn} ); } 
+        }
+
+        function renderBilde(node, bilde) {
+            if(bilde != null) {
+                var p = opprettElement(node, {'type': 'p'} );
+                opprettElement(p, {'type': 'img', 'src': bilde});
+            }
+        }
+
+        function renderTabell(node, tabell) {
+            if(tabell != null) {
+                var table = opprettElement(node, {'type': 'table', 'class': 'table table-bordered'});
+                var thead = opprettElement(table, {'type': 'thead', 'style': 'backgroundColor: gray'});
+                var tr = opprettElement(thead, {'type': 'tr'}); 
+                tabell.hode.map( col => {
+                    opprettElement(tr, {'type': 'td', 'text': col});
+                }); 
+                
+                var tbody = opprettElement(table, {'type': 'tbody', 'class': 'thead-light'});
+                tabell.rad.map( rad => {
+                    var tr = opprettElement(thead, {'type': 'tr'});
+                    rad.map( col => {
+                        opprettElement(tr, {'type': 'td', 'text': col});
+                    });  
+                }); 
+            }
+        }        
+
+        function renderKode(node, kode) {
+            if(kode != null) {
+                var pre = opprettElement(node, {'type': 'pre'}); 
+                opprettElement(pre, {'type': 'code', 'text': kode});
+            }
+        }        
+
+        function renderMerknad(node, merknad) {
+            if(merknad != null) {
+                opprettElement(node, {'type': 'div', 'class': 'alert alert-info', 'html': '<strong>Merk!</strong> ' + merknad} );
+            }
+        }
+
+        function renderBrukseksempel(node, brukseksempel) {
+            if(brukseksempel != null) {
+
+                if(brukseksempel.request.endpoints) { 
+                    var table = opprettElement(node, { 'type': 'table', 'class': 'table table-sm border'});
+
+                    var tbody = opprettElement(table, { 'type': 'tbody'});
+                    brukseksempel.request.endpoints.map(({ url, miljo }) => {
+                        var tr = document.createElement('tr');
+
+                        opprettElement(tr, {'type': 'td', 'text': brukseksempel.request.method, 'style': 'background-color: orange'}); 
+                        opprettElement(tr, {'type': 'td', 'text': url, 'class': 'border'});
+                        opprettElement(tr, {'type': 'td', 'text': miljo}); 
+
+                        tbody.appendChild(tr);
+                    });
+                }
+                
+                if(brukseksempel.request.headers) {
+                    opprettElement(node, {'type': 'p', 'text': 'Http Header'} );
+
+                    var table = opprettElement(node, {'type':  'table', 'class': 'table table-sm border', 'style': 'width: 600px;'});
+                    var thead = opprettElement(table, {'type': 'thead'});
+                    var tr = opprettElement(thead, {'type': 'tr', 'style': 'background-color: lightgray'});
+
+                    opprettElement(tr, {'type': 'td', 'text': 'Nøkkel'});
+                    opprettElement(tr, {'type': 'td', 'text': 'Verdi'});
+                    if(brukseksempel.request.headers[0].beskrivelse) { opprettElement(tr, {'type': 'td', 'text': 'Beskrivelse'}); } 
+
+                    brukseksempel.request.headers.map(({ key, value, beskrivelse }) => {
+                        var tr = opprettElement(thead, {'type': 'tr'});
+                        opprettElement(tr, {'type': 'td', 'text': key});
+                        opprettElement(tr, {'type': 'td', 'text': value});
+                        if(beskrivelse) { opprettElement(tr, {'type': 'td', 'text': beskrivelse}) }; 
+                    }); 
+                }
+
+                if(brukseksempel.request.parameters) {
+                    opprettElement(node, {'type': 'p', 'text': 'Parametere'});
+                    
+                    var table = opprettElement(node, {'type':  'table', 'class': 'table table-sm border', 'style': 'width: 600px;'});
+                    var thead = opprettElement(table, {'type': 'thead'});
+                    var tr = opprettElement(thead, {'type': 'tr', 'style': 'background-color: lightgray'});
+
+                    opprettElement(tr, {'type': 'td', 'text': 'Navn'}); 
+                    opprettElement(tr, {'type': 'td', 'text': 'Beskrivelse'});
+
+                    brukseksempel.request.parameters.map(({ navn, beskrivelse }) => {
+                        var tr = opprettElement(thead, {'type': 'tr'});
+                        opprettElement(tr, {'type': 'td', 'text': navn});
+                        opprettElement(tr, {'type': 'td', 'text': beskrivelse}); 
+                    }); 
+                }
+
+                if(brukseksempel.request.body) {
+                    opprettElement(node, {'type': 'p', 'text': 'Body'});
+
+                    var table = opprettElement(node, {'type':  'table', 'class': 'table table-sm border', 'style': 'width: 600px;'});
+                    var thead = opprettElement(table, {'type': 'thead'});
+                    var tr = opprettElement(thead, {'type': 'tr'});
+                    opprettElement(tr, {'type': 'td', 'class': 'pre_wrap', 'text': brukseksempel.request.body} )
+                }
+
+                if(brukseksempel.response) {
+                    opprettElement(node, {'type': 'p', 'text': 'HTTP Statuskoder'}); 
+
+                    var table = opprettElement(node, {'type':  'table', 'class': 'table table-sm border', 'style': 'width: 600px;'});
+                    var thead = opprettElement(table, {'type': 'thead'});
+                    var tr = opprettElement(thead, {'type': 'tr', 'style': 'background-color: lightgray'});
+
+                    opprettElement(tr, {'type': 'td', 'text': 'Statuskode'}); 
+                    opprettElement(tr, {'type': 'td', 'text': 'Beskrivelse'});
+
+                    brukseksempel.response.status_codes.map(({ code, meaning }) => {
+                        var tr = opprettElement(thead, {'type': 'tr'});
+                        opprettElement(tr, {'type': 'td', 'text': code});
+                        opprettElement(tr, {'type': 'td', 'text': meaning}); 
+                    });                     
+                } 
+            }
+        }
+
+        function renderFAQ(node, faq) {
+            if(faq != null) {
+                var details = opprettElement(node, { 'type': 'details', 'title': 'Klikk for å se svaret', 'text': faq.svar});
+                opprettElement(details, {'type': 'summary', 'text': faq.sporsmal } );
+                if(faq.lenke) { opprettElement(details, {'type': 'a', 'href': faq.lenke.uri, 'text': faq.lenke.navn}); }  
+            }
+        }        
+
+        function opprettElement(forelder, element) {
+            var e = document.createElement(element.type);
+            if(element.text) { e.innerText = element.text; }
+            if(element.html) { e.innerHTML = element.html; }     
+            if(element.class) { e.className = element.class }
+            if(element.style) { e.style = element.style; }
+            if(element.href) { e.href = element.href; } 
+            if(element.title) { e.title = element.title; }
+            if(element.src) { e.src = element.src; } 
+
+            forelder.appendChild(e);
+            return e;
+        } 
+
+        params = getParams();
+        fetchApiJSON(params['apiId'])
+
+    </script>
+
+</html>

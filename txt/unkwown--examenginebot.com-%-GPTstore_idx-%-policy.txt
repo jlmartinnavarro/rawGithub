@@ -1,0 +1,29 @@
+Privacy Policy for Crypto Price Monitoring Bot API Application
+
+Effective as of: 20 january 2024 13:00:00 GMT +7
+
+We, [Kukuh TW], located at [Jakarta Indonesia], are committed to protecting the privacy of users of our bot API application that retrieves real-time crypto price data from the website [examenginebot.com/]. We understand the importance of your privacy, and in this Privacy Policy, we will explain how we collect, use, and protect your personal information. Please note that by using our bot API application, you agree to comply with all the terms in this Privacy Policy.
+
+1. Information We Collect
+   When you use our bot API application, we may collect the following information:
+   a. Non-Personal Information: We may collect non-personal information that cannot be used to personally identify you, such as real-time crypto price data that we retrieve from [examenginebot.com/indodax].
+   b. User Information: We do not collect personal user information such as names, email addresses, or other personal information.
+
+2. Use of Information
+   We use the information we collect for the following purposes:
+   a. Providing Services: We use the real-time crypto price data that we retrieve to provide up-to-date information to our users.
+   b. Analysis and Improvement: We may use the data we collect to analyze and improve the performance of our bot API application.
+
+3. Information Security
+   We take reasonable steps to protect the information we collect from unauthorized access, use, or disclosure. However, we cannot guarantee the absolute security of your information, and you use our bot API application at your own risk.
+
+4. Investment Risks in Crypto
+   We want to remind our users that investing in cryptocurrency carries a high level of risk. Cryptocurrency prices can fluctuate rapidly, and you can lose your money quickly. We do not provide investment advice and are not responsible for any losses that may arise from investing in cryptocurrency.
+
+5. Changes to the Privacy Policy
+   We reserve the right to change this Privacy Policy at any time. Such changes will be effective after we post the updated version on our website. We encourage you to periodically review our Privacy Policy to understand how your information is used.
+
+6. Contact Us
+   If you have any questions or concerns regarding our Privacy Policy or how we collect and manage information, you can contact us at [Contact Email Address].
+
+By using our bot API application, you acknowledge that you have read, understood, and agreed to this Privacy Policy. We work hard to protect your privacy and appreciate the trust you place in us when using our bot API application.

@@ -1,0 +1,1970 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="it"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://cancelliestensibili.online/',
+        AccountUUID: 'c54fdd8d12594f1da818ac25cdad8f37',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '73bc7245',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Fri May 03 11:54:11 UTC 2024',
+        ExternalUid: '19741544',
+        IsSiteMultilingual: true,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'privacy',
+        InitialPageUuid: 'dbbef20a849f4f19b3e70fdddf9c123d',
+        InitialPageId: '1150861467',
+        InitialEncodedPageAlias: 'cHJpdmFjeQ==',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '43930',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'shop',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '/shop',
+        StoreId: '52754368',
+        StoreVersion: 2,
+        StoreBaseUrl: '/shop',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'cancelliestensibili',
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div> <p class=\"rteBlock\">Utilizziamo i cookie per garantire la miglior esperienza sul nostro sito Web. Per maggiori vai alla <a value=\"privacy\" label=\"\" type=\"page\" href=\"\/privacy\" data-runtime-url=\"\/privacy\">pagina della privacy.<\/a> \n<\/p> \n<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'it',
+        currentLocale: 'it',
+        NavItems: '{}',
+        errors: {
+            general: 'Fehler beim Herstellen der Verbindung zur Webseite.<br/> Stellen Sie sicher, dass Sie online sind.',
+            password: 'Benutzername oder Passwort falsch',
+            tryAgain: 'Erneut versuchen'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: -1,
+            NavbarLiveHomePage: 'https://cancelliestensibili.online/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '1231',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'PRIVACY_PAGE',
+        isRuntimeServer: true,
+        isInEditor: false,
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+<link rel="preconnect" href="//privacy-proxy.usercentrics.eu" data-swh-uuid="4829d2ad4ada43878af388bf2a0499b9"/>
+<link rel="preload" href="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" as="script" data-swh-uuid="4829d2ad4ada43878af388bf2a0499b9"/>
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<link rel="manifest" href="/manifest.json">
+<!-- Tell the browser it's a PWA -->
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Tell iOS it's a PWA -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="https://www.cancelliestensibili.online/privacy">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://irp.cdn-website.com/73bc7245/dms3rep/multi/RAL_5012_LOGO_WEB-removebg-preview+%281%29.png"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/73bc7245/site_favicon_16_1647870181264.ico"/>
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://lirp.cdn-website.com/"/>
+
+
+<!-- Prefetch Ecwid Javascript to speed up loading -->
+<link rel="prefetch" href="https://app.multiscreenstore.com/script.js?52754368"></link>
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Fjalla+One:ital,wght@0,400&family=Yeseva+One:ital,wght@0,400&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Oswald:ital,wght@0,200..700;1,200..700&family=Playball:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  />
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/4481/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/WIDGET_CSS/08ba403a80d88759fc028ae0cae6c184.css" id="widgetCSS" />
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="privacy"] #dm [data-show-on-page-only="privacy"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/73bc7245/files/73bc7245_header_1.min.css?v=3238" id="siteGlobalCss" />
+
+
+
+<style id="customWidgetStyle" type="text/css">
+
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody a.span.textonly{
+color:rgb(255,255,255) !important}
+*#dm *.dmBody a.span.textonly{
+color:rgb(255,255,255) !important}
+*#dm *.dmBody div.dmform-error{
+font-style:normal !important}
+*#dm *.dmBody div.dmforminput textarea{
+font-style:italic !important}
+*#dm *.dmBody div.dmforminput *.fileUploadLink{
+font-style:italic !important}
+*#dm *.dmBody div.checkboxwrapper span{
+font-style:italic !important}
+*#dm *.dmBody div.radiowrapper span{
+font-style:italic !important}
+*#dm *.dmBody div.u_1243667655{
+background-color:rgba(0,0,0,0) !important}
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.d-page-1716942098 DIV.dmInner
+{
+	background-repeat:no-repeat !important;
+	background-size:cover !important;
+	background-attachment:fixed !important;
+	background-position:50% 50% !important;
+}
+*#dm *.d-page-1716942098 DIV#dmSlideRightNavRight
+{
+	background-repeat:no-repeat !important;
+	background-image:none !important;
+	background-size:cover !important;
+	background-attachment:fixed !important;
+	background-position:50% 50% !important;
+}
+*#dm *.dmBody h4.u_1064661103
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:calc(100% - 0px) !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:28px !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody h4.u_1144216550
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:calc(100% - 0px) !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:28px !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody h4.u_1953255332
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:calc(100% - 0px) !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:28px !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody div.u_1243667655
+{
+	margin-left:0 !important;
+	padding-top:28.5px !important;
+	padding-left:40px !important;
+	padding-bottom:28.5px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	margin-right:0 !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1413986830
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+}
+*#dm *.dmBody div.u_ImpressumPrivacyCookies
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-32, .size-32, .size-32 > font { font-size: 32px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-15, .size-15, .size-15 > font { font-size: 15px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+    .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+        visibility: hidden;
+    }
+
+    .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+        visibility: hidden !important;
+    }
+</style>
+
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Roboto Fallback";
+  src: local('Arial');
+  ascent-override: 92.6709%;
+  descent-override: 24.3871%;
+  size-adjust: 100.1106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Montserrat Fallback";
+  src: local('Arial');
+  ascent-override: 84.9466%;
+  descent-override: 22.0264%;
+  size-adjust: 113.954%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Lato Fallback";
+  src: local('Arial');
+  ascent-override: 101.3181%;
+  descent-override: 21.865%;
+  size-adjust: 97.4159%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Fjalla One Fallback";
+  src: local('Arial');
+  ascent-override: 114.9994%;
+  descent-override: 28.2767%;
+  size-adjust: 87.7212%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Yeseva One Fallback";
+  src: local('Arial');
+  ascent-override: 79.0385%;
+  descent-override: 20.7314%;
+  size-adjust: 115.7664%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Arial Fallback";
+  src: local('Arial');
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Epilogue Fallback";
+  src: local('Arial');
+  ascent-override: 70.2338%;
+  descent-override: 20.8923%;
+  size-adjust: 112.4814%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Oswald Fallback";
+  src: local('Arial');
+  ascent-override: 145.0682%;
+  descent-override: 35.1423%;
+  size-adjust: 82.2372%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Playball Fallback";
+  src: local('Arial');
+  ascent-override: 112.7247%;
+  descent-override: 35.5973%;
+  size-adjust: 84.2761%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+<link rel="alternate" hreflang="es" href="https://www.cancelliestensibili.online/es" />
+
+<link rel="alternate" hreflang="fr" href="https://www.cancelliestensibili.online/fr" />
+
+<link rel="alternate" hreflang="it" href="https://www.cancelliestensibili.online/privacy" />
+
+<link rel="alternate" hreflang="de" href="https://www.cancelliestensibili.online/de" />
+
+<link rel="alternate" hreflang="x-default" href="https://www.cancelliestensibili.online/" />
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="https://www.cancelliestensibili.online//feed/rss2"/>
+  <link type="application/atom+xml" rel="alternate" href="https://www.cancelliestensibili.online//feed/atom"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="https://lirp.cdn-website.com/73bc7245/dms3rep/multi/opt/RAL_5017-removebg-preview-1920w.png"/>
+  <title>
+    
+    Cancelliestensibili.online Informativa sulla privacy
+  
+  </title>
+  <meta name="description" content="Gestione Cookies e Informativa Privacy
+La presente Informativa sulla privacy delinea le prassi di Cancelliestensibili.online relativamente alle informazioni raccolte dagli utenti che hanno effettuato l'accesso al nostro sito Web."/>
+  <script src="https://apis.google.com/js/platform.js?onload=renderOptIn" async="" defer="">
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  </script>
+  <script>
+
+
+
+
+
+
+
+
+  window.renderOptIn = function() {
+    window.gapi.load('surveyoptin', function() {
+      window.gapi.surveyoptin.render(
+        {
+          // REQUIRED FIELDS
+          "merchant_id": 366925744,
+          "order_id": "ORDER_ID",
+          "email": "CUSTOMER_EMAIL",
+          "delivery_country": "COUNTRY_CODE",
+          "estimated_delivery_date": "YYYY-MM-DD",
+
+          // OPTIONAL FIELDS
+          "products": [{"gtin":"GTIN1"}, {"gtin":"GTIN2"}]
+        });
+    });
+  }
+
+
+  
+
+  
+
+  
+
+  </script>
+  <meta name="keywords" content="inferriate per finestre scorrevoli, cancelli estensibili, cancelli di sicurezza, cancelletti blindati, cancelli scorrevoli, estendibile, estensibile, exten, cancelletti estensibili, inferriate estensibili, inferriate a filarmonica"/>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Cancelliestensibili.online Informativa sulla privacy"/>
+  <meta name="twitter:description" content="Gestione Cookies e Informativa Privacy
+La presente Informativa sulla privacy delinea le prassi di Cancelliestensibili.online relativamente alle informazioni raccolte dagli utenti che hanno effettuato l'accesso al nostro sito Web."/>
+  <meta property="og:description" content="Gestione Cookies e Informativa Privacy
+La presente Informativa sulla privacy delinea le prassi di Cancelliestensibili.online relativamente alle informazioni raccolte dagli utenti che hanno effettuato l'accesso al nostro sito Web."/>
+  <meta property="og:title" content="Cancelliestensibili.online Informativa sulla privacy"/>
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="privacy"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1901957768" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="Hamburger" data-responsive-name="ResponsiveDesktopTopTabletHamburger" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 dmPageBody d-page-1716942098 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1716942098" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div class="p_hfcontainer showOnMedium"> <div id="hamburger-drawer" class="hamburger-drawer layout-drawer" layout="e9d510f4eb904e939c2be8efaf777e6e===header" data-origin="side-reverse" data-push-content="true"> <div class="u_1815293551 dmRespRow" style="text-align: center;" id="1815293551"> <div class="dmRespColsWrapper" id="1663421670"> <div class="u_1482530006 dmRespCol small-12 medium-12 large-12 empty-column" id="1482530006"></div> 
+</div> 
+</div> 
+ <div class="u_1703298937 dmRespRow middleDrawerRow" style="text-align: center;" id="1703298937"> <div class="dmRespColsWrapper" id="1733814461"> <div class="dmRespCol small-12 u_1519788757 medium-12 large-12" id="1519788757"> <nav class="u_1717746811 effect-bottom main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1717746811" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/inferriate" class="unifiednav__item  dmUDNavigationItem_010101802421  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         SHOP ONLINE CANCELLI ESTENSIBILI
+        " data-auto="page-text-style">SHOP ONLINE CANCELLI ESTENSIBILI<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item  dmUDNavigationItem_00  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/condizioni-di-vendita" class="unifiednav__item  dmUDNavigationItem_010101200826  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Condizioni di vendita
+          " data-auto="page-text-style">Condizioni di vendita<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/condizioni-di-vendita#Condizionidivendita" class="unifiednav__item  dmUDNavigationItem_010101113088  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             Condizioni di vendita
+            " data-auto="page-text-style">Condizioni di vendita<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/scheda-tecnica-cancelli-estensibili#ColoriRALdisponibilipercancellettiestensibili" class="unifiednav__item  dmUDNavigationItem_010101330502  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             Colori RAL disponibili per cancelletti estensibili
+            " data-auto="page-text-style">Colori RAL disponibili per cancelletti estensibili<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/#organization" class="unifiednav__item  dmUDNavigationItem_010101741814  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             organization
+            " data-auto="page-text-style">organization<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/preventivo-cancelli-estensibili" class="unifiednav__item  dmUDNavigationItem_010101740050  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         PREVENTIVI URGENTI
+        " data-auto="page-text-style">PREVENTIVI URGENTI<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/cancelli-estensibili-per-professionisti" class="unifiednav__item  dmUDNavigationItem_010101542206  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Sei un rivenditore
+        " data-auto="page-text-style">Sei un rivenditore<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/blog" class="unifiednav__item  dmUDNavigationItem_010101562650  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Blog
+        " data-auto="page-text-style">Blog<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/inferriata" class="unifiednav__item  dmUDNavigationItem_010101940099  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Inferriata
+          " data-auto="page-text-style">Inferriata<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/inferriata#Classidisicurezzainferriate" class="unifiednav__item  dmUDNavigationItem_010101852406  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             Classi di sicurezza inferriate
+            " data-auto="page-text-style">Classi di sicurezza inferriate<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/inferriata#inferriata" class="unifiednav__item  dmUDNavigationItem_010101311944  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             inferriata
+            " data-auto="page-text-style">inferriata<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/inferriata#Coseuninferriata" class="unifiednav__item  dmUDNavigationItem_010101689841  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             Cos e un inferriata
+            " data-auto="page-text-style">Cos e un inferriata<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/inferriate-estensibili-prezzi" class="unifiednav__item  dmUDNavigationItem_01010144874  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             inferriate estensibili prezzi
+            " data-auto="page-text-style">inferriate estensibili prezzi<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/bricolage" class="unifiednav__item  dmUDNavigationItem_010101659715  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Bricolage
+          " data-auto="page-text-style">Bricolage<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/inferriate-per-finestre-accessori" class="unifiednav__item  dmUDNavigationItem_01010169751  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Edilizia Fai da Te
+          " data-auto="page-text-style">Edilizia Fai da Te<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/serrande" class="unifiednav__item  dmUDNavigationItem_010101595201  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Serrande Blindate
+        " data-auto="page-text-style">Serrande Blindate<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/privacy#ImpressumPrivacyCookies" class="unifiednav__item  dmUDNavigationItem_01010194197  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Impressum  Privacy  Cookies
+        " data-auto="page-text-style">Impressum  Privacy  Cookies<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/domande-e-risposte" class="unifiednav__item  dmUDNavigationItem_01010178242  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Domande e Risposte
+        " data-auto="page-text-style">Domande e Risposte<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/#Comeprenderelemisure" class="unifiednav__item  dmUDNavigationItem_010101173250  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Come prendere le misure
+          " data-auto="page-text-style">Come prendere le misure<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/come-montare-un-cancello-il-25-minuti8414d775" class="unifiednav__item  dmUDNavigationItem_010101425490  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Come montare un cancello il 25 minuti
+          " data-auto="page-text-style">Come montare un cancello il 25 minuti<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/dimensioni-ingombri-pacchetti-ad-ante-aperte" class="unifiednav__item  dmUDNavigationItem_010101692668  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Disegni tecnici
+          " data-auto="page-text-style">Disegni tecnici<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/shop" class="unifiednav__item  dmUDNavigationItem_010101394283  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Prodotti in vendita
+          " data-auto="page-text-style">Prodotti in vendita<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/cartella-colori-ral" class="unifiednav__item  dmUDNavigationItem_010101782063  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Cartella colori RAL
+          " data-auto="page-text-style">Cartella colori RAL<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/cancello-estensibile-girevole" class="unifiednav__item  dmUDNavigationItem_01010196378  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Cancello estensibile Girevole
+          " data-auto="page-text-style">Cancello estensibile Girevole<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/scheda-tecnica-inferraite-estensibili-per-finestre" class="unifiednav__item  dmUDNavigationItem_010101693187  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           CERTIFICAZIONI ANTIEFFRAZIONE
+          " data-auto="page-text-style">CERTIFICAZIONI ANTIEFFRAZIONE<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/detrazioni-fiscali" class="unifiednav__item  dmUDNavigationItem_010101990352  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Detrazioni fiscale
+          " data-auto="page-text-style">Detrazioni fiscale<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#CalcolaIngombroPachetto" class="unifiednav__item  dmUDNavigationItem_010101477102  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Calcola Ingombro Pachetto e Peso Cancello Estensibile
+        " data-auto="page-text-style">Calcola Ingombro Pachetto e Peso Cancello Estensibile<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+ <nav class="u_1511693396 effect-text-color main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_2" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HIDE" id="1511693396" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contatti" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contatti
+        " data-auto="page-text-style">Contatti<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1515883626" style="text-align: center;" id="1515883626"> <div class="dmRespColsWrapper" id="1625851585"> <div class="u_1949968188 dmRespCol small-12 medium-12 large-12" id="1949968188"> <div class="u_1843179774 dmNewParagraph" id="1843179774" style="transition:none;line-height:initial;" data-version="5"> <h3> <span style="color:rgb(162, 204, 76);display:initial;">Tieniti in contatto</span> 
+</h3> 
+</div> <div class="u_1864923470 dmNewParagraph" id="1864923470"> <div style="text-align:left;"> <font style="color:rgb(255, 255, 255);"> <span style="font-size:20px;">555-555-5555mymail@mailservice.com</span> 
+</font> 
+</div> 
+</div> <div class="u_1735204230 align-center text-align-center dmSocialHub" id="1735204230" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="twitter" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Twitter&apos;)"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://youtube.com/" target="_blank" dm_dont_rewrite_url="true" aria-label="youtube" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Youtube&apos;)"> <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style5" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
+</div> 
+ <div class="site_content"> <div id="hamburger-header-container" class="showOnMedium hamburger-header-container p_hfcontainer"> <div id="hamburger-header" class="hamburger-header p_hfcontainer" layout="44dc38f951e9489490b055748e10ba9f===header" data-scrollable-target="body" data-scroll-responder-id="hamburger-header"> <div class="dmRespRow defaultMultilingualExtensionRow fullBleedChanged fullBleedMode" id="1721260443"> <div class="dmRespColsWrapper" id="1946697606"> <div class="dmRespCol defaultMultilingualExtensionColumn small-12 large-123 medium-12" id="1202650381"> <div id="1548815615" class="multilingualWidget dropdown flag-only" dmle_extension="multilingual" data-element-type="multilingual" data-display="dropdown" icon="false" surround="false"> <div class="desktopMultilingual"> <div class="language current-language"> <a href="/privacy" data-disable-ajax-navigation="true"><img src="https://dd-cdn.multiscreensite.com/flags/flags_iso/32/it.png" alt="Italiano" data-code="" onerror="handleImageLoadError(this)"/> <span class="name">Italiano</span> 
+ <span class="short-label">it</span> 
+ <div class="dm-icon dm-icon-chevron-down"></div> 
+</a> 
+</div> 
+ <div class="language other-languages"> <a href="/es" data-code="" data-disable-ajax-navigation="true"><img src="https://dd-cdn.multiscreensite.com/flags/flags_iso/32/es.png" alt="Español" onerror="handleImageLoadError(this)"/> <span class="name">Espa&ntilde;ol</span> 
+ <span class="short-label">es</span> 
+</a> 
+ <a href="/de" data-code="" data-disable-ajax-navigation="true"><img src="https://dd-cdn.multiscreensite.com/flags/flags_iso/32/de.png" alt="Deutsch" onerror="handleImageLoadError(this)"/> <span class="name">Deutsch</span> 
+ <span class="short-label">de</span> 
+</a> 
+ <a href="/fr" data-code="" data-disable-ajax-navigation="true"><img src="https://dd-cdn.multiscreensite.com/flags/flags_iso/32/fr.png" alt="Français" onerror="handleImageLoadError(this)"/> <span class="name">Fran&ccedil;ais</span> 
+ <span class="short-label">fr</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1705692124 dmRespRow" style="text-align: center;" id="1705692124"> <div class="dmRespColsWrapper" id="1469942216"> <div class="u_1739453179 dmRespCol empty-column small-12 large-7 medium-7" id="1739453179"></div> 
+ <div class="u_1003772120 dmRespCol empty-column small-12 large-5 medium-5" id="1003772120"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <button class="showOnMedium layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" aria-label="menu"> <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+</button> 
+ <div class="dmHeaderContainer fHeader d-header-wrapper showOnLarge"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" preserve-sticky-header="true" logo-size-target="92%" layout="3e258119881349f1b0afec8887fc1e4b===header" mini-header-show-only-navigation-row="true" secondary-image="https://lirp.cdn-website.com/73bc7245/dms3rep/multi/opt/logo+cancelli+estensibili+online-1920w.png" has-secondary-image="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="u_1522173007 dmRespRow dmDefaultListContentRow fullBleedChanged fullBleedMode" style="text-align:center" id="1522173007"> <div class="dmRespColsWrapper" id="1930506001"> <div class="u_1604462555 dmRespCol small-12 large-2 medium-2" id="1604462555"> <span id="1202481378"></span> 
+ <div class="u_1546140311 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1546140311"> <a id="1278387428" class="u_1278387428" href="/" file="false"><img src="https://lirp.cdn-website.com/73bc7245/dms3rep/multi/opt/logo+cancelli+estensibili+online-1920w.png" alt="cancelliestensibili.online" id="1261183401" class="" data-dm-image-path="https://irp.cdn-website.com/73bc7245/dms3rep/multi/logo+cancelli+estensibili+online.png" title="cancelliestensibili.online" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1800120906 dmRespCol small-12 large-9 medium-9" id="1800120906"> <nav class="u_1627481604 effect-bottom main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1627481604" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contatti" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contatti
+        " data-auto="page-text-style">Contatti<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/come-montare-un-cancello-il-25-minuti8414d775" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Come montare un cancello il 25 minuti
+          " data-auto="page-text-style">Come montare un cancello il 25 minuti<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/cartella-colori-ral" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Cartella colori RAL
+          " data-auto="page-text-style">Cartella colori RAL<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/scheda-tecnica-inferraite-estensibili-per-finestre" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           CERTIFICAZIONI ANTIEFFRAZIONE
+          " data-auto="page-text-style">CERTIFICAZIONI ANTIEFFRAZIONE<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/condizioni-di-vendita" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Condizioni di vendita
+          " data-auto="page-text-style">Condizioni di vendita<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/cancelli-estensibili-per-professionisti" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Sei un rivenditore
+        " data-auto="page-text-style">Sei un rivenditore<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/cartella-colori-ral" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Cartella colori RAL
+          " data-auto="page-text-style">Cartella colori RAL<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1236733950 dmRespCol small-12 large-1 medium-1" id="1236733950"> <div class="u_1415826870 dmStoreCart" data-element-type="ec_store_cart" id="1415826870"> <span class="cartIcon dm-icon-shopping-cart ecwid" id="1175723094"> <span class="cartItems" id="1604695068">0</span> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_privacy dm-home-page" themewaschanged="true"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="170" class="dmHomeRespTmpl mainBorder dmRespRowsWrapper dmFullRowRespTmpl" id="1716942098"> <div class="dmRespRow" id="1168834152"> <div class="dmRespColsWrapper" id="1380610087"> <div class="dmRespCol large-12 medium-12 small-12" id="1622552494"> <div class="dmNewParagraph u_ImpressumPrivacyCookies" id="ImpressumPrivacyCookies" style="transition: none 0s ease 0s; display: block; text-align: left;" data-version="5" data-anchor="Impressum  Privacy  Cookies"> <h1 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;">Informazioni Generali</span></h1> 
+<p style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">&nbsp;</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">www.cancelliestensibili.online &egrave; un dominio di propriet&agrave; di Plastic Fer</span></p><p style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">&nbsp;</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Tramite il nostro portale &egrave; possibile acquistare inferriate di sicurezza con il miglior rapporto qualit&agrave; prezzo grazie alla filosofia di vendita &quot;no frills&quot;.</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Plastic Fer vanta pi&ugrave; di 30 anni nella produzione di sistemi di sicurezza meccanica passiva.</span></p><p style="line-height: 19.5pt;"><span style="display: initial;"><br/></span></p><p class="m-size-26 size-32" style="line-height: 19.5pt;"><span class="font-size-32 m-font-size-26" style="font-weight: bold; display: initial;">Impressum&nbsp;</span></p><p style="line-height: 19.5pt;"><span style="display: initial;"><br/></span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="font-weight: bold; display: initial;">Ditta individuale: Plastic Fer di Apruzzese Domenico</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="font-weight: bold; display: initial;">Sede legale Via Mario Pagano 66 - Trezzano sul Naviglio (MI)</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="font-weight: bold; display: initial;">P.IVA 04610240154</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="font-weight: normal; display: initial;">Centralino +393482891814</span></p><p><span style="display: initial;"><br/></span></p> <h1 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Diritto di Recesso</span></h1> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="font-weight: bold; display: initial;">D.Lgs 206/2005 (Codice del Consumo)</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="font-weight: bold; display: initial;">Il diritto di recesso non si applica per l&rsquo;acquisto di oggetti prodotti appositamente o creati personalmente per il consumatore (inferriate su misura, grate su misura, etc); come da DL 206/2005 Art. 59 co. 1 lett. C</span></p><p style="line-height: 19.5pt;"><span style="display: initial;"><br/></span></p> <h1 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Garanzie inferriate di sicurezza</span></h1> 
+<p style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">&nbsp;</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Tutti i prodotti commercializzati godono della garanzia legale di conformit&agrave; prevista dagli articoli 128 e ss. del Codice del Consumo che copre eventuali difetti di conformit&agrave; degli articoli acquistati, esistenti al momento della consegna e che si manifestino entro 2 anni dalla consegna stessa. Sono esclusi dai difetti di conformit&agrave; e, dunque, dalla garanzia legale eventuali vizi o danneggiamenti determinati da fatti accidentali o da responsabilit&agrave; del Cliente per uso dei prodotti non conforme alla relativa destinazione d'uso ovvero effetto di normale usura. Per beneficiare di tale garanzia, il Cliente deve denunciare il difetto di conformit&agrave; con comunicazione indirizzata a Plastic Fer indicando i difetti ed i vizi riscontrati. Il Cliente pu&ograve; chiedere, a sua scelta, al venditore di riparare il bene o di sostituirlo, senza spese in entrambi i casi, salvo che il rimedio richiesto sia impossibile o imponga al venditore costi sproporzionati.&nbsp; Si precisa che il Cliente non ha diritto di risolvere il contratto se il difetto di conformit&agrave; &egrave; solo di lieve entit&agrave;.</span></p><p><span class="m-font-size-14 font-size-18" style="display: initial;">&nbsp;</span></p> <h1 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Gestione Cookies e Informativa Privacy</span></h1> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Questo documento spiega &ldquo;cosa sono i cookie&rdquo; e come vengono usati su questo sito, oltre alle modalit&agrave; di trattamento dei dati.</span></p><p style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">&nbsp;</span></p><p><span style="display: initial;"><br/></span></p> <h2 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Cosa sono i cookie?</span></h2> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Un &ldquo;cookie&rdquo; &egrave; un file di testo che il sito invia al computer o altro dispositivo connesso a internet per identificare in modo univoco il browser dell&rsquo;utente o per salvare informazioni o configurazioni nel browser.</span></p><p><span style="display: initial;"><br/></span></p> <h3 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Inferriate.it usa cookie su questo sito?</span></h3> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">S&igrave;, Inferriate.it usa cookie per migliorare il sito e fornire servizi e funzionalit&agrave; ai suoi utilizzatori. E&rsquo; possibile limitare o disabilitare l&rsquo;uso dei cookie tramite il browser web; tuttavia, senza cookie alcune o tutte le funzionalit&agrave; del sito potrebbero essere inutilizzabili.</span></p><p><span style="display: initial;"><br/></span></p> <h3 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Che tipo di cookie sono presenti su questo sito?</span></h3> 
+ <h3 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Cookie tecnici</span></h3> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Questi cookie sono essenziali per portare a termine attivit&agrave; richieste dall&rsquo;utente.<br/> Per esempio, per memorizzare informazioni fornite dall&rsquo;utente mentre naviga nel sito o per gestire lo stato di &ldquo;login&rdquo; durante la visita.</span></p> <h3 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Cookie di Analytics</span></h3> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Questi cookie permettono di raccogliere dati relativi all&rsquo;uso del sito, come i contenuti visitati e le funzionalit&agrave; utilizzate, con l&rsquo;obbiettivo di migliorare le performance e il layout del sito.<br/> Questi cookie possono essere inviati dal fornitore dello strumento di Analytics, ma sono utilizzati solo per scopi legati al sito.</span></p> <h3 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Cookie di terze parti</span></h3> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Questi cookie memorizzano informazioni legate all&rsquo;uso del sito per fornire informazioni personalizzate a scopo promozionale, sia all&rsquo;interno che all&rsquo;esterno del sito.</span></p><p style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">&nbsp;</span></p><p><span style="display: initial;"><br/></span></p> <h2 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">Come si possono limitare o disabilitare i cookie?</span></h2> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Ogni browser offre metodi per limitare o disabilitare i cookie. Per maggiori informazioni sulla gestione dei cookie visitate i link appropriati:</span></p><p class="m-size-14 size-18" style="line-height: normal;"><span class="m-font-size-14 font-size-18" style="display: initial;">&middot;&nbsp; &nbsp; &nbsp; &nbsp; Internet Explorer</span></p><p class="m-size-14 size-18" style="line-height: normal;"><span class="m-font-size-14 font-size-18" style="display: initial;">&middot;&nbsp; &nbsp; &nbsp; &nbsp; Firefox</span></p><p class="m-size-14 size-18" style="line-height: normal;"><span class="m-font-size-14 font-size-18" style="display: initial;">&middot;&nbsp; &nbsp; &nbsp; &nbsp; Chrome</span></p><p class="m-size-14 size-18" style="line-height: normal;"><span class="m-font-size-14 font-size-18" style="display: initial;">&middot;&nbsp; &nbsp; &nbsp; &nbsp; Safari</span></p><p style="line-height: normal;"><span style="display: initial;"><br/></span></p> <h2 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="display: initial;">INFORMATIVA PRIVACY</span></h2> 
+<p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Informativa ai fini del rilascio del consenso al trattamento di dati personali da parte di Plastic Fer ai sensi e per gli effetti di cui all&rsquo;articolo 13, D. Lgs. 30 giugno 2003 n. 196 In osservanza al D.Lgs. 30 giugno 2003 n. 196 ( Testo unico Privacy ), siamo a fornire le dovute informazioni in ordine alle finalit&agrave; e modalit&agrave; del trattamento dei dati personali volontariamente forniti, nonch&eacute; l&rsquo;ambito di comunicazione e diffusione degli stessi. A seguito della consultazione di questo sito possono essere trattati dati relativi a persone identificate o identificabili. Plastic Fer tratta le informazioni personali degli interessati con grande attenzione. La presente informativa stabilisce la politica relativa alla privacy e regola le aree protette da password dei siti a dominio Plastic Fer e di tutti i siti aziendali correlati delle societ&agrave; controllate da Plastic Fer, siti (collettivamente i &ldquo;Siti&rdquo; e separatamente: il &rdquo;sito&rdquo;) attraverso i quali Plastic Fer raccoglie dati personali. Accedendo a o facendo uso di uno qualsiasi dei siti di cui sopra, l&rsquo;interessato inoltre accetta espressamente le condizioni stabilite nella presente politica relativa alla privacy. In caso di disaccordo con qualsivoglia termine di questa politica sulla privacy, ti preghiamo di non usare i siti o di non fornire i propri dati personali. Alcuni servizi potrebbero essere condizionati dalla fornitura di dati personali. Le indicazioni fornite di seguito si ispirano anche alla Raccomandazione n. 2/2001 del Gruppo dei Garanti Europei per la protezione dei dati personali adottata il 17 maggio 2001 ex art. 29 della direttiva n. 95/46/CE, riguardano in modo particolare la raccolta di dati personali su Internet e si prefiggono di identificare le misure minime che dovranno essere attuate nei confronti delle persone interessate per garantire la lealt&agrave; e la liceit&agrave; di tali pratiche (in applicazione degli articoli 6, 7, 10 e 11 della direttiva 95/46/CE). Le indicazioni sotto riportate tengono conto anche del D.Lgs 28 maggio 2012 n. 69, in attuazione delle direttive 2009/136/CE, in materia di trattamento dei dati personali.<br/> 1.TITOLARE DEL TRATTAMENTO E TIPOLOGIA DI DATI TRATTATI</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Titolare del trattamento dei dati personali &egrave; Plastic Fer, con sede legale a Trezzano sul Naviglio, Via Mario Pagano 66, nella persona del suo legale rappresentate Apruzzese Domenico</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">LUOGO DI TRATTAMENTO DEI DATI</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">I trattamenti connessi ai servizi web di questo sito hanno luogo presso la predetta sede del titolare. In caso di necessit&agrave;, i dati connessi al servizio possono essere trattati dal personale delle societ&agrave; esterne che curano la manutenzione della parte tecnologica del sito.</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/> 2.TIPI DI DATI TRATTATI</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Dati personali: Il Titolare del trattamento tratter&agrave; dati di natura personale, &ldquo;Dati personali&rdquo; significa tutte quelle informazioni attraverso le quali l&rsquo;interessato pu&ograve; essere personalmente identificato, ed includono, a titolo esemplificativo ma non esaustivo, il nome, il cognome, indirizzo, contatto e-mail, recapito telefonico, partita iva, codice fiscale. Durante l&rsquo;accesso al Sito si possono quindi distinguere i dati derivanti dalla sola navigazione dell&rsquo;interessato, dai dati resi volontariamente dall&rsquo;interessato in relazione a determinate finalit&agrave;. Dati resi volontariamente dall&rsquo;interessato I dati personali forniti dagli utenti che volontariamente interagiscono con il Sito, conferendo i propri dati personali per il conseguimento di determinati servizi. Specifiche informative di sintesi vengono riportate o visualizzate nelle pagine del Sito predisposte per i servizi a richiesta, in modo tale da richiamare l&rsquo;attenzione dell&rsquo;interessato sul trattamento dei suoi dati personali. A parte quanto sopra specificato per i dati di navigazione, il conferimento dei dati personali degli utenti &egrave; facoltativo.<br/> Dati di navigazione: I sistemi informatici e le procedure software preposte al funzionamento di questo sito web acquisiscono, nel corso del loro normale esercizio, alcuni dati personali la cui trasmissione &egrave; implicita nell&rsquo;uso dei protocolli di comunicazione di Internet. Si tratta di informazioni che non sono raccolte per essere associate a interessati identificati, ma che per loro stessa natura potrebbero, attraverso elaborazioni ed associazioni con dati detenuti da terzi, permettere di identificare gli utenti. In questa categoria di dati rientrano gli indirizzi IP o i nomi a dominio dei computer utilizzati dagli utenti che si connettono al sito, gli indirizzi in notazione URI (Uniform Resource Identifier) delle risorse richieste, l&rsquo;orario della richiesta, il metodo utilizzato nel sottoporre la richiesta al server, la dimensione del file ottenuto in risposta, il codice numerico indicante lo stato della risposta data dal server (buon fine, errore, ecc.) ed altri parametri relativi al sistema operativo e all&rsquo;ambiente informatico dell&rsquo;utente.</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/> 3.COOKIES</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Gli applicativi software utilizzati possono contenere la tecnologia &ldquo;cookie&rdquo;. I cookies hanno principalmente la funzione di agevolare la navigazione da parte dell&rsquo;interessato. I cookies potranno fornire informazioni sulla navigazione all&rsquo;interno del Sito e permettere il funzionamento di alcuni servizi che richiedono l&rsquo;identificazione del percorso dell&rsquo;interessato attraverso diverse pagine del Sito. Per qualsiasi accesso al portale indipendentemente dalla presenza di un cookie, vengono registrati il tipo di browser (es. Internet Explorer, Netscape), il sistema operativo (es. Macintosh, Windows), l&rsquo;Host e l&rsquo;URL di provenienza del visitatore, oltre ai dati sulla pagina richiesta. Ulteriori informazioni sui cookies sono reperibili sui siti web dei browser. &ldquo;I cookie poi si distinguono in &ldquo;di sessione&rdquo; e &ldquo;persistenti&rdquo;, i primi una volta scaricati vengono poi eliminati alla chiusura del Browser, i secondi invece vengono memorizzati sul disco rigido dell&rsquo;interessato/visitatore fino alla loro scadenza. I cookie di sessione utilizzati hanno lo scopo di velocizzare l&rsquo;analisi del traffico su Internet e facilitare agli utenti l&rsquo;accesso ai servizi offerti dal sito. I cookie di sessione vengono principalmente utilizzati in fase di autenticazione, autorizzazione e navigazione nei servizi ai quali si accede tramite una registrazione. La maggior parte dei browser &egrave; impostata per accettare i cookie. Se non si desidera accettare i cookie, &egrave; possibile impostare il computer affinch&eacute; li rifiuti oppure visualizzi un avviso quando essi vengono archiviati. Se l&rsquo;interessato rifiuta l&rsquo;uso dei cookie, la possibilit&agrave; di fornire servizi personalizzati sar&agrave; limitata. In tale ultimo caso alcune funzionalit&agrave; del sito potrebbero non funzionare correttamente ed alcuni dei servizi non essere disponibili. Non vengono utilizzati sistemi per il tracciamento degli utenti. L&rsquo;uso di c.d. cookies di sessione (che non vengono memorizzati in modo persistente sul computer dell&rsquo;utente e svaniscono con la chiusura del browser) &egrave; strettamente limitato alla trasmissione di identificativi di sessione, necessari per consentire l&rsquo;esplorazione sicura ed efficiente del sito. I c.d. cookies di sessione utilizzati in questo sito evitano il ricorso ad altre tecniche informatiche potenzialmente pregiudizievoli per la riservatezza della navigazione degli utenti e non consentono l&rsquo;acquisizione di dati personali identificativi dell&rsquo;utente. Per la navigazione all&rsquo;interno del sito/siti sono raccolti i seguenti dati di navigazione:<br/> indirizzo IP;<br/> cookies di sessione;<br/> tentativi di login.<br/>&nbsp;<br/> Tali dati hanno natura tecnica, validit&agrave; temporanea e non sono raccolti allo scopo di identificare gli utenti non iscritti ma, per via del loro funzionamento e in combinazione con altri dati detenuti da soggetti terzi (ad esempio il fornitore di connessione Internet dell&rsquo;interessato), potrebbero permetterne l&rsquo;identificazione. I Cookie di prima parte leggibili al solo dominio, che li ha creati. Cookie di terze parti: creati da domini esterni al presente sito, ad esempio tramite Google Analytics. Il software, usato indifferentemente per sito e piattaforma, crea un cookie per l'interessato al fine di generare statistiche di utilizzo. I dati generati da questo cookie sono conservati presso Google Inc. Per il funzionamento dei cookies in Google Analytics consulta la&nbsp;</span><a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?csw=1" target="_blank" runtime_url="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?csw=1" class="m-font-size-14 font-size-18" style="display: initial;">documentazione ufficiale fornita da Google</a><span class="m-font-size-14 font-size-18" style="display: initial;">.</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/> 4. FINALITA&rsquo; DEL TRATTAMENTO</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">I dati personali forniti nella compilazione dei form presenti nei siti web a dominio di Plastic Fer (quali a titolo esemplificativo e non esaustivo: nome, cognome, data di nascita, indirizzo, contatto mail e recapito telefonico) saranno trattati da Plastic Fer nell&rsquo;osservanza delle disposizioni del Codice per le finalit&agrave; connesse alla registrazione dei servizi correlati, presenti sui siti internet a dominio di Plastic Fer. Il trattamento dei dati si rende quindi necessario per l&rsquo;adempimento degli obblighi assunti nei confronti dei propri utenti, per l&rsquo;adempimento degli obblighi previsti dalla legge, da un regolamento o dalla normativa comunitaria e per l&rsquo;esercizio dei propri diritti in sede giudiziaria. Tali finalit&agrave; ricomprendono, a seconda della tipologia di trattamento che ci richiederai, tutte o solo alcune delle sotto elencate (quindi anche non tutte le finalit&agrave; in contemporanea): l&rsquo;utilizzo dei dati personali (in particolare l&rsquo;indirizzo e-mail ed il numero di telefono cellulare per l&rsquo;invio di SMS e per contatti telefonici) per effettuare comunicazioni relative a promozioni, inviti ad eventi e novit&agrave; sullo svolgimento dell&rsquo;attivit&agrave;; L&rsquo;interessato pu&ograve; opporsi al predetto trattamento in qualsiasi momento inviando una e-mail all&rsquo;indirizzo plastic@plastic-fer.com</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/> 5. MODALIT&Agrave; DEL TRATTAMENTO E CONSERVAZIONE</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Il trattamento sar&agrave; svolto in forma cartacea ed elettronica automatizzata e manuale, con modalit&agrave; e strumenti volti a garantire la massima sicurezza e riservatezza, ad opera di soggetti di ci&ograve; appositamente incaricati in ottemperanza a quanto previsto dagli artt. 31 e segg. D.Lgs 196/03. Essi saranno conservati presso la sede del titolare per dar seguito ai servizi da fornire per il tempo strettamente necessario per le finalit&agrave; di cui sopra e comunque non eccedente il periodo di tempo prescritto dalla legge. In conformit&agrave; alla vigente normativa, specifiche misure di sicurezza sono osservate per prevenire la perdita dei dati, usi illeciti o non corretti ed accessi non autorizzati. L&rsquo;interessato malleva e mantiene indenne Plastic Fer ed i suoi affiliati per ogni lesione, perdita o danno in genere, personale o alle cose derivante dall&rsquo;accettazione di o dalla partecipazioni ai siti. I dati personali saranno conservati per un periodo non superiore agli scopi per i quali i dati sono stati raccolti e successivamente trattati, salva la reale trasformazione in forma anonima.</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/> 6. NATURA DEL CONFERIMENTO E RIFIUTO</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Il conferimento dei dati per le finalit&agrave; &egrave; necessario. L&rsquo;eventuale rifiuto del conferimento dei dati comporta l&rsquo;impossibilit&agrave; di registrazione ai servizi. Nel caso non siano forniti nel modulo di registrazione i dati richiesti contrassegnati con il simbolo *, non sar&agrave; pertanto possibile completare la procedura di registrazione.</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/> 7. ART. 7. DIRITTO DI ACCESSO AI DATI PERSONALI ED ALTRI DIRITTI</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">I soggetti cui si riferiscono i dati personali hanno il diritto in qualunque momento di ottenere la conferma dell&rsquo;esistenza o meno dei medesimi dati e di conoscerne il contenuto e l&rsquo;origine, verificarne l&rsquo;esattezza o chiederne l&rsquo;integrazione o l&rsquo;aggiornamento, oppure la rettificazione (articolo 7 del Codice in materia di protezione dei dati personali). Ai sensi del medesimo articolo si ha il diritto di chiedere la cancellazione, la trasformazione in forma anonima o il blocco dei dati trattati in violazione di legge, nonch&eacute; di opporsi in ogni caso, per motivi legittimi, al loro trattamento. Per qualsiasi richiesta di informazioni e/o chiarimenti, domande o reclami sul trattamento dei dati personali e per far valere i tuoi diritti come espressi dagli art. 7, 8, 9 e 10 del D.Lgs. 30 giugno 2003 n. 196, ti preghiamo di rivolgerti per iscritto al titolare del trattamento dati, Plastic Fer &ndash; sede legale a Trezzano sul Naviglio, Via Mario Pagano 66, scrivendo a plastic@plastic-fer.com. A questo indirizzo potrai richiedere l&rsquo;elenco dei nominativi dei responsabili privacy nominati dal titolare, per area di competenza di trattamento dati. Qualora non vorrai pi&ugrave; essere contattato, l&rsquo;uso dei dati personali per comunicazioni, cesser&agrave; immediatamente. Se farai richieste in tal senso a Plastic Fer, sei pregato di fornire l&rsquo;indirizzo di posta elettronica, il nome, l&rsquo;indirizzo e/o i numeri di telefono, al fine di permettere la corretta gestione della tua richiesta. Per non ricevere pi&ugrave; comunicazioni di natura commerciale e newsletter sar&agrave; sufficiente scrivere in qualsiasi momento una e-mail all&rsquo;indirizzo plastic@plastic-fer.com con oggetto &ldquo;cancellazione&rdquo; e non sarai pi&ugrave; disturbato.</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/> 8. MODIFICHE ALL&rsquo;INFORMATIVA SULLA PRIVACY</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Plastic Fer si riserva il diritto di modificare, aggiornare, aggiungere o rimuovere parti della presente informativa sulla privacy a propria discrezione e in qualsiasi momento. L&rsquo;interessato &egrave; tenuto a verificare periodicamente le eventuali modifiche alla presente pagina. Al fine di facilitare tale verifica l&rsquo;informativa conterr&agrave; l&rsquo;indicazione della data di pubblicazione sul sito. L&rsquo;utilizzo del sito dopo la pubblicazione delle modifiche costituir&agrave; accettazione delle stesse.</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/> 9. FACEBOOK SOCIAL PLUGINS</span></p><p class="m-size-14 size-18" style="line-height: 19.5pt;"><span class="m-font-size-14 font-size-18" style="display: initial;">Le nostre pagine web potrebbero contenere plug-in del social network facebook.com, gestito da Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, Stati Uniti (&ldquo;Facebook&rdquo;). Tali plug-in, in particolare, potrebbero corrispondere ai pulsanti &ldquo;Like&rdquo; o &ldquo;Mi piace&rdquo; di Facebook. Se si accede a una delle nostre pagine web dotata di un simile plug-in, il browser internet si collega direttamente ai server Facebook e il plug-in viene visualizzato sullo schermo grazie alla connessione con il browser. Il plug-in comunica al server Facebook quali pagine l&rsquo;interessato ha visitato. Se un interessato Facebook o twitter visita la nostra pagina web mentre &egrave; collegato al proprio account Facebook o twitter, tali informazioni saranno associate all&rsquo;account Facebook. Anche nel caso in cui si utilizzino le funzioni del plug-in (per esempio, facendo clic sul pulsante &ldquo;Mi piace&rdquo; o pubblicando un commento), le informazioni saranno associate all&rsquo;account Facebook o twitter. Ulteriori informazioni sulla raccolta e sull&rsquo;utilizzo dei dati da parte di Facebook o twitter nonch&eacute; sui diritti e sulle modalit&agrave; disponibili per proteggere la privacy dell&rsquo;interessato in tale contesto sono presenti nella sezione di Facebook o twitter sulla protezione dei dati. Se l&rsquo;interessato non desidera associare la visita alle nostre pagine web al proprio account Facebook o twitter, deve uscire da Facebook o twitter prima di visitarle.</span><span class="m-font-size-14 font-size-18" style="display: initial; font-weight: bold;"><br/></span><span style="display: initial;"><br/></span></p></div></div> 
+</div> 
+</div> 
+ <div class="u_1243667655 dmRespRow" style="text-align: center;" id="1243667655"> <div class="dmRespColsWrapper" id="1173148036"> <div class="dmRespCol small-12 medium-12 large-12 u_1620106714" id="1620106714"> <span id="1479169930"></span> 
+ <h3 class="dmNewParagraph" data-element-type="paragraph" id="1916090978" style="transition: opacity 1s ease-in-out;"><font><span class="font-size-20 lh-1" style="font-size: 24px;"><span style="" class="font-size-20 lh-1"><font style="color: rgb(0, 0, 0);"><span style="" class="font-size-24 lh-1"><font style="">Cancelliestensibili.online</font>&nbsp;Informativa sulla privacy</span> 
+&nbsp;</font></span> 
+</span> 
+</font> 
+</h3> <div class="dmNewParagraph dmParagraphPlaceholder" id="1133662932" style="transition: opacity 1s ease-in-out;"> <font style=""> <font style="color: rgb(0, 0, 0);"></font> 
+ <span class="lh-1 font-size-15" style=""> <font style="color: rgb(0, 0, 0);"></font> 
+ <div style=""><br/></div> 
+</span> 
+</font> 
+</div> <h4 class="u_1064661103 dmNewParagraph" data-element-type="paragraph" id="1064661103" style="transition: none; display: block;"> <span class="lh-1 font-size-16"> <span style="font-family:Oswald, 'Oswald Fallback';"></span> 
+ <div> <span class="lh-1 font-size-16" style="font-weight:400;font-family:Oswald, 'Oswald Fallback';">Minori</span> 
+</div> 
+</span> 
+</h4> <div class="dmNewParagraph" id="1536463887" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="font-weight: 300; color: rgb(0, 0, 0); display: initial;">Siamo consapevoli dell'importanza di proteggere la privacy dei bambini, specialmente in un ambiente online. In nessun caso consentiamo ai minori di utilizzare i nostri servizi senza il preventivo consenso di un genitore o di un tutore legale. Non raccogliamo consapevolmente informazioni personali dai minori. Se un genitore o un tutore si dovesse rendere conto che il minore ci ha fornito Informazioni personali senza il loro consenso, dovr&agrave; contattarci all'indirizzo shop@cancelliestensibili.online</span></p></div> <h4 class="u_1144216550 dmNewParagraph" data-element-type="paragraph" id="1144216550" style="transition: none; display: block;"> <span class="lh-1 font-size-16"> <span style="font-family:Oswald, 'Oswald Fallback';"></span> 
+ <div> <span class="lh-1 font-size-16" style="font-weight:400;font-family:Oswald, 'Oswald Fallback';">Aggiornamenti o modifiche alla presente Informativa sulla privacy</span> 
+</div> 
+</span> 
+</h4> <div class="dmNewParagraph" id="1216494406"> <span class="lh-1 font-size-15"> <div> <span style="" class="lh-1 font-size-15">Ci riserviamo il diritto di modificare periodicamente o rivedere l'Informativa sulla privacy; le modifiche materiali saranno effettive immediatamente, alla visualizzazione dell'Informativa sulla privacy aggiornata. L'ultima revisione sar&agrave; riportata nella sezione &quot;Ultima modifica&quot;. L'utilizzo continuativo della Piattaforma, a seguito della notifica di tali modifiche sul nostro sito web, rappresenta l'accettazione e il consenso a tali modifiche all'Informativa sulla privacy e il consenso a sottostare ai relativi termini.</span> 
+</div> 
+</span> 
+</div> <h4 class="u_1953255332 dmNewParagraph" data-element-type="paragraph" id="1953255332" style="transition: none; display: block;"> <span class="lh-1 font-size-16"> <span style="font-family:Oswald, 'Oswald Fallback';"></span> 
+ <div> <span class="lh-1 font-size-16" style="font-weight:400;font-family:Oswald, 'Oswald Fallback';">Come contattarci</span> 
+</div> 
+</span> 
+</h4> <div class="dmNewParagraph" id="1048753436" style="line-height:initial;" data-version="5"><p class="size-15"><span class="font-size-15" style="color: rgb(104, 103, 103); display: initial;">Per qualsiasi domanda generica sul Sito oppure sulle informazioni che raccogliamo sull'Utente e su come le utilizziamo, &egrave; possibile contattarci all'indirizzo shop@cancelliestensibili.online</span></p><p><span class="font-size-15" style="color: rgb(104, 103, 103); display: unset;"><br/></span></p><p class="size-15"><span class="font-size-15" style="color: rgb(104, 103, 103); display: initial;">Ultima modifica _10/07/2023, Trezzano Sul Naviglio</span></p></div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1519005437"></div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="dmRespRow" id="1569889861"> <div class="dmRespColsWrapper" id="1023952891"> <div class="dmRespCol large-12 medium-12 small-12" id="1607833391"> <nav class="u_1778498261 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1778498261" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="HORIZONTAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/inferriate" class="unifiednav__item  dmUDNavigationItem_010101802421  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         SHOP ONLINE CANCELLI ESTENSIBILI
+        " data-auto="page-text-style">SHOP ONLINE CANCELLI ESTENSIBILI<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item  dmUDNavigationItem_00  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/condizioni-di-vendita" class="unifiednav__item  dmUDNavigationItem_010101200826  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Condizioni di vendita
+          " data-auto="page-text-style">Condizioni di vendita<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/condizioni-di-vendita#Condizionidivendita" class="unifiednav__item  dmUDNavigationItem_010101113088  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             Condizioni di vendita
+            " data-auto="page-text-style">Condizioni di vendita<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/scheda-tecnica-cancelli-estensibili#ColoriRALdisponibilipercancellettiestensibili" class="unifiednav__item  dmUDNavigationItem_010101330502  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             Colori RAL disponibili per cancelletti estensibili
+            " data-auto="page-text-style">Colori RAL disponibili per cancelletti estensibili<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/#organization" class="unifiednav__item  dmUDNavigationItem_010101741814  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             organization
+            " data-auto="page-text-style">organization<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/preventivo-cancelli-estensibili" class="unifiednav__item  dmUDNavigationItem_010101740050  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         PREVENTIVI URGENTI
+        " data-auto="page-text-style">PREVENTIVI URGENTI<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/cancelli-estensibili-per-professionisti" class="unifiednav__item  dmUDNavigationItem_010101542206  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Sei un rivenditore
+        " data-auto="page-text-style">Sei un rivenditore<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/blog" class="unifiednav__item  dmUDNavigationItem_010101562650  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Blog
+        " data-auto="page-text-style">Blog<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/inferriata" class="unifiednav__item  dmUDNavigationItem_010101940099  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Inferriata
+          " data-auto="page-text-style">Inferriata<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="1" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/inferriata#Classidisicurezzainferriate" class="unifiednav__item  dmUDNavigationItem_010101852406  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             Classi di sicurezza inferriate
+            " data-auto="page-text-style">Classi di sicurezza inferriate<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/inferriata#inferriata" class="unifiednav__item  dmUDNavigationItem_010101311944  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             inferriata
+            " data-auto="page-text-style">inferriata<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/inferriata#Coseuninferriata" class="unifiednav__item  dmUDNavigationItem_010101689841  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             Cos e un inferriata
+            " data-auto="page-text-style">Cos e un inferriata<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="2"> <a href="/inferriate-estensibili-prezzi" class="unifiednav__item  dmUDNavigationItem_01010144874  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+             inferriate estensibili prezzi
+            " data-auto="page-text-style">inferriate estensibili prezzi<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/bricolage" class="unifiednav__item  dmUDNavigationItem_010101659715  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Bricolage
+          " data-auto="page-text-style">Bricolage<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/inferriate-per-finestre-accessori" class="unifiednav__item  dmUDNavigationItem_01010169751  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Edilizia Fai da Te
+          " data-auto="page-text-style">Edilizia Fai da Te<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/serrande" class="unifiednav__item  dmUDNavigationItem_010101595201  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Serrande Blindate
+        " data-auto="page-text-style">Serrande Blindate<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/privacy#ImpressumPrivacyCookies" class="unifiednav__item  dmUDNavigationItem_01010194197  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Impressum  Privacy  Cookies
+        " data-auto="page-text-style">Impressum  Privacy  Cookies<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/domande-e-risposte" class="unifiednav__item  dmUDNavigationItem_01010178242  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Domande e Risposte
+        " data-auto="page-text-style">Domande e Risposte<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/#Comeprenderelemisure" class="unifiednav__item  dmUDNavigationItem_010101173250  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Come prendere le misure
+          " data-auto="page-text-style">Come prendere le misure<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/come-montare-un-cancello-il-25-minuti8414d775" class="unifiednav__item  dmUDNavigationItem_010101425490  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Come montare un cancello il 25 minuti
+          " data-auto="page-text-style">Come montare un cancello il 25 minuti<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/dimensioni-ingombri-pacchetti-ad-ante-aperte" class="unifiednav__item  dmUDNavigationItem_010101692668  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Disegni tecnici
+          " data-auto="page-text-style">Disegni tecnici<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/shop" class="unifiednav__item  dmUDNavigationItem_010101394283  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Prodotti in vendita
+          " data-auto="page-text-style">Prodotti in vendita<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/cartella-colori-ral" class="unifiednav__item  dmUDNavigationItem_010101782063  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Cartella colori RAL
+          " data-auto="page-text-style">Cartella colori RAL<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/cancello-estensibile-girevole" class="unifiednav__item  dmUDNavigationItem_01010196378  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Cancello estensibile Girevole
+          " data-auto="page-text-style">Cancello estensibile Girevole<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/scheda-tecnica-inferraite-estensibili-per-finestre" class="unifiednav__item  dmUDNavigationItem_010101693187  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           CERTIFICAZIONI ANTIEFFRAZIONE
+          " data-auto="page-text-style">CERTIFICAZIONI ANTIEFFRAZIONE<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/detrazioni-fiscali" class="unifiednav__item  dmUDNavigationItem_010101990352  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Detrazioni fiscale
+          " data-auto="page-text-style">Detrazioni fiscale<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/#CalcolaIngombroPachetto" class="unifiednav__item  dmUDNavigationItem_010101477102  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Calcola Ingombro Pachetto e Peso Cancello Estensibile
+        " data-auto="page-text-style">Calcola Ingombro Pachetto e Peso Cancello Estensibile<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1632155419 dmRespRow" style="text-align: center;" id="1632155419" mode="1"> <div class="dmRespColsWrapper" id="1253858808"> <div class="u_1134807229 dmRespCol small-12 large-3 medium-3" id="1134807229"> <div class="u_1927783288 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1927783288" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="m-size-11 size-14"><span class="font-size-16 m-font-size-13" m-font-size-set="true" style="color:rgb(255, 255, 255);display:initial;font-family:Oswald, 'Oswald Fallback';" data-sider-select-id="047cc8cf-02da-42e4-8ae0-d0d7c5439fb7">Cancelli Estensibili</span><span class="font-size-16 m-font-size-13" m-font-size-set="true" style="color:rgb(188, 184, 184);display:initial;font-family:Oswald, 'Oswald Fallback';"><br/></span><span class="font-size-14 m-font-size-11" style="color: rgb(188, 184, 184); display: initial; font-weight: normal;">P.IVA 04610240154</span><span class="font-size-14 m-font-size-11" m-font-size-set="true" style="color:rgb(188, 184, 184);font-weight:normal;display:initial;font-family:Oswald, 'Oswald Fallback';"><br/></span><span class="font-size-14 m-font-size-11" style="color: rgb(188, 184, 184); display: initial; font-weight: normal;">VIA MARIO PAGANO 66/68</span><span class="font-size-14 m-font-size-11" m-font-size-set="true" style="display: initial; font-weight: normal; text-transform: uppercase; color: rgb(188, 184, 184);"><br/></span><span class="font-size-14 m-font-size-11" style="display: initial; font-weight: normal; color: rgb(188, 184, 184);">20090 TREZZANO SUL NAVIGLIO (MI)</span><span class="font-size-16 m-font-size-13" m-font-size-set="true" style="display: initial; font-weight: normal; text-transform: uppercase;"><br/></span><span class="font-size-16 m-font-size-13" style="display: initial; font-weight: normal; color: rgb(255, 255, 255);"><span class="font-size-16 m-font-size-13" style="display: initial; font-weight: normal; color: rgb(255, 255, 255);">CHIAMACI:</span> 
+</span><span class="font-size-18 m-font-size-14" style="display: initial; font-weight: normal; color: rgb(255, 255, 255);" m-font-size-set="true">348 289 1814</span><span class="m-font-size-14 font-size-18" m-font-size-set="true" style="color:rgb(255, 255, 255);font-weight:normal;display:initial;font-family:Oswald, 'Oswald Fallback';"><br/></span></p> <h4 class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" m-font-size-set="true" style="color:rgb(188, 184, 184);font-weight:normal;display:initial;font-family:Oswald, 'Oswald Fallback';">shop@cancelliestensibili.online</span></h4> 
+ <h4 class="m-size-13 size-16"><span class="font-size-16 m-font-size-13" m-font-size-set="true" style="color:rgb(225, 190, 71);font-weight:bold;display:initial;font-family:Oswald, 'Oswald Fallback';">immagini coperte&nbsp; &copy;</span><span single-space="true" class="font-size-16 m-font-size-13" style="color:rgb(225, 190, 71);font-weight:bold;display:initial;font-family:Oswald, 'Oswald Fallback';"> <span class="font-size-16 m-font-size-13" style="color:rgb(225, 190, 71);font-weight:bold;display:initial;font-family:Oswald, 'Oswald Fallback';"></span> 
+</span><a href="http://Consulente-seo-milano.it" target="_blank" runtime_url="http://Consulente-seo-milano.it" type="url" class="font-size-16 m-font-size-13" style="color:rgb(225, 190, 71);font-weight:normal;display:initial;font-family:Oswald, 'Oswald Fallback';">Consulente-seo-milano.it</a></h4> 
+</div> 
+ <div class="u_1609693001 dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="square" data-desktop-columns="1" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1609693001" data-placeholder="false" data-rows-to-show="100" data-desktop-caption-alignment="center_center" data-mobile-columns="1"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1711267619"> <li class="photoGalleryThumbs" id="1125672123"> <div class="image-container" id="1734253071"> <a data-dm-multisize-attr="href" data-image-url="https://irp.cdn-website.com/73bc7245/dms3rep/multi/pagamenti-removebg-preview-f3a10d5b.png" id="1241653948" class="u_1241653948"><img irh="" irw="" alt="" data-src="https://lirp.cdn-website.com/73bc7245/dms3rep/multi/opt/pagamenti-removebg-preview-f3a10d5b-1920w.png" id="1419500344" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1732254789"> <span class="caption-inner" id="1406134595"> <a class="caption-button dmWidget clearfix" id="1847670124"> <span class="iconBg" id="1329106841"> <span class="icon hasFontIcon icon-star" id="1000594115"></span> 
+</span> 
+ <span class="text" id="1452463423">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="Mostra altri" data-viewless="visualizza meno" style="display:none;" id="1641237304">Mostra altri</div> 
+</div> 
+ <nav class="u_1688906566 unifiednav_vertical effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HOVER" id="1688906566" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/md/dmtmpl/32ff36b1-8a1f-4cdd-a306-f1bf939831d8/dms3rep/multi/avocado-a0081a02.svg" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contatti" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contatti
+        " data-auto="page-text-style">Contatti<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1047804054 dmRespCol small-12 large-6 medium-6" id="1047804054"> <div class="u_1477937051 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1477937051" style="transition: none 0s ease 0s; text-align: left; display: block;"><p class="size-18 m-size-14"><a href="/privacy" runtime_url="/privacy" type="page" class="font-size-18 m-font-size-14" style="font-weight: bold; color: rgb(225, 190, 71); display: initial; text-decoration: none;">Impressum Privacy Cookies</a></p><p class="m-size-13 size-18"><span class="font-size-18 m-font-size-13" style="font-weight: normal; color: rgb(255, 255, 255); display: initial;"><span class="font-size-18 m-font-size-13" style="font-weight: normal; color: rgb(255, 255, 255); display: initial;">Diritto di Recesso</span> 
+</span></p><p class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="color: rgb(255, 255, 255); display: initial;">D.Lgs 206/2005 (Codice del Consumo)</span></p><p class="m-size-14 size-18"><span class="m-font-size-14 font-size-18" style="color: rgb(255, 255, 255); display: initial;">Il diritto di recesso non si applica per l&rsquo;acquisto di oggetti prodotti appositamente o creati personalmente per il consumatore (cancelli estensibili su misura); come da DL 206/2005 Art. 59 co. 1 lett. C&nbsp;</span></p><p class="m-size-13 size-18"><a href="https://cancelliestensibili.online/condizioni-di-vendita#Condizionidivendita" runtime_url="https://cancelliestensibili.online/condizioni-di-vendita#Condizionidivendita" type="url" class="font-size-18 m-font-size-13" style="display: initial; font-weight: normal; color: rgb(255, 255, 255); text-decoration: none;">Condizioni di vendita</a><span single-space="true" class="font-size-18 m-font-size-13" style="display: initial; font-weight: normal; color: rgb(255, 255, 255); text-decoration: none;"> <span class="font-size-18 m-font-size-13" style="display: initial; font-weight: normal; color: rgb(255, 255, 255); text-decoration: none;"></span> 
+</span><a href="/condizioni-di-vendita#Condizionidivendita" runtime_url="/condizioni-di-vendita#Condizionidivendita" type="anchor" class="font-size-18 m-font-size-13" style="display: initial; font-weight: normal; color: rgb(255, 255, 255); font-style: italic;">leggi+</a></p></div> 
+ <div class="u_1081976401 align-center text-align-center dmSocialHub" id="1081976401" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/cancelliestensibili.online" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style9" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://instagram.com/cancelliestensibili.online" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style9" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="mailto:" dm_dont_rewrite_url="true" aria-label="email" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Email&apos;)"> <span class="dmSocialEmail dm-social-icons-email oneIcon socialHubIcon style9" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.pinterest.com/cancelliestensibilionline" target="_blank" dm_dont_rewrite_url="true" aria-label="pinterest" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Pinterest&apos;)"> <span class="dmSocialPinterest icon-pinterest oneIcon socialHubIcon style9" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="www.google.com/maps/place/Cancelletti+Estensibili/@45.43165,8.7818756,10z/data=!4m8!1m2!2m1!1scancelli+estensibili!3m4!1s0x4786e94e5e7545e7:0xae07673bb1fcd28a!8m2!3d45.43165!4d9.062027" target="_blank" dm_dont_rewrite_url="true" aria-label="google_my_business" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;GoogleMyBusiness&apos;)"> <span class="dmSocialGoogleMyBusiness dm-social-icons-google-my-business oneIcon socialHubIcon style9" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1659072225 widget-1f5975 dmCustomWidget" data-lazy-load="" data-title="" id="1659072225" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPjxzcGFuIHN0eWxlPVwiY29sb3I6cmdiKDIyNSwgMTkwLCA3MSlcIj5UdXR0aSBpIGRpcml0dGkgcmlzZXJ2YTxzcGFuIHN0eWxlPVwiY29sb3I6cmdiKDI1NSwgMjU1LCAyNTUpXCI+dGkgfCBDb25zdWxlbnRlIFNFTyBNaWxhbm88L3NwYW4+PC9zcGFuPjwvcD4iLCJyZXZlcnNlRmxhZyI6ZmFsc2V9"> <div class="copyright"> <div>&copy; 2024&nbsp;</div> 
+ <div><p class="rteBlock"><span style="color:rgb(225, 190, 71)">Tutti i diritti riserva<span style="color:rgb(255, 255, 255)">ti | Consulente SEO Milano</span></span></p></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1546089912 dmRespCol small-12 large-3 medium-3" id="1546089912"> <div class="u_1119891239 dmform default native-inputs" data-element-type="dContactUsRespId" data-captcha-position="bottomleft" id="1119891239" data-layout="layout-3"> <h3 class="dmform-title dmwidget-title" id="1857349458">newsletter</h3> 
+ <div class="dmform-wrapper" id="1463512056" captcha-lang="it"> <form method="post" class="dmRespDesignRow" locale="ENGLISH" id="1080784410"> <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1224316790" localization_key_label="googleTranslate.i2WdFPV.18"> <label for="1273241373" id="1000902038" class="" hide="true" data-dm-for="dmform-1">E-mail</label> 
+<input type="email" class="" name="dmform-1" id="1273241373" placeholder="E-mail" localization_key_placeholder="googleTranslate.i2WdFPV.18" data-placeholder-original="E-mail"/><input type="hidden" name="label-dmform-1" value="E-mail" id="1681325709"/></div> 
+ <span id="1224316790_clear" class="dmWidgetClear"></span> 
+ <span id="1224316790_clear_clear" class="dmWidgetClear"></span> 
+ <div class="dmformsubmit dmWidget R" id="1251257098"><input class="" name="submit" type="submit" value="ISCRIVITI" id="1470116011" localization_key_value="googleTranslate.RTuOfcM.28"/></div> 
+<input name="dmformsendto" type="hidden" value="O0wrseIfFLvr6a9yrnbJ04jAEllsv4kxb0ihwRTvX3XuGM1wP5EQVv2rMwRyZxskSqk/1LccSVRkqKI63bheYQ==" id="1091855451" data-dec="true"/><input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1614215849"/><input name="dmformsubject" type="hidden" value="Messaggio del modulo" id="1111996535" localization_key_value="googleTranslate.JaXcE8U.22"/><input name="dmformfrom" type="hidden" value="" id="1789923897"/><input name="dmformsubmitparams" type="hidden" value="8mpKnCSiNQXK/d9M7IDrSzRkXjNcoSR4qPUHSmUFmrDMvdfRr2ywtdATcD5R8efpk2NqQee9wfLvJwfjYSm34PUN6pKzV14ZNGd1IOc6Z/awESjIUrHZJpvauHu9ly+7MsB7+b110q0yggE64eQBWsunhbMI8lNgFBrw0HaOW+flrPk0dwXvH03G65C+/Gue9sUsCP6+/NWshAgdwtpkXZ0ObxTNP7sZLTXWAQuRvVYJhl4lhOap+aQ5OjP8JzdS" data-dec="true"/><input type="hidden" name="page_uuid" value="75730b5ec5b64df88442f9c4db9bd899"/></form> 
+</div> 
+ <div class="dmform-success" style="display:none" id="1121857170">Grazie per averci contattato. Ti risponderemo il pi&ugrave; presto possibile.</div> 
+ <div class="dmform-error" style="display:none" id="1707801612">Si &egrave; verificato un errore durante l'invio del messaggio. Riprova in un secondo momento</div> 
+</div> 
+ <div class="u_1370410450 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1370410450" style="transition: opacity 1s ease-in-out 0s;"><p class="m-size-11 size-16"><a href="http://consulente-seo-milano.it" target="_blank" runtime_url="http://consulente-seo-milano.it" type="url" class="m-font-size-11 font-size-16" style="display: initial; font-weight: normal; font-style: italic;">Consulente SEO Milano</a><span single-space="true" class="m-font-size-11 font-size-16" style="display: initial; font-weight: normal; font-style: italic;"> <span class="m-font-size-11 font-size-16" style="display: initial; font-weight: normal; font-style: italic;"></span> 
+</span></p><p class="text-align-left"><span class="" style="color: rgb(255, 255, 255); display: initial;"><span style="color: rgb(255, 255, 255); display: initial;">Partnership</span> 
+</span></p><p class="m-size-11 text-align-left size-14"><a href="http://vendere-casa.it" target="_blank" runtime_url="http://vendere-casa.it" type="url" class="m-font-size-11 font-size-14" style="text-decoration: none; color: rgb(255, 255, 255); display: initial;">vendere casa</a></p></div> 
+ <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/" data-element-type="dButtonLinkId" id="1619671794"> <span class="iconBg" aria-hidden="true" id="1765556687"> <span class="icon hasFontIcon icon-star" id="1237292534"></span> 
+</span> 
+ <span class="text" id="1779066044">Devi confermare un ordine?</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ITALIAN"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["1f5975986930429f819d4cd2154b5c4a~22"] = function (element, data, api) {
+        null
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_4481";
+    var build = "2024-06-06T10_49_53";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2024-06-06T10_49_53";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<script type="application/javascript" src="https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" data-swh-uuid="59d54c590d88408c8119fc0ca146a74d">
+</script>
+<script id="usercentrics-cmp" data-settings-id="p_m9GH4zKyjUjr" data-settings-cache="1709749231589" src="https://app.usercentrics.eu/browser-ui/latest/loader.js" async="" data-swh-uuid="59d54c590d88408c8119fc0ca146a74d">
+</script>
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div> <p class=\"rteBlock\">Utilizziamo i cookie per garantire la miglior esperienza sul nostro sito Web. Per maggiori vai alla <a value=\"privacy\" label=\"\" type=\"page\" href=\"\/privacy\" data-runtime-url=\"\/privacy\">pagina della privacy.<\/a> \n<\/p> \n<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/4481';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/4481';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"]=false;
+
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["keyboard.navigation.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.enabled"] = true;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["ecom.ecwid.fallBackInCaseLinksNotFound.enabled"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =false;
+    rtFlags["new.store.fix.ecwid.back.bug"] =true;
+    rtFlags["facebook.runtime.widgets.upgrade"] =true;
+    rtFlags["ecom.ecwid.solve.url.modifications"] = true;
+    rtFlags["ecom.ecwid.configOptions"] = true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["site.contact.form.fix.for.attribute"] =true;
+    rtFlags["contact.form.date.format.enabled"] = true;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["ecom.ecwid.fixTranslations.enabled"] = true;
+    rtFlags["runtime.load.script.native"] =true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/4481/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static.cdn-website.com/mnlt/production/4481/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+</script>
+<script async src="https://www.googletagmanager.com/gtm.js?id=G-MT5NRHR54V" onload="window.dispatchEvent(new CustomEvent('gtmLoaded', { bubbles: true }))"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118766061-3"></script>
+<script type="text/javascript" id="d_track_ga">
+  _dm_gaq.siteAlias = '73bc7245';
+  _dm_gaq.systemAggregatedGaqID = '';
+  _dm_gaq.externalGaqID = 'UA-118766061-3';
+  _dm_gaq.gaAggregatedEventAttributes = {
+	  'site_alias':  _dm_gaq.siteAlias,
+	  'product': 'DM_DIRECT',
+	  'plan': 'Dada_Medium_2500',
+	  'dfooter': 'false',
+	  'sitetype': '1',
+	  'pwaEnabled': 'true'
+  }
+
+  _dm_gaq.pushEvent = function(trackingId, event, category, label, value, additionalParams = {}) {
+	  const eventProps = {
+		  send_to: trackingId,
+		  event_category: category,
+		  event_label: label,
+		  value,
+		  ...additionalParams,
+		  ...(trackingId === _dm_gaq.systemAggregatedGaqID
+				  ? _dm_gaq.gaAggregatedEventAttributes : {})
+	  };
+	  gtag('event', event, eventProps);
+  }
+
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+  function pushInsiteImpressions(id) {
+	  _dm_insite.forEach((rule) => {
+		  _dm_gaq.pushEvent(id, 'insite_impression', 'insite', rule.ruleType + '__' + rule.ruleId);
+	  });
+  }
+
+if(_dm_gaq.systemAggregatedGaqID){
+	// track aggregated account
+	gtag('config', '', {
+		'send_page_view': false,
+		'anonymize_ip': true,
+		'transport_type': 'beacon',
+		'custom_map': {'dimension1': 'site_alias', 'dimension2': 'product', 'dimension3': 'dFooter', 'dimension4': 'sitetype'}
+	});
+	gtag('set', 'developer_id.dMDU5Nj', true);
+
+	_dm_gaq.pushEvent('', 'page_view');
+	pushInsiteImpressions(_dm_gaq.systemAggregatedGaqID);
+}
+
+if(_dm_gaq.externalGaqID && _dm_gaq.externalGaqID!= '') {
+	gtag('config', 'UA-118766061-3', {
+		'send_page_view': false,
+		'anonymize_ip': true,
+		'transport_type': 'beacon',
+		'linker': {
+			'domains': ['cancelliestensibili.online']
+		}
+	});
+	_dm_gaq.pushEvent('UA-118766061-3', 'page_view');
+	pushInsiteImpressions(_dm_gaq.externalGaqID);
+}
+</script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: '73bc7245'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Chiudi (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Condividi"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Passa alla modalità a schermo intero"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom avanti/indietro"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Precedente (freccia sinistra)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Successivo (freccia destra)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="it_IT"></div>
+<!-- Alias: 73bc7245 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+
+<!--  Begin Body End Markup -->
+<iframe
+src="https://www.chatbase.co/chatbot-iframe/Tv8Q1SeEDfGOk5LOFJAjv"
+title="Melia Moga AI"
+width="100%"
+style="height: 100%; min-height: 700px"
+frameborder="0"
+></iframe>
+
+
+<script>
+window.embeddedChatbotConfig = {
+chatbotId: "Tv8Q1SeEDfGOk5LOFJAjv",
+domain: "www.chatbase.co"
+}
+</script>
+<script
+src="https://www.chatbase.co/embed.min.js"
+chatbotId="Tv8Q1SeEDfGOk5LOFJAjv"
+domain="www.chatbase.co"
+defer>
+</script>
+
+
+<script src="https://app.boei.help/embed/k/fc050462-2313-4d91-acc2-7beb5c1d14a4" async></script>
+
+
+
+<a class="boei-embed-open">Test</a><!--  End Body End Markup -->
+
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+</body>
+</html>

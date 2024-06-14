@@ -1,0 +1,1742 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://www.levergy.io/',
+        AccountUUID: 'ae3b24b337b34347adf5c385bc5f945c',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: 'fe41d46c',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Wed Jun 05 12:43:32 UTC 2024',
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'privacy-policy',
+        InitialPageUuid: '6d08f7d25a0c4494833fca4788694c7f',
+        InitialPageId: '1150632070',
+        InitialEncodedPageAlias: 'cHJpdmFjeS1wb2xpY3k=',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '44780',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        NotificationSubDomain: 'levergy',
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div>We use cookies to ensure that we give you the best experience on our website. To learn more, go to the Privacy Page.<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'LEFT',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.levergy.io/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: true,
+        planID: '7',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<link rel="manifest" href="/manifest.json">
+<!-- Tell the browser it's a PWA -->
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Tell iOS it's a PWA -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="https://www.levergy.io/privacy-policy">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://irp.cdn-website.com/fe41d46c/dms3rep/multi/levergy-r-web-transparent_logo-color.png"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp.cdn-website.com/fe41d46c/site_favicon_16_1698932720872.ico"/>
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://lirp.cdn-website.com/"/>
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Darker+Grotesque:ital,wght@0,300..900;1,300..900&family=Teko:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Crete+Round:ital,wght@0,400;1,400&family=Contrail+One:ital,wght@0,400&family=Cinzel:ital,wght@0,400..900;1,400..900&family=Abel:ital,wght@0,400&family=Artifika:ital,wght@0,400&family=Hind:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Slabo+13px:ital,wght@0,400&family=Varela:ital,wght@0,400&family=Cabin+Sketch:ital,wght@0,400;0,700&family=Ramabhadra:ital,wght@0,400&family=Paytone+One:ital,wght@0,400&family=Cutive+Mono:ital,wght@0,400&family=Tangerine:ital,wght@0,400;0,700&family=Lateef:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&family=Sanchez:ital,wght@0,400;1,400&family=Sacramento:ital,wght@0,400&family=Anton:ital,wght@0,400&family=Handlee:ital,wght@0,400&family=Maven+Pro:ital,wght@0,400..900;1,400..900&family=Kameron:ital,wght@0,400;0,700&family=Inconsolata:ital,wght@0,200..900;1,200..900&family=Delius:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Alice:ital,wght@0,400&family=Mada:ital,wght@0,200..900;1,200..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Glegoo:ital,wght@0,400;0,700&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:ital,wght@0,400..700;1,400..700&family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Oranienbaum:ital,wght@0,400&family=Mate+SC:ital,wght@0,400&family=Ovo:ital,wght@0,400&family=Laila:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Codystar:ital,wght@0,300;0,400&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Krona+One:ital,wght@0,400&family=Cuprum:ital,wght@0,400..700;1,400..700&family=Quattrocento:ital,wght@0,400;0,700&family=Plaster:ital,wght@0,400&family=Arimo:ital,wght@0,400..700;1,400..700&family=Bad+Script:ital,wght@0,400&family=Harmattan:ital,wght@0,400;0,500;0,600;0,700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Play:ital,wght@0,400;0,700&family=Manjari:ital,wght@0,100;0,400;0,700&family=Cookie:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Rubik+Puddles:ital,wght@0,400&family=Biryani:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&family=Francois+One:ital,wght@0,400&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Courgette:ital,wght@0,400&family=Mirza:ital,wght@0,400;0,500;0,600;0,700&family=Eater:ital,wght@0,400&family=Rokkitt:ital,wght@0,100..900;1,100..900&family=Domine:ital,wght@0,400..700;1,400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=El+Messiri:ital,wght@0,400..700;1,400..700&family=Jura:ital,wght@0,300..700;1,300..700&family=Spinnaker:ital,wght@0,400&family=Elsie:ital,wght@0,400;0,900&family=Londrina+Sketch:ital,wght@0,400&family=Ubuntu+Condensed:ital,wght@0,400&family=Sen:ital,wght@0,400..800;1,400..800&family=Alef:ital,wght@0,400;0,700&family=Mogra:ital,wght@0,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marmelad:ital,wght@0,400&family=Cairo:ital,wght@0,200..1000;1,200..1000&family=Reenie+Beanie:ital,wght@0,400&family=Fugaz+One:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Special+Elite:ital,wght@0,400&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Titan+One:ital,wght@0,400&family=DM+Serif+Text:ital,wght@0,400;1,400&family=Acme:ital,wght@0,400&family=Amiko:ital,wght@0,400;0,600;0,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Yesteryear:ital,wght@0,400&family=Itim:ital,wght@0,400&family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One:ital,wght@0,400&family=Kreon:ital,wght@0,300..700;1,300..700&family=Questrial:ital,wght@0,400&family=Wire+One:ital,wght@0,400&family=Rosario:ital,wght@0,300..700;1,300..700&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Gloria+Hallelujah:ital,wght@0,400&family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Lobster:ital,wght@0,400&family=Poiret+One:ital,wght@0,400&family=Pacifico:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Staatliches:ital,wght@0,400&family=Playball:ital,wght@0,400&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Duru+Sans:ital,wght@0,400&family=Dosis:ital,wght@0,200..800;1,200..800&family=Creepster:ital,wght@0,400&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Sail:ital,wght@0,400&family=Emblema+One:ital,wght@0,400&family=Cardo:ital,wght@0,400;0,700;1,400&family=Lacquer:ital,wght@0,400&family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Nosifer:ital,wght@0,400&family=Rubik+Mono+One:ital,wght@0,400&family=ABeeZee:ital,wght@0,400;1,400&family=Rubik+Moonrocks:ital,wght@0,400&family=Rye:ital,wght@0,400&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Give+You+Glory:ital,wght@0,400&family=Chelsea+Market:ital,wght@0,400&family=Markazi+Text:ital,wght@0,400..700;1,400..700&family=Signika:ital,wght@0,300..700;1,300..700&family=Alfa+Slab+One:ital,wght@0,400&family=Flamenco:ital,wght@0,300;0,400&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Cedarville+Cursive:ital,wght@0,400&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Dynalight:ital,wght@0,400&family=Passion+One:ital,wght@0,400;0,700;0,900&family=Yanone+Kaffeesatz:ital,wght@0,200..700;1,200..700&family=Rozha+One:ital,wght@0,400&family=Gudea:ital,wght@0,400;0,700;1,400&family=Enriqueta:ital,wght@0,400;0,500;0,600;0,700&family=Katibeh:ital,wght@0,400&family=Unna:ital,wght@0,400;0,700;1,400;1,700&family=Belgrano:ital,wght@0,400&family=Bevan:ital,wght@0,400;1,400&family=Homemade+Apple:ital,wght@0,400&family=Abril+Fatface:ital,wght@0,400&family=Overpass:ital,wght@0,100..900;1,100..900&family=Sorts+Mill+Goudy:ital,wght@0,400;1,400&family=Tajawal:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Great+Vibes:ital,wght@0,400&family=Sofia:ital,wght@0,400&family=Rubik+Iso:ital,wght@0,400&family=Molengo:ital,wght@0,400&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Butcherman:ital,wght@0,400&family=Parisienne:ital,wght@0,400&family=Pinyon+Script:ital,wght@0,400&family=Lexend+Deca:ital,wght@0,100..900;1,100..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Satisfy:ital,wght@0,400&family=Julius+Sans+One:ital,wght@0,400&family=Exo:ital,wght@0,100..900;1,100..900&family=Bitter:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Amatic+SC:ital,wght@0,400;0,700&family=Alata:ital,wght@0,400&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Permanent+Marker:ital,wght@0,400&family=Alike:ital,wght@0,400&family=Lusitana:ital,wght@0,400;0,700&family=Palanquin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&family=Indie+Flower:ital,wght@0,400&family=Catamaran:ital,wght@0,100..900;1,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Oxygen:ital,wght@0,300;0,400;0,700&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Stardos+Stencil:ital,wght@0,400;0,700&family=Monoton:ital,wght@0,400&family=Creepster:ital,wght@0,400&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Racing+Sans+One:ital,wght@0,400&family=Stalemate:ital,wght@0,400&family=Asap:ital,wght@0,100..900;1,100..900&family=Antic+Didone:ital,wght@0,400&family=PT+Sans+Narrow:ital,wght@0,400;0,700&family=Shrikhand:ital,wght@0,400&family=Rubik+Marker+Hatch:ital,wght@0,400&family=UnifrakturMaguntia:ital,wght@0,400&family=Allura:ital,wght@0,400&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Assistant:ital,wght@0,200..800;1,200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Prociono:ital,wght@0,400&family=Bree+Serif:ital,wght@0,400&family=Rubik+Microbe:ital,wght@0,400&family=Merienda:ital,wght@0,300..900;1,300..900&family=Almarai:ital,wght@0,300;0,400;0,700;0,800&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Gothic+A1:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Varela+Round:ital,wght@0,400&family=Poly:ital,wght@0,400;1,400&family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue:ital,wght@0,400&family=Be+Vietnam:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900&family=Comfortaa:ital,wght@0,300..700;1,300..700&family=Dancing+Script:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,wght@0,100..1000;1,100..1000&family=DM+Serif+Display:ital,wght@0,400;1,400&family=Droid+Sans:ital,wght@0,400;0,700&family=Droid+Sans+Mono:ital,wght@0,400&family=Droid+Serif:ital,wght@0,400;0,700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fjalla+One:ital,wght@0,400&family=Heebo:ital,wght@0,100..900;1,100..900&family=Inter:ital,wght@0,100..900;1,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,wght@0,200..1000;1,200..1000&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:ital,wght@0,200..700;1,200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Petit+Formal+Script:ital,wght@0,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata:ital,wght@0,400&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:ital,wght@0,300..700;1,300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Rock+Salt:ital,wght@0,400&family=Shadows+Into+Light:ital,wght@0,400&family=Slabo+27px:ital,wght@0,400&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Spartan:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900&amp;subset=latin-ext&amp;display=swap"  />
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Sulphur+Point:ital,wght@0,300;0,400;0,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Vidaloka:ital,wght@0,400&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yeseva+One:ital,wght@0,400&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Red+Rose:ital,wght@0,300..700;1,300..700&family=Abril+Fatface:ital,wght@0,400&family=Fraunces:ital,wght@0,100..900;1,100..900&amp;subset=latin-ext&amp;display=swap"  />
+
+<style>
+@font-face {
+  font-family: "Canaro-LightItalicDEMO";
+  src: url("https://irp.cdn-website.com/fe41d46c/fonts/Canaro-LightItalicDEMO-d5d8_400.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+
+
+<style>
+@font-face {
+  font-family: "Canaro-Bold";
+  src: url("https://irp.cdn-website.com/fe41d46c/fonts/Canaro-Bold-a2b9_400.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
+
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="https://static.cdn-website.com/mnlt/production/4479/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-structured-global.min.css" />
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/WIDGET_CSS/9022518363394f682dc55e250dc26ab5.css" id="widgetCSS" />
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="privacy-policy"] #dm [data-show-on-page-only="privacy-policy"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fe41d46c/files/fe41d46c_1.min.css?v=1858" id="siteGlobalCss" />
+
+
+
+<style id="customWidgetStyle" type="text/css">
+
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style
+        id="additionalGlobalCss" type="text/css"
+>
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody div.dmforminput textarea { font-family:Roboto !important; }
+
+*#dm *.dmBody div.dmforminput *.fileUploadLink { font-family:Roboto !important; }
+
+*#dm *.dmBody div.checkboxwrapper span { font-family:Roboto !important; }
+
+*#dm *.dmBody div.radiowrapper span { font-family:Roboto !important; }
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.dmBody h3.u_1989044859 {
+  margin-left:0px !important;
+  margin-right:265px !important;
+  float:none !important;
+  top:0px !important;
+  left:0px !important;
+  width:calc(100% - 0px) !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  max-width:100% !important;
+  margin-top:8px !important;
+  margin-bottom:8px !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  text-align:center !important;
+}
+
+*#dm *.dmBody div.u_1989044859 {
+  float:none !important;
+  top:0px !important;
+  left:0 !important;
+  width:calc(100% - 143px) !important;
+  position:relative !important;
+  height:auto !important;
+  padding-top:2px !important;
+  padding-left:0px !important;
+  padding-bottom:2px !important;
+  margin-right:auto !important;
+  margin-left:auto !important;
+  max-width:673.406px !important;
+  margin-top:0px !important;
+  margin-bottom:0px !important;
+  padding-right:0px !important;
+  min-width:25px !important;
+  display:block !important;
+}
+
+*#dm *.dmBody div.u_1189410315 {
+  padding-top:15px !important;
+  padding-bottom:45px !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-12, .size-12, .size-12 > font { font-size: 12px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+    .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+        visibility: hidden;
+    }
+
+    .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+        visibility: hidden !important;
+    }
+</style>
+
+
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="https://www.levergy.io//feed/rss2"/>
+  <link type="application/atom+xml" rel="alternate" href="https://www.levergy.io//feed/atom"/>
+  <meta name="robots" content="noindex"/>
+  <meta property="og:type" content="website"/>
+  <title>
+    
+    Privacy Policy | Levergy
+  
+  </title>
+  <meta name="DC.title" content="web design"/>
+  <meta name="geo.region" content="US-OK"/>
+  <meta name="geo.placename" content="Tulsa"/>
+  <meta name="geo.position" content="36.153982;-95.992775"/>
+  <meta name="ICBM" content="36.153982, -95.992775"/>
+  <script type="application/ld+json">
+
+
+
+
+
+
+
+
+    {
+      "@context": "http://www.schema.org",
+      "@type": "Organization",
+      "name": "Levergy.io",
+      "url": "https://www.levergy.io/",
+      "sameAs": [
+        "https://g.co/kgs/y6Q89r",
+        "https://www.facebook.com/Levergy.IO/",
+        "https://www.instagram.com/levergy.io/",
+        "https://twitter.com/levergy_io",
+        "https://www.linkedin.com/company/levergy-io/",
+        "https://www.youtube.com/@levergy-io"
+      ],
+      "logo": "https://lirp.cdn-website.com/fe41d46c/dms3rep/multi/opt/levergy-tm-web-transparent_logo-color-160w.png",
+      "image": "https://lirp.cdn-website.com/fe41d46c/dms3rep/multi/opt/levergy-tm-web-transparent_logo-color-160w.png",
+      "description": "Levergy provides the best web design, SEO, PPC, and marketing support for HVAC & Plumbing companies. If you're wanting Plumbing HVAC SEO PPC Social Media and more, we can help!",
+      "hasMap": "<iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.292646289567!2d-95.99181128472799!3d36.1594326800855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87b6bd997c052585%3A0x26e364618a16789d!2sDP%20Marketing.Services!5e0!3m2!1sen!2sph!4v1674738828302!5m2!1sen!2sph' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>",
+      "openingHours": "Mo, Tu, We, Th, Fr 09:00-17:00",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1(918) 921-92926",
+        "contactType": "Customer Service"
+      }
+    }
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <meta name="keywords" content="marketing for plumbers, web design, social media, ppc marketing, online marketing, seo, plumber hvac seo, plumber seo, hvac seo, plumber marketing, hvac marketing, plumber marketing company"/>
+  <meta name="description" content="HVAC &amp; Plumber Marketing Company | Discover how HVAC &amp; Plumbing companies can grow their business and make more money using the internet. SEO, Social Media, Local Maps, AdWords, Yelp, and More! The easiest way to put your company's growth on autopilot for getting more leads online."/>
+  <!--THE CONTENT OF THIS FILE WILL BE APPENDED TO EVERY PAGE INSIDE THE </HEAD> ELEMENT-->  <meta name="google-site-verification" content="vPQqyj3nIdI0loJDY3ZrjPVFJizM2QK0_eCBrBVDxzU"/>
+  <!-- Google Tag Manager -->  <script>
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PKSX6Q4');
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <!-- End Google Tag Manager -->  <meta name="google-site-verification" content="ZVzqkk_64BtZXXRJtqyIZm1fWW4BjdptKwD5f9O85bI"/>
+  <meta name="google-site-verification" content="K6rHDv9LAIKQj_iw6vHofsHM4r0_OOpUIf3-SMtqPm8"/>
+  <meta name="msvalidate.01" content="2616D30D03223970ED98F78B397064CD"/>
+  <meta name="msvalidate.01" content="2616D30D03223970ED98F78B397064CD"/>
+  <script async="" src="https://knowledgetags.yextpages.net/embed?key=YSfeJB87nzow4m9BvQbWs6RMWjiRwEldybwCU265ettP_9yymO4XjgrnBWYsxgLN&amp;account_id=1842983&amp;location_id=1817007686132586174" type="text/javascript">
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+/* 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!--[CDATA[ */
+var google_conversion_id = 841939970;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]-->                                 */
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+  <noscript>
+  </noscript>
+  <div style="display:inline;">
+  </div>
+  <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/841939970/?guid=ON&amp;script=0"/>
+  <script async="" src="https://knowledgetags.yextpages.net/embed?key=YSfeJB87nzow4m9BvQbWs6RMWjiRwEldybwCU265ettP_9yymO4XjgrnBWYsxgLN&amp;account_id=1842983&amp;location_id=1817007686132586174" type="text/javascript">
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  </script>
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Privacy Policy | Levergy"/>
+  <meta name="twitter:description" content="HVAC &amp; Plumber Marketing Company | Discover how HVAC &amp; Plumbing companies can grow their business and make more money using the internet. SEO, Social Media, Local Maps, AdWords, Yelp, and More! The easiest way to put your company's growth on autopilot for getting more leads online."/>
+  <meta name="twitter:image" content="https://lirp.cdn-website.com/fe41d46c/dms3rep/multi/opt/levergy-r-web-transparent_logo-color-1920w.png"/>
+  <meta property="og:description" content="HVAC &amp; Plumber Marketing Company | Discover how HVAC &amp; Plumbing companies can grow their business and make more money using the internet. SEO, Social Media, Local Maps, AdWords, Yelp, and More! The easiest way to put your company's growth on autopilot for getting more leads online."/>
+  <meta property="og:title" content="Privacy Policy | Levergy"/>
+  <meta property="og:image" content="https://lirp.cdn-website.com/fe41d46c/dms3rep/multi/opt/levergy-r-web-transparent_logo-color-1920w.png"/>
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="privacy-policy"  class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite dmLargeBody responsiveTablet "
+      style="padding:0;margin:0;"
+      
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class='dmwr'>
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1976091632"> <div dmtemplateid="Hamburger" data-responsive-name="ResponsiveDesktopTopTabletHamburger" class="runtime-module-container dm-bfs dm-layout-sec hasAnimations rows-1200 inMiniHeaderMode hasStickyHeader layout-drawer_push-content dmPageBody d-page-1441693443 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1441693443" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div id="site_content"> <div class="p_hfcontainer showOnMedium"> <div id="hamburger-drawer" class="hamburger-drawer layout-drawer" layout="e9d510f4eb904e939c2be8efaf777e6e===header" data-origin="side"> <div class="u_1964240318 dmRespRow" style="text-align: center;" id="1964240318"> <div class="dmRespColsWrapper" id="1965219863"> <div class="u_1971233635 dmRespCol small-12 medium-12 large-12 empty-column" id="1971233635"></div> 
+</div> 
+</div> 
+ <div class="u_1739322657 dmRespRow middleDrawerRow" style="text-align: center;" id="1739322657"> <div class="dmRespColsWrapper" id="1721087412"> <div class="dmRespCol small-12 u_1799390777 medium-12 large-12" id="1799390777"> <nav class="u_1180637115 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_2" layout-sub="" data-show-vertical-sub-items="HIDE" id="1180637115" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/plumber-marketing-company" class="unifiednav__item  dmUDNavigationItem_01010134073  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         PLUMBERS
+        " data-auto="page-text-style">PLUMBERS<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/hvac-marketing" class="unifiednav__item  dmUDNavigationItem_010101452671  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         HVAC
+        " data-auto="page-text-style">HVAC<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/roofing-marketing" class="unifiednav__item  dmUDNavigationItem_010101764226  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         ROOFERS
+        " data-auto="page-text-style">ROOFERS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/garage-door-marketing" class="unifiednav__item  dmUDNavigationItem_010101184678  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         GARAGE DOOR
+        " data-auto="page-text-style">GARAGE DOOR<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/home-service-marketing-company" class="unifiednav__item  dmUDNavigationItem_010101719447  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         HOME SERVICES
+        " data-auto="page-text-style">HOME SERVICES<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/free-stuff" class="unifiednav__item  dmUDNavigationItem_010101270866  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         FREE STUFF
+        " data-auto="page-text-style">FREE STUFF<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/best-plumber-marketing-agencies" class="unifiednav__item  dmUDNavigationItem_010101259842  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Best Plumber Marketing Agencies
+          " data-auto="page-text-style">Best Plumber Marketing Agencies<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/hvac-load-calculator" class="unifiednav__item  dmUDNavigationItem_010101177607  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           HVAC Load Calculator
+          " data-auto="page-text-style">HVAC Load Calculator<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/free-stuff/website-seo-scan" class="unifiednav__item  dmUDNavigationItem_0101016214  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           NEW! Free Website SEO Assessment
+          " data-auto="page-text-style">NEW! Free Website SEO Assessment<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/best-hvac-keywords" class="unifiednav__item  dmUDNavigationItem_010101267021  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Best HVAC Keywords
+          " data-auto="page-text-style">Best HVAC Keywords<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/plumbing-keywords-seo-ppc" class="unifiednav__item  dmUDNavigationItem_010101414466  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Best Plumbing Keywords
+          " data-auto="page-text-style">Best Plumbing Keywords<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/free-stuff/evaluate-your-marketing-efforts" class="unifiednav__item  dmUDNavigationItem_010101713271  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Evaluate Your Marketing Efforts
+          " data-auto="page-text-style">Evaluate Your Marketing Efforts<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/free-stuff/marketing-checkup" class="unifiednav__item  dmUDNavigationItem_010101432834  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Marketing Checkup
+          " data-auto="page-text-style">Marketing Checkup<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/free-stuff/solutions-finder" class="unifiednav__item  dmUDNavigationItem_010101805949  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Solutions Finder
+          " data-auto="page-text-style">Solutions Finder<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/blog" class="unifiednav__item  dmUDNavigationItem_010101223061  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Blog
+          " data-auto="page-text-style">Blog<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1112848076" style="text-align: center;" id="1112848076"> <div class="dmRespColsWrapper" id="1583444209"> <div class="u_1266952441 dmRespCol small-12 medium-12 large-12" id="1266952441"> <div class="u_1174140193 align-center text-align-center dmSocialHub" id="1174140193" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/Levergy.IO/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/levergy_io" target="_blank" dm_dont_rewrite_url="true" aria-label="twitter" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Twitter&apos;)"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/levergy.io/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.youtube.com/@Levergy_IO" target="_blank" dm_dont_rewrite_url="true" aria-label="youtube" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Youtube&apos;)"> <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="layout-drawer-overlay" id="layout-drawer-overlay"></div> 
+</div> 
+ <div class="site_content"> <div id="hamburger-header-container" class="showOnMedium hamburger-header-container p_hfcontainer"> <div id="hamburger-header" class="hamburger-header p_hfcontainer" layout="44dc38f951e9489490b055748e10ba9f===header"> <div class="u_1477820279 dmRespRow" style="text-align: center;" id="1477820279"> <div class="dmRespColsWrapper" id="1400557886"> <div class="u_1086671652 dmRespCol small-12 large-4 medium-4 empty-column content-removed" id="1086671652"></div> 
+ <div class="u_1478304302 dmRespCol small-12 large-4 medium-4" id="1478304302"> <div class="u_1403128945 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1403128945"> <a href="/" id="1839300385" file="false"><img src="https://lirp.cdn-website.com/fe41d46c/dms3rep/multi/opt/levergy-tm-web-transparent_logo-color-1920w.png" id="1707775865" class="" data-dm-image-path="https://irp.cdn-website.com/fe41d46c/dms3rep/multi/levergy-tm-web-transparent_logo-color.png" width="504" height="325" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1495223467 dmRespCol small-12 large-4 medium-4" id="1495223467"> <a data-display-type="block" class="u_1548911952 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/schedule-call" data-element-type="dButtonLinkId" id="1548911952" link_type="popup" data-buttonstyle="BORDER_SHORT" popup_target="schedule-call"> <span class="iconBg" id="1049861708"> <span class="icon hasFontIcon icon-star" id="1792975220"></span> 
+</span> 
+ <span class="text" id="1587191683">SCHEDULE A CALL</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <button class="showOnMedium layout-drawer-hamburger hamburger-on-header" id="layout-drawer-hamburger" aria-label="menu"> <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+ <span class="hamburger__slice"></span> 
+</button> 
+ <div class="dmHeaderContainer fHeader d-header-wrapper showOnLarge"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-111" layout="3160be7e691447abbddc535d6cfafc7a===header" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" logo-size-target="76%"> <div dm:templateorder="75" class="dmHeaderResp dmHeaderStack" id="1257580777"> <div class="u_1427388100 dmRespRow" style="text-align: center;" id="1427388100"> <div class="dmRespColsWrapper" id="1446189455"> <div class="u_1728176033 dmRespCol small-12 large-2 medium-2" id="1728176033"> <div class="u_1189649874 imageWidget align-center hasFullWidth" data-widget-type="image" id="1189649874" data-element-type="image"> <a href="/" id="1097140721"><img src="https://lirp.cdn-website.com/fe41d46c/dms3rep/multi/opt/levergy-r-web-transparent_logo-color-1920w.png" id="1672460788" class="" data-dm-image-path="https://irp.cdn-website.com/fe41d46c/dms3rep/multi/levergy-r-web-transparent_logo-color.png" width="504" height="325" alt="marketing for home service companies, marketing for plumbers" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1438822421 dmRespCol small-12 large-8 medium-8" id="1438822421"> <nav class="u_1027429611 effect-text-color main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_2" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1027429611" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/plumber-marketing-company" class="unifiednav__item  dmUDNavigationItem_01010134073  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         PLUMBERS
+        " data-auto="page-text-style">PLUMBERS<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/hvac-marketing" class="unifiednav__item  dmUDNavigationItem_010101452671  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         HVAC
+        " data-auto="page-text-style">HVAC<span class="icon icon-angle-down" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/roofing-marketing" class="unifiednav__item  dmUDNavigationItem_010101764226  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         ROOFERS
+        " data-auto="page-text-style">ROOFERS<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/garage-door-marketing" class="unifiednav__item  dmUDNavigationItem_010101184678  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         GARAGE DOOR
+        " data-auto="page-text-style">GARAGE DOOR<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/home-service-marketing-company" class="unifiednav__item  dmUDNavigationItem_010101719447  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         HOME SERVICES
+        " data-auto="page-text-style">HOME SERVICES<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/free-stuff" class="unifiednav__item  dmUDNavigationItem_010101270866  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         FREE STUFF
+        " data-auto="page-text-style">FREE STUFF<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/best-plumber-marketing-agencies" class="unifiednav__item  dmUDNavigationItem_010101259842  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Best Plumber Marketing Agencies
+          " data-auto="page-text-style">Best Plumber Marketing Agencies<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/hvac-load-calculator" class="unifiednav__item  dmUDNavigationItem_010101177607  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           HVAC Load Calculator
+          " data-auto="page-text-style">HVAC Load Calculator<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/free-stuff/website-seo-scan" class="unifiednav__item  dmUDNavigationItem_0101016214  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           NEW! Free Website SEO Assessment
+          " data-auto="page-text-style">NEW! Free Website SEO Assessment<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/best-hvac-keywords" class="unifiednav__item  dmUDNavigationItem_010101267021  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Best HVAC Keywords
+          " data-auto="page-text-style">Best HVAC Keywords<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/plumbing-keywords-seo-ppc" class="unifiednav__item  dmUDNavigationItem_010101414466  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Best Plumbing Keywords
+          " data-auto="page-text-style">Best Plumbing Keywords<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/free-stuff/evaluate-your-marketing-efforts" class="unifiednav__item  dmUDNavigationItem_010101713271  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Evaluate Your Marketing Efforts
+          " data-auto="page-text-style">Evaluate Your Marketing Efforts<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/free-stuff/marketing-checkup" class="unifiednav__item  dmUDNavigationItem_010101432834  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Marketing Checkup
+          " data-auto="page-text-style">Marketing Checkup<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/free-stuff/solutions-finder" class="unifiednav__item  dmUDNavigationItem_010101805949  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Solutions Finder
+          " data-auto="page-text-style">Solutions Finder<span class="icon icon-angle-right" data-hidden-on-mobile="" data-hidden-on-desktop="" data-hidden-on-tablet=""></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/blog" class="unifiednav__item  dmUDNavigationItem_010101223061  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Blog
+          " data-auto="page-text-style">Blog<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1804704894 dmRespCol small-12 large-2 medium-2" id="1804704894"> <a data-display-type="block" class="u_1515506142 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="#" data-element-type="dButtonLinkId" id="1515506142" link_type="popup" data-buttonstyle="BORDER_SHORT" popup_target="schedule-call"> <span class="iconBg" id="1740463416"> <span class="icon hasFontIcon icon-star" id="1638399474"></span> 
+</span> 
+ <span class="text" id="1353882262">BOOK A CALL</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_privacy-policy"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent"> <div dm:templateorder="111" class="dmContactUs2RespTmpl dmContactTitleTmpl" id="1441693443"><!-- this template has changed in 26/6/14 --> <div class="innerPageTmplBox dmRespRowsWrapper" id="1249035304"> <div class="dmRespRow u_1189410315" id="1189410315"> <div class="dmRespColsWrapper" id="1146770193"> <div class="dmRespCol large-12 medium-12 small-12" id="1065766098"> <div class="u_1989044859 dmNewParagraph" data-element-type="paragraph" id="1989044859" style="transition: none 0s ease 0s; display: block; line-height: initial; text-align: center;" data-version="5"><p class="text-align-left" style="line-height: 19px;"><span style="display: initial; font-weight: bold;">PRIVACY POLICY</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Last Modified: April 23, 2019.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>PLEASE READ THIS PRIVACY POLICY CAREFULLY BEFORE CONTINUING.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>INTRODUCTION</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Hippie Cow, LLC, dba Levergy (&quot;Company&quot; or &quot;We&quot;) respects your privacy and is committed to protecting it through our compliance with this policy.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>This policy describes the types of information we may collect from you or that you may provide when you visit the website www.levergy.io(our &quot;Website&quot;) and our practices for collecting, using, maintaining, protecting, and disclosing that information.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>This policy applies to information we collect:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>On this Website;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">In email, text, and other electronic messages between you and this Website;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Through mobile and desktop applications you download from this Website, if any, which provide dedicated non-browser-based interaction between you and this Website; and/or</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">When you interact with our advertising and applications on third-party websites and services, if those applications or advertising include links to this policy.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">It does not apply to information collected by:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>Us offline or through any other means, including on any other website operated by Company or any third party (including our affiliates and subsidiaries); or</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Any third party (including our affiliates and subsidiaries), including through any application or content (including advertising) that may link to or be accessible from or on the Website.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Please read this policy carefully to understand our policies and practices regarding your information and how we will treat it. If you do not agree with our policies and practices, your choice is not to use our Website. By accessing or using this Website, you agree to this privacy policy. This policy may change from time to time (see Changes to Our Privacy Policy). Your continued use of this Website after we make changes is deemed to be acceptance of those changes, so please check the policy periodically for updates.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>CHILDREN UNDER THE AGE OF 13</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Our Website is not intended for children under 13 years of age. No one under age 13 may provide any information to or on the Website. We do not knowingly collect personal information from children under 13. If you are under 13, do not use or otherwise provide any information on this Website. If we learn we have collected or received personal information from a child under 13 without verification of parental consent, we will delete that information. If you believe we might have any information from or about a child under 13, please contact us at info@levergy.io</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>INFORMATION WE COLLECT ABOUT YOU AND HOW WE COLLECT IT</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We collect several types of information from and about users of our Website, including information:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>By which you may be personally identified, such as name, company name, position, postal address, e-mail address, telephone number, or any other identifier by which you may be contacted online or offline (&quot;personal information&quot;);</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">That is about you but individually does not identify you, such as your trade, specialty, service area, or number of employees; and/or</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">About your internet connection, the equipment you use to access our Website and usage details.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We collect this information:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Directly from you when you provide it to us;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Automatically as you navigate through the site. Information collected automatically may include usage details, IP addresses, and information collected through cookies, web beacons, and other tracking technologies; and/or</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">From third parties, for example, our business partners.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Information You Provide to Us. The information we collect on or through our Website may include:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>Information that you provide by filling in forms on our Website. This includes information provided at the time of subscribing to our service. We may also ask you for information when you report a problem with our Website;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Records and copies of your correspondence (including email addresses), if you contact us;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Your responses to surveys that we might ask you to complete for research purposes;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Details of transactions you carry out through our Website; and/or</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Your search queries on the Website.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">You also may provide information to be published or displayed (hereinafter, &quot;posted&quot;) on public areas of the Website, or transmitted to other users of the Website or third parties (collectively, &quot;User Contributions&quot;). Your User Contributions are posted on and transmitted to others at your own risk. Please be aware that no security measures are perfect or impenetrable. Additionally, we cannot control the actions of other users of the Website with whom you may choose to share your User Contributions. Therefore, we cannot and do not guarantee that your User Contributions will not be viewed by unauthorized persons.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>Information We Collect Through Automatic Data Collection Technologies. As you navigate through and interact with our Website, we may use automatic data collection technologies to collect certain information about your equipment, browsing actions, and patterns, including:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>Details of your visits to our Website, including traffic data and other communication data and the resources that you access and use on the Website.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Information about your computer and internet connection, including your IP address, operating system, and browser type. This information is shared with Google Analytics for analysis and optimized tracking which may result in a more optimized online experience in the future.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We also may use these technologies to collect information about your online activities over time and across third-party websites or other online services (behavioral tracking). See Choices About How We Use and Disclose Your Information for information on how you can opt out of behavioral tracking on this website and how we respond to web browser signals and other mechanisms that enable consumers to exercise choice about behavioral tracking.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>The information we collect automatically is statistical data and may include personal information and we may maintain it or associate it with personal information we collect in other ways or receive from third parties. It helps us to improve our Website and to deliver a better and more personalized service, including by enabling us to:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>Estimate our audience size and usage patterns;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Store information about your preferences, allowing us to customize our Website;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Speed up your searches;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Recognize you when you return to our Website;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">The technologies we use for this automatic data collection may include:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>Cookies (or browser cookies). A cookie is a small file placed on the hard drive of your computer. You may refuse to accept browser cookies by activating the appropriate setting on your browser. However, if you select this setting you may be unable to access certain parts of our Website. Unless you have adjusted your browser setting so that it will refuse cookies, our system will issue cookies when you direct your browser to our Website.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Flash Cookies. Certain features of our Website may use local stored objects (or Flash cookies) to collect and store information about your preferences and navigation to, from, and on our Website. Flash cookies are not managed by the same browser settings as are used for browser cookies. For information about managing your privacy and security settings for Flash cookies, see Choices About How We Use and Disclose Your Information.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Web Beacons. Pages of our Website and our e-mails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of certain website content and verifying system and server integrity).</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>THIRD-PARTY USE OF COOKIES AND OTHER TRACKING TECHNOLOGIES</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Some content or applications, including advertisements, on the Website are served by third-parties, including advertisers, ad networks and servers, content providers, and application providers. These third parties may use cookies alone or in conjunction with web beacons or other tracking technologies to collect information about you when you use our website. The information they collect may be associated with your personal information or they may collect information, including personal information, about your online activities over time and across different websites and other online services. They may use this information to provide you with interest-based (behavioral) advertising or other targeted content.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>We do not control these third parties' tracking technologies or how they may be used. If you have any questions about an advertisement or other targeted content, you should contact the responsible provider directly. For information about how you can opt out of receiving targeted advertising from many providers, see Choices About How We Use and Disclose Your Information.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>HOW WE USE YOUR INFORMATION</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We use information that we collect about you or that you provide to us, including any personal information:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>To present our Website and its contents to you;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To provide you with information, products, or services that you request from us;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To fulfill any other purpose for which you provide it;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To provide you with notices about your subscription, including expiration and renewal notices;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To carry out our obligations and enforce our rights arising from any contracts entered into between you and us, including for billing and collection;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To notify you about changes to our Website or any products or services we offer or provide though it;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To allow you to participate in interactive features on our Website;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">In any other way we may describe when you provide the information; and/or</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">For any other purpose with your consent.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We may also use your information to contact you about our own and third-parties' goods and services that may be of interest to you. If you do not want us to use your information in this way, please check the relevant box located on the form on which we collect your data. For more information, see Choices About How We Use and Disclose Your Information.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>We may use the information we have collected from you to enable us to display advertisements to our advertisers' target audiences. Even though we do not disclose your personal information for these purposes without your consent, if you click on or otherwise interact with an advertisement, the advertiser may assume that you meet its target criteria.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>DISCLOSURE OF YOUR INFORMATION</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We may disclose aggregated information about our users, and information that does not identify any individual, without restriction.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>We use Sendgrid.com to process your emails and send notifications to you regarding your requests and received job requests. It is in our best interest to process your emails through them for that purpose. We may from time to time use additional services including Mailchimp or Zoho Mail to process emails for the same purpose.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>We may disclose personal information that we collect or you provide as described in this privacy policy:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>To our subsidiaries and affiliates;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To contractors, service providers, and other third parties we use to support our business;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To a buyer or other successor in the event of a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of the Company&rsquo;s assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which personal information held by the Company about our Website users is among the assets transferred;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To third parties to market their products or services to you if you have not opted out of these disclosures. For more information, see Choices About How We Use and Disclose Your Information;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To fulfill the purpose for which you provide it;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">For any other purpose disclosed by us when you provide the information; and/or</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">With your consent;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We may also disclose your personal information:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>To comply with any court order, law, or legal process, including to respond to any government or regulatory request;</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To enforce or apply our Terms of Use www.</span><span style="font-weight: 700; display: initial;">levergy.io</span><span class="" style="font-weight: bold; display: initial;"> <span style="font-weight: bold; display: initial;">and other agreements, including for billing and collection purposes; and/or</span></span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">If we believe disclosure is necessary or appropriate to protect the rights, property, or safety of Hippie Cow LLC, our customers, or others. This includes exchanging information with other companies and organizations for the purposes of fraud protection and credit risk reduction.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">CHOICES ABOUT HOW WE USE AND DISCLOSE YOUR INFORMATION</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We strive to provide you with choices regarding the personal information you provide to us. We have created mechanisms to provide you with the following control over your information:</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>Tracking Technologies and Advertising. You can set your browser to refuse all or some browser cookies, or to alert you when cookies are being sent. To learn how you can manage your Flash cookie settings, visit the Flash player settings page on Adobe's website. If you disable or refuse cookies, please note that some parts of this site may then be inaccessible or not function properly.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Disclosure of Your Information for Third-Party Advertising. If you do not want us to share your personal information with unaffiliated or non-agent third parties for promotional purposes, you can opt-out by checking the relevant box located on the form on which we collect your data. You can also always opt-out by unchecking the relevant boxes or by sending us an email stating your request to info@</span><span style="font-weight: 700; display: initial;">levergy.io</span><span style="font-weight: bold; display: initial;">.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Promotional Offers from the Company. If you do not wish to have your email address used by the Company to promote our own or third parties' products or services, you can opt-out by checking the relevant box located on the form on which we collect your data or at any other time by checking or unchecking the relevant boxes or by sending us an email stating your request to info@</span><span style="font-weight: 700; display: initial;">levergy.io</span><span style="font-weight: bold; display: initial;">. If we have sent you a promotional email, you may send us a return email asking to be omitted from future email distributions.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">Targeted Advertising. If you do not want us to use information that we collect or that you provide to us to deliver advertisements according to our advertisers' target-audience preferences, you can opt-out by checking the relevant box located on the form on which we collect your data. You can also opt-out by checking or unchecking the relevant boxes or by sending us an email stating your request to info@</span><span style="font-weight: 700; display: initial;">levergy.io</span><span style="font-weight: bold; display: initial;">.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We do not control third parties' collection or use of your information to serve interest-based advertising. However these third parties may provide you with ways to choose not to have your information collected or used in this way. You can opt out of receiving targeted ads from members of the Network Advertising Initiative (&quot;NAI&quot;) on the NAI's website.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>ACCESSING AND CORRECTING YOUR INFORMATION</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">You can review and change your personal information by emailing us at info@</span><span style="font-weight: 700; display: initial;">levergy.io</span><span style="font-weight: bold; display: initial;">.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>You may also send us an email at info@</span><span style="font-weight: 700; display: initial;">levergy.io</span><span class="" style="font-weight: bold; display: initial;"> <span style="font-weight: bold; display: initial;">to request access to, correct or delete any personal information that you have provided to us. We cannot delete your personal information except by also deleting your user account. We may not accommodate a request to change information if we believe the change would violate any law or legal requirement or cause the information to be incorrect.</span></span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>If you delete your User Contributions from the Website, copies of your User Contributions may remain viewable in cached and archived pages, or might have been copied or stored by other Website users. Proper access and use of information provided on the Website, including User Contributions, is governed by our Terms of Use www.</span><span style="font-weight: 700; display: initial;">levergy.io</span><span style="font-weight: bold; display: initial;">.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>YOUR CALIFORNIA PRIVACY RIGHTS</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">California Civil Code Section &sect; 1798.83 permits users of our Website that are California residents to request certain information regarding our disclosure of personal information to third parties for their direct marketing purposes. To make such a request, please send an email to info@</span><span style="font-weight: 700; display: initial;">levergy.io</span><span style="font-weight: bold; display: initial;">.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>DATA SECURITY</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">We have implemented measures designed to secure your personal information from accidental loss and from unauthorized access, use, alteration, and disclosure. All information you provide to us is stored on our secure servers behind firewalls. Any payment transactions will be encrypted using commercially reasonable means. Data storage is done through Amazon Inc. who is a cloud hosting provider based in the USA and who is privacy shield certified. Personal information is stored perpetually until a user opts out or contacts the Company at info@</span><span style="font-weight: 700; display: initial;">levergy.io</span><span style="font-weight: bold; display: initial;">.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>The safety and security of your information also depends on you. Where we have given you (or where you have chosen) a password for access to certain parts of our Website, you are responsible for keeping this password confidential. We ask you not to share your password with anyone.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>Unfortunately, the transmission of information via the internet is not completely secure. Although we do our best to protect your personal information, we cannot guarantee the security of your personal information transmitted to our Website. Any transmission of personal information is at your own risk. We are not responsible for circumvention of any privacy settings or security measures contained on the Website.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>CHANGES TO OUR PRIVACY POLICY</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">It is our policy to post any changes we make to our privacy policy on this page. If we make material changes to how we treat our users' personal information, we will notify you by email to the email address specified in your account. The date the privacy policy was last revised is identified at the top of the page. You are responsible for ensuring we have an up-to-date active and deliverable email address for you, and for periodically visiting our Website and this privacy policy to check for any changes.</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;"><br/>CONTACT INFORMATION</span></p><p class="text-align-left" style="line-height: 19px;"><span style="font-weight: bold; display: initial;">To ask questions or comment about this privacy policy and our privacy practices, contact us at: admin@</span><span style="font-weight: 700; display: initial;">levergy.io</span><span style="font-weight: bold; display: initial;">.</span></p> <h4 class="text-align-left"><span style="display: initial;"><br/></span></h4> 
+</div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="sticky-widgets-container-global" id="1113589817"></div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="14" class="dmFooterResp dmFullFooterResp" id="1787191237"> <div class="dmRespRow dmDividerRow" id="1989799631"> <div class="dmRespColsWrapper" id="1434624337"> <div class="large-12 medium-12 small-12 dmRespCol" id="1838983716"> <div class="dmDividerWrapper clearfix" id="1000691884" data-element-type="dDividerId"><hr class="dmDivider defaultDivider" id="1365205689"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1914158365 dmRespRow" id="1914158365"> <div class="dmRespColsWrapper" id="1293437674"> <div class="dmRespCol small-12 large-3 medium-3" id="1497145756"> <div class="u_1185145272 imageWidget align-center" data-widget-type="image" id="1185145272" data-element-type="image"> <a href="/" id="1801515464"><img src="https://lirp.cdn-website.com/fe41d46c/dms3rep/multi/opt/levergy-tm-web-transparent_badge-color-2018e48a-1920w.png" id="1156738023" class="" data-dm-image-path="https://irp.cdn-website.com/fe41d46c/dms3rep/multi/levergy-tm-web-transparent_badge-color-2018e48a.png" alt="plumber marketing" width="504" height="164" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <a data-display-type="block" class="u_1213137277 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="#" data-element-type="dButtonLinkId" id="1213137277" link_type="popup" data-buttonstyle="BORDER_SHORT" popup_target="schedule-call"> <span class="iconBg" id="1738278007"> <span class="icon hasFontIcon icon-star" id="1668015126"></span> 
+</span> 
+ <span class="text" id="1050173221">SCHEDULE A CALL</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3" id="1810043204"> <div class="u_1166054897 dmNewParagraph" data-element-type="paragraph" id="1166054897" style="transition:none 0s ease 0s;display:block;line-height:initial;" data-version="5"> <h6 class="text-align-center m-size-16 size-16" style="line-height: 2.5;"><span class="m-font-size-16" m-font-size-set="true" style="display: initial;">&nbsp;</span><a href="/blog" runtime_url="/blog" m-font-size-set="true" class="m-font-size-16 font-size-16" style="display: initial; color: rgb(255, 255, 255); text-decoration: none; font-weight: 900;">BLOG</a></h6> 
+ <h6 class="text-align-center m-size-16 size-16" style="line-height: 2.5;"><a href="/best-hvac-keywords" runtime_url="/best-hvac-keywords" class="font-size-16 m-font-size-16" m-font-size-set="true" style="display: initial; color: rgb(255, 255, 255); text-decoration: none; font-weight: 900;">HVAC KEYWORDS</a></h6> 
+ <h6 class="text-align-center m-size-16 size-16" style="line-height: 2.5;"><a href="/plumbing-keywords-seo-ppc" runtime_url="/plumbing-keywords-seo-ppc" class="font-size-16 m-font-size-16" m-font-size-set="true" style="display: initial; text-decoration: none; color: rgb(255, 255, 255); font-weight: 900;">PLUMBING KEYWORDS</a></h6> 
+ <h6 class="text-align-center m-size-16 size-16" style="line-height: 2.5;"><a href="/free-stuff/marketing-checkup" runtime_url="/free-stuff/marketing-checkup" class="font-size-16 m-font-size-16" m-font-size-set="true" style="display: initial; color: rgb(255, 255, 255); text-decoration: none; font-weight: 900;">MARKETING CHECKUP</a><span class="font-size-16 m-font-size-16" m-font-size-set="true" style="display: initial; font-weight: 900; color: rgb(255, 255, 255);"><br/></span><a href="/plumber-marketing-company" runtime_url="/plumber-marketing-company" type="page" m-font-size-set="true" class="font-size-16 m-font-size-16" style="display: initial; font-weight: 900; color: rgb(255, 255, 255);">PLUMBER MARKETING</a><span class="font-size-16 m-font-size-16" m-font-size-set="true" style="display: initial; color: rgb(255, 255, 255); text-decoration: none; font-weight: 900;"><br/></span><a href="/free-stuff/marketing-checkup" runtime_url="/free-stuff/marketing-checkup" class="font-size-16 m-font-size-16" m-font-size-set="true" style="display: initial; color: rgb(255, 255, 255); text-decoration: none; font-weight: 900;"><br/></a></h6> 
+</div></div> 
+ <div class="dmRespCol small-12 large-3 medium-3" id="1167199712"> <div class="u_1123622872 dmNewParagraph" data-element-type="paragraph" id="1123622872" style="transition:none 0s ease 0s;display:block;line-height:initial;" data-version="5"> <h6 class="m-size-16 text-align-center size-16" style="line-height: 2.5;"><a href="/our-services" runtime_url="/our-services" style="display: initial; text-decoration: none; color: rgb(255, 255, 255); font-weight: 900;" class="m-font-size-16 font-size-16" m-font-size-set="true">SERVICES</a></h6> 
+ <h6 class="m-size-16 text-align-center size-16" style="line-height: 2.5;"><a href="/faq" runtime_url="/faq" style="display: initial; color: rgb(255, 255, 255); text-decoration: none; font-weight: 900;" class="m-font-size-16 font-size-16" m-font-size-set="true">FAQ</a></h6> 
+ <h6 class="m-size-16 text-align-center size-16" style="line-height: 2.5;"><a href="/contact" runtime_url="/contact" style="display: initial; font-weight: 900; color: rgb(255, 255, 255); text-decoration: none;" class="m-font-size-16 font-size-16" m-font-size-set="true">CONTACT</a></h6> 
+ <h6 class="m-size-16 text-align-center size-16" style="line-height: 2.5;"><a href="/employment" runtime_url="/employment" type="page" style="display: initial; font-weight: 900; text-decoration: none; color: rgb(255, 255, 255);" class="m-font-size-16 font-size-16" m-font-size-set="true">CAREERS<br/></a><a href="/hvac-marketing" runtime_url="/hvac-marketing" type="page" style="display: initial; font-weight: 900; color: rgb(255, 255, 255);" class="m-font-size-16 font-size-16" m-font-size-set="true">HVAC MARKETING<br/></a><a href="http://a.co/d/3G5eeL0" runtime_url="http://a.co/d/3G5eeL0" type="url" m-font-size-set="true" class="m-font-size-16 font-size-16" style="display: initial; font-weight: 900; color: rgb(255, 255, 255);" target="_blank" rel="nofollow">BUY OUR BOOK</a></h6> 
+</div></div> 
+ <div class="dmRespCol large-3 medium-3 small-12" id="1548973747"> <div class="u_1180874563 align-center text-align-center dmSocialHub" id="1180874563" dmle_extension="social_hub" data-element-type="social_hub" extractelementdata="true" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://www.facebook.com/Levergy.IO/" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Facebook&apos;)"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/levergy_io" target="_blank" dm_dont_rewrite_url="true" aria-label="twitter" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Twitter&apos;)"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.youtube.com/@Levergy_IO" target="_blank" dm_dont_rewrite_url="true" aria-label="youtube" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Youtube&apos;)"> <span class="dmSocialYoutube dm-social-icons-youtube oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.linkedin.com/company/levergy-io/" target="_blank" dm_dont_rewrite_url="true" aria-label="linkedin" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Linkedin&apos;)"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.instagram.com/levergy.io/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Instagram&apos;)"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://g.co/kgs/y6Q89r" target="_blank" dm_dont_rewrite_url="true" aria-label="Custom social network" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Custom1&apos;)"> <span class="dmSocialCustom1 oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1536 1792"> <path fill="inherit" d="M768 786h725q12 67 12 128 0 217-91 387.5t-259.5 266.5-386.5 96q-157 0-299-60.5t-245-163.5-163.5-245-60.5-299 60.5-299 163.5-245 245-163.5 299-60.5q300 0 515 201l-209 201q-123-119-306-119-129 0-238.5 65t-173.5 176.5-64 243.5 64 243.5 173.5 176.5 238.5 65q87 0 160-24t120-60 82-82 51.5-87 22.5-78h-436v-264z"></path> 
+</svg> 
+</span> 
+</a> 
+ <a href="https://www.bluecollar.ceo/" target="_blank" dm_dont_rewrite_url="true" aria-label="rss" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Rss&apos;)"> <span class="dmSocialRss icon-rss oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.tiktok.com/@levergy.io" target="_blank" dm_dont_rewrite_url="true" aria-label="Tiktok" onclick="dm_gaq_push_event &amp;&amp; dm_gaq_push_event(&apos;socialLink&apos;, &apos;click&apos;, &apos;Custom2&apos;)"> <span class="dmSocialCustom2 oneIcon socialHubIcon style3" aria-hidden="true" data-hover-effect=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100"> <path d="M72.49,19.79h0A20.91,20.91,0,0,1,67.31,6H52.2V66.62A12.69,12.69,0,1,1,43.3,54V38.56a27.85,27.85,0,1,0,24,27.57V35.38a35.87,35.87,0,0,0,21,6.75V27A21.25,21.25,0,0,1,72.49,19.79Z"></path> 
+</svg> 
+</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1317010971" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false"></div> 
+ <div class="dmRespRow u_1863736074" id="1863736074"> <div class="dmRespColsWrapper" id="1881023255"> <div class="dmRespCol large-12 medium-12 small-12" id="1715286677"> <div class="u_1929931520 dmDividerWrapper clearfix" id="1929931520" layout="divider-style-1" data-element-type="dDividerId" data-widget-version="2"><hr class="dmDivider" style="min-height: 2px; border:none; background:grey" id="1247828231"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1578671954 dmRespRow" style="text-align: center;" id="1578671954"> <div class="dmRespColsWrapper" id="1922894715"> <div class="u_1262551665 dmRespCol small-12 large-4 medium-4" id="1262551665"> <div class="u_1700703031 imageWidget align-center" data-widget-type="image" id="1700703031" data-element-type="image"> <a href="https://podcasts.apple.com/us/podcast/bluecollar-ceo/id1576420253" id="1211262209" class="" target="_blank" file="false"><img src="https://lirp.cdn-website.com/fe41d46c/dms3rep/multi/opt/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad-1920w.jpg" id="1146857010" class="" data-dm-image-path="https://irp.cdn-website.com/fe41d46c/dms3rep/multi/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg" width="1400" height="1400" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1624756341 dmRespCol small-12 large-8 medium-8" id="1624756341"> <div class="u_1762822703 dmNewParagraph" id="1762822703" style="transition: none 0s ease 0s; text-align: left; display: block;" data-version="5"><p class="text-align-left m-text-align-center size-24 m-size-25"><span class="font-size-24 m-font-size-25" style="color:rgb(255, 255, 255);font-weight:900;display:initial;font-family:Canaro-Bold;" m-font-size-set="true">Now available!</span></p></div> <div class="u_1384681583 dmNewParagraph" id="1384681583" data-element-type="paragraph" style="line-height:initial;" data-version="5"><p class="m-text-align-center"><a href="https://podcasts.apple.com/us/podcast/bluecollar-ceo/id1576420253" target="_blank" runtime_url="https://podcasts.apple.com/us/podcast/bluecollar-ceo/id1576420253" type="url" style="color:rgb(255, 255, 255);font-weight:300;text-decoration:none;display:initial;font-family:Rubik, 'Rubik Fallback';">Download on Apple Podcast</a></p></div> <div data-element-type="html" class="dmCustomHtml u_1812091422" id="1812091422"> <div id="buzzsprout-large-player-1791556"></div> 
+ <script type="text/javascript" charset="utf-8" src="https://www.buzzsprout.com/1791556.js?container_id=buzzsprout-large-player-1791556&player=large">
+
+
+                                                                                                                                                                                                                                                     
+
+            </script> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1382389579" id="1382389579"> <div class="dmRespColsWrapper" id="1663829664"> <div class="dmRespCol large-12 medium-12 small-12" id="1308503631"> <div class="widget-1f5975 u_1730162147 dmCustomWidget" data-lazy-load="" data-title="" id="1730162147" dmle_extension="custom_extension" data-element-type="custom_extension" wr="false" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPkFsbCBSaWdodHMgUmVzZXJ2ZWQgfCBMZXZlcmd5wq48L3A+IiwicmV2ZXJzZUZsYWciOnRydWV9"> <div class="copyright"> <div><p class="rteBlock">All Rights Reserved | Levergy&reg;</p></div> 
+ <div>&nbsp;&copy; 2024</div> 
+</div> 
+</div> 
+ <div class="u_1999593523 dmNewParagraph" id="1999593523" style="display:block;line-height:initial;" data-version="5"><p class="text-align-center size-12"><span class="font-size-12" style="display: initial;">Levergy&reg; is a trade name of&nbsp;</span><a href="https://www.hippiecow.com" target="_blank" runtime_url="https://www.hippiecow.com" class="font-size-12" style="display: initial; color: rgb(255, 255, 255);">Hippie Cow, LLC</a><span class="font-size-12" style="display: initial;">. <br/>Any other logos or brands referenced are property of their respective owners.</span><span style="display: initial;"><br/></span></p><p class="text-align-center m-size-10 size-12"><a href="mailto:info@levergy.io" target="_blank" type="email" style="display: initial; color: rgb(255, 255, 255); text-decoration: none;" class="font-size-12 m-font-size-10">info@levergy.io</a><span class="font-size-12 m-font-size-10" style="display: initial; color: rgb(255, 255, 255);"> <span class="font-size-12 m-font-size-10" style="display: initial; color: rgb(255, 255, 255);">| 918.921.9296</span></span></p><p class="text-align-center"><span style="display: initial;"><br/></span></p><p class="m-size-10 text-align-center size-12"><span style="display: initial; color: rgb(255, 255, 255);" class="font-size-12 m-font-size-10">Past results are not a guarantee of future results.</span></p><p class="text-align-center"><span style="display: initial; color: rgb(255, 255, 255);" class="font-size-12"><br/></span></p><p class="text-align-center size-12"><a href="/media-kit" runtime_url="/media-kit" type="page" style="display: initial; color: rgb(255, 255, 255);" class="font-size-12">media kit</a><span class="font-size-12" style="display: initial;"> <span class="font-size-12" style="display: initial;">|</span> 
+</span><a href="/privacy-policy" runtime_url="/privacy-policy" type="page" class="font-size-12" style="display: initial; color: rgb(255, 255, 255);">privacy policy</a><span single-space="true" class="font-size-12" style="display: initial;"> <span class="font-size-12" style="display: initial;"></span> 
+</span><span class="font-size-12" style="display: initial; color: rgb(255, 255, 255);">|</span><span single-space="true" class="font-size-12" style="display: initial;"> <span class="font-size-12" style="display: initial;"></span> 
+</span><a href="https://www.levergy.io/sitemap.xml" target="_blank" runtime_url="https://www.levergy.io/sitemap.xml" type="url" class="font-size-12" style="display: initial; color: rgb(255, 255, 255);">sitemap</a></p></div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+<script>
+    window.customWidgetsFunctions["1f5975986930429f819d4cd2154b5c4a~22"] = function (element, data, api) {
+        null
+    };
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_4479";
+    var build = "2024-06-05T12_50_03";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2024-06-05T12_50_03";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id='d-js-jquery'
+        src="https://static.cdn-website.com/libs/jquery/jquery-3.7.0.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    var _jquery = window.$;
+
+    var jqueryAliases = ['$', 'jquery', 'jQuery'];
+
+    jqueryAliases.forEach((alias) => {
+        Object.defineProperty(window, alias, {
+            get() {
+                return _jquery;
+            },
+            set() {
+                console.warn("Trying to over-write the global jquery object!");
+            }
+        });
+    });
+    window.jQuery.migrateMute = true;
+</script>
+<script type="text/javascript">
+    window.popups =
+    [{"title":"Blank","url":"/874a3edbc337463290c7163d783654f0","options":{"backgroundColor":"#FFFFFF","borderRadius":"5","width":"609","overlayColor":"rgba(195, 195, 195,0.5)","height":"587","animation":"fadeIn"},"name":"874a3edbc337463290c7163d783654f0"},{"title":"Schedule Call","url":"/schedule-call","options":{"backgroundColor":"#FFFFFF","borderRadius":"5","width":"821.0234375","previousAnimation":"slideInRight","overlayColor":"rgba(17, 17, 17, 0.3)","height":"744.47265625","animation":"slideInDown"},"name":"schedule-call"}]</script>
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div>We use cookies to ensure that we give you the best experience on our website. To learn more, go to the Privacy Page.<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id='d-js-params'>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/4479';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/4479';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.respectCssAnimationProps.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["facebook.api.version"] = '7.0';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"]=false;
+
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["site.runtime.video.background.ssr"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["keyboard.navigation.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["ecom.ecwid.categoryPage.modifyLinks"] = true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.scrolling.enabled"] = true;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["ecom.ecwid.fallBackInCaseLinksNotFound.enabled"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =false;
+    rtFlags["new.store.fix.ecwid.back.bug"] =true;
+    rtFlags["facebook.runtime.widgets.upgrade"] =true;
+    rtFlags["ecom.ecwid.solve.url.modifications"] = true;
+    rtFlags["ecom.ecwid.configOptions"] = true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["site.contact.form.fix.for.attribute"] =true;
+    rtFlags["contact.form.date.format.enabled"] = true;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["ecom.ecwid.fixTranslations.enabled"] = true;
+    rtFlags["runtime.load.script.native"] =true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+</script>
+<script src="https://static.cdn-website.com/mnlt/production/4479/_dm/s/rt/dist/scripts/d-js-one-runtime-unified-desktop.min.js"  id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static.cdn-website.com/mnlt/production/4479/_dm/s/rt/dist/scripts/d-js-jquery-migrate.min.js" ></script>
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script src="/_dm/s/rt/smart/popup.js" type="text/javascript"></script><script src="/_dm/s/rt/smart/helpers.js" type="text/javascript"></script><script src="/_dm/s/rt/smart/userVisitsConditionService.js" type="text/javascript"></script><script src="/_dm/s/rt/smart/timeRangeConditionService.js" type="text/javascript"></script><script src="https://static.cdn-website.com/libs/rrule/2.8.1/rrule.min.js" type="text/javascript"></script><script>(function(global){
+global.insiteScripts.popup({useNew: true, ruleId : '3390638', ruleType : 'bfs', settings : 'eyJkZWxheSI6IjgiLCJwb3B1cE5hbWUiOiI4NzRhM2VkYmMzMzc0NjMyOTBjNzE2M2Q3ODM2NTRmMCIsInVzZXJfdmlzaXRzX251bWJlciI6IjUifQ==', duration : null, isForced : false });
+})(this);</script><script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [{ruleId: 3390638, actionName:'popup', ruleType: 'bfs'}];
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXDHK0MRTB"></script>
+<script type="text/javascript" id="d_track_ga">
+  _dm_gaq.siteAlias = 'fe41d46c';
+  _dm_gaq.systemAggregatedGaqID = '';
+  _dm_gaq.externalGaqID = 'G-LXDHK0MRTB';
+  _dm_gaq.gaAggregatedEventAttributes = {
+	  'site_alias':  _dm_gaq.siteAlias,
+	  'product': 'DM_DIRECT',
+	  'plan': 'BUSINESS_PLUS',
+	  'dfooter': 'false',
+	  'sitetype': '1',
+	  'pwaEnabled': 'true'
+  }
+
+  _dm_gaq.pushEvent = function(trackingId, event, category, label, value, additionalParams = {}) {
+	  const eventProps = {
+		  send_to: trackingId,
+		  event_category: category,
+		  event_label: label,
+		  value,
+		  ...additionalParams,
+		  ...(trackingId === _dm_gaq.systemAggregatedGaqID
+				  ? _dm_gaq.gaAggregatedEventAttributes : {})
+	  };
+	  gtag('event', event, eventProps);
+  }
+
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+  function pushInsiteImpressions(id) {
+	  _dm_insite.forEach((rule) => {
+		  _dm_gaq.pushEvent(id, 'insite_impression', 'insite', rule.ruleType + '__' + rule.ruleId);
+	  });
+  }
+
+if(_dm_gaq.systemAggregatedGaqID){
+	// track aggregated account
+	gtag('config', '', {
+		'send_page_view': false,
+		'anonymize_ip': true,
+		'transport_type': 'beacon',
+		'custom_map': {'dimension1': 'site_alias', 'dimension2': 'product', 'dimension3': 'dFooter', 'dimension4': 'sitetype'}
+	});
+	gtag('set', 'developer_id.dMDU5Nj', true);
+
+	_dm_gaq.pushEvent('', 'page_view');
+	pushInsiteImpressions(_dm_gaq.systemAggregatedGaqID);
+}
+
+if(_dm_gaq.externalGaqID && _dm_gaq.externalGaqID!= '') {
+	gtag('config', 'G-LXDHK0MRTB', {
+		'send_page_view': false,
+		'anonymize_ip': true,
+		'transport_type': 'beacon',
+		'linker': {
+			'domains': ['levergy.io']
+		}
+	});
+	_dm_gaq.pushEvent('G-LXDHK0MRTB', 'page_view');
+	pushInsiteImpressions(_dm_gaq.externalGaqID);
+}
+</script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: 'fe41d46c'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: fe41d46c -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+
+<!--  Begin Body End Markup -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKSX6Q4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script id="chatBT" src="https://nowl.ink/1791z3215a?c=7IZ4cMsmx5TCXwGRpyzf" type="text/javascript"></script>
+
+<!-- Form URL attribution -->
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.addEventListener('click', function(event) {
+    // Check if the clicked element is the button with your specific ID
+    if (event.target.id === '1218275574') {
+     var referrerField = document.getElementById('1811531839');
+      if (referrerField) {
+        referrerField.value = window.location.href;
+      }
+      console.log('Dynamically loaded button with ID "yourButtonId" was clicked');
+    }
+  });
+});
+
+</script>
+
+<!--  End Body End Markup -->
+
+<!--  Site Wide Html Markup -->
+<div id="swh-e050e449a69046b385e08f4308461782"><script type="text/javascript" src="https://cdn.userway.org/widget.js?account=28JPzo10jS&platfAppInstalledSiteId=2609055"></script></div><!--  Site Wide Html Markup -->
+</body>
+</html>
