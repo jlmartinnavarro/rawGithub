@@ -1,0 +1,5634 @@
+O p e n A l e x
+P r i v a c y
+P o l i c y
+Last
+Re vised:
+No v ember
+3,
+2023
+OpenAlex
+is
+a
+website
+f eaturing
+web-based
+t ools
+cr eated
+and
+maintained
+b y
+Impactst or y ,
+Inc.,
+doing
+business
+as
+OurResear ch
+(the
+"
+Company
+, "
+"
+we
+, "
+"
+ours
+, "
+"
+us
+").
+W e
+r espect
+and
+v alue
+y our
+priv acy ,
+and
+we
+ar e
+committed
+t o
+pr otecting
+it
+thr ough
+our
+compliance
+with
+this
+priv acy
+policy
+("
+P olicy
+").
+This
+P olicy
+describes
+the
+types
+of
+information
+we
+ma y
+collect
+fr om
+y ou
+when
+y ou
+visit
+https:/ /openalex.or g
+(the
+"
+Site
+, "
+a
+component
+of
+the
+Ser vice),
+when
+y ou
+use
+or
+inter act
+with
+the
+API,
+or
+when
+y ou
+use
+or
+inter act
+with
+any
+other
+pr oducts,
+applications,
+or
+f eatur es
+pr o vided
+b y
+us
+(collectiv ely ,
+the
+"
+Ser vice
+"),
+as
+well
+as
+our
+pr actices
+for
+collecting,
+using,
+maintaining,
+pr otecting,
+and
+disclosing
+that
+information.
+Any
+capitaliz ed
+terms
+used
+but
+not
+deﬁned
+in
+this
+P olicy
+ar e
+deﬁned
+in
+our
+T erms
+of
+Ser vice.
+If
+y ou
+do
+not
+agr ee
+with
+this
+P olicy ,
+or
+our
+other
+policies
+and
+pr actices,
+y ou
+should
+not
+use
+the
+Ser vice.
+This
+P olicy
+ma y
+change
+fr om
+time
+t o
+time.
+W e
+will
+notify
+y ou
+of
+material
+changes,
+but
+it
+is
+y our
+r esponsibility
+t o
+check
+this
+P olicy
+periodically
+for
+updates.
+H o w
+t h i s
+P r i v a c y
+P o l i c y
+A p p l i e s
+This
+P olicy
+applies
+t o
+information
+we
+collect:
+(1)
+on
+this
+Site;
+(2)
+in
+any
+electr onic
+communication
+between
+y ou
+and
+the
+Ser vice;
+(3)
+thr ough
+the
+API
+or
+other
+web-based
+t ools
+listed
+on
+the
+Site
+and
+maintained
+b y
+us,
+and
+(4)
+when
+y ou
+inter act
+with
+our
+applications
+on
+thir d-par ty
+websites
+and
+ser vices.
+This
+P olicy
+does
+NO T
+apply
+t o
+information
+collected
+b y:
+(1)
+us
+oﬄine
+or
+thr ough
+any
+other
+means,
+including
+on
+any
+other
+website
+or
+ser vice
+oper ated
+b y
+any
+thir d
+par ty
+(including
+our
+aﬃliates
+and
+subsidiaries);
+or
+(2)
+any
+thir d
+par ty
+(including
+our
+aﬃliates
+and
+subsidiaries),
+including
+thr ough
+anyapplication,
+website,
+or
+content
+that
+ma y
+link
+t o
+or
+be
+accessible
+fr om
+or
+thr ough
+the
+Ser vice.
+T y p e s
+o f
+I n f o r m a t i o n
+W e
+C o l l e c t
+&
+H o w
+W e
+C o l l e c t
+I t
+Depending
+on
+how
+y ou
+use
+the
+Ser vice,
+we,
+along
+with
+any
+thir d-par ty
+companies
+or
+individuals
+with
+whom
+we
+work,
+ma y
+collect
+information
+dir ectly
+and
+v oluntarily
+fr om
+y ou
+when
+y ou
+use
+the
+Ser vice
+or
+contact
+us
+dir ectly .
+W e
+ma y
+collect
+P ersonal
+Information
+and
+Non-P ersonal
+Information,
+depending
+on
+how
+y ou
+use
+the
+Ser vice
+and
+what
+information
+y ou
+pr o vide
+t o
+us.
+P ersonal
+Information
+.
+P ersonal
+Information
+is
+gener ally
+any
+information
+that
+can
+be
+used
+t o
+identify
+y ou
+individually ,
+either
+b y
+itself
+or
+in
+conjunction
+with
+other
+information.
+P ersonal
+Information
+ma y
+include,
+without
+limitation:
+●
+Contact
+Information,
+such
+as
+y our
+name
+and
+email
+addr ess
+●
+Information
+about
+the
+or ganization
+for
+which
+y ou
+work;
+●
+Demogr aphic
+or
+location
+information,
+when
+that
+information
+is
+link ed
+t o
+other
+P ersonal
+Information
+or
+Non-P ersonal
+Information
+that
+allows
+an
+individual
+t o
+be
+identiﬁed;
+●
+Financial
+information,
+billing
+pr ef er ences,
+and
+y our
+unique
+API
+k e y .
+Non-P ersonal
+Information
+.
+Non-P ersonal
+Information
+includes
+information
+that
+is
+about
+y ou
+or
+about
+y our
+use
+of
+the
+Ser vice
+but
+does
+not
+identify
+y ou
+personally ,
+such
+as:
+●
+IP
+addr esses
+●
+Anonymous
+usage
+data;
+●
+Ref erring/exit
+pages
+and
+URLs;
+●
+Br owser
+or
+platform
+type;
+●
+E quipment
+used
+t o
+access
+the
+Ser vice;
+●
+Language
+pr ef er ences;
+●
+Pr ef er ences
+y ou
+submit
+and
+pr ef er ences
+that
+ar e
+gener ated
+based
+on
+data
+y ou
+submit;
+and●
+The
+date
+and
+time
+of
+user
+r equests.
+How
+W e
+Collect
+Non-P ersonal
+Information
+.
+W e
+gener ally
+collect
+Non-P ersonal
+Information
+thr ough
+aut omatic
+data
+collection
+technologies,
+which
+ar e
+described
+in
+mor e
+detail
+below .
+*The
+pr eceding
+lists
+of
+P ersonal
+Information
+and
+Non-P ersonal
+Information
+we
+ma y
+collect
+ar e
+illustr ativ e,
+not
+exhaustiv e.
+A u t o m a t i c
+D a t a
+C o l l e c t i o n
+a n d
+H o w
+W e
+U s e
+I t
+F or
+cer tain
+components
+of
+the
+Ser vice,
+we
+ma y
+use
+aut omatic
+data
+collection
+technologies
+and
+analytics
+t ools
+(such
+as
+Plausible.io)
+t o
+collect
+information
+fr om
+y our
+de vice
+or
+br owser
+about
+y our
+equipment,
+br owsing
+actions,
+and
+patterns
+when
+y ou
+access,
+use,
+and
+inter act
+with
+the
+Ser vice.
+The
+information
+we
+collect
+aut omatically
+is
+statistical
+data
+and
+does
+not
+include
+P ersonal
+Information.
+W e
+use
+this
+information
+t o
+maintain
+the
+security
+and
+oper ation
+of
+the
+Ser vice,
+and
+t o
+gain
+insights
+about
+the
+functionality
+and
+use
+of
+the
+Ser vice
+in
+or der
+t o
+impr o v e
+the
+Ser vice.
+The
+technologies
+we
+use
+for
+the
+aut omatic
+data
+collection
+described
+abo v e
+ma y
+include:
+●
+Cookies
+(or
+br owser
+cookies).
+A
+cookie
+is
+a
+small
+ﬁle
+placed
+on
+the
+har d
+driv e
+of
+y our
+computer .
+Y ou
+ma y
+r efuse
+t o
+accept
+br owser
+cookies
+b y
+activ ating
+the
+appr opriate
+setting
+on
+y our
+br owser .
+Unless
+y ou
+ha v e
+adjusted
+y our
+br owser
+setting
+so
+that
+it
+will
+r efuse
+cookies,
+our
+system
+will
+issue
+cookies
+when
+y ou
+dir ect
+y our
+br owser
+t o
+the
+Site.
+L o c a t i o n
+I n f o r m a t i o nW e
+ma y ,
+fr om
+time
+t o
+time,
+tr ack
+user
+location
+thr ough
+IP
+logging
+for
+security
+and
+fr aud
+pr e v ention
+purposes.
+Use
+location
+ma y
+also
+be
+tr ack ed
+in
+connection
+with
+our
+use
+of
+aut omatic
+data
+collection
+technologies.
+D o
+N o t
+T r a c k
+D i s c l o s u r e
+Most
+web
+br owsers
+and
+some
+mobile
+oper ating
+systems
+and
+mobile
+applications
+include
+a
+Do-Not-T r ack
+("DN T")
+f eatur e
+or
+setting
+y ou
+can
+activ ate
+t o
+signal
+y our
+priv acy
+pr ef er ence
+not
+t o
+ha v e
+data
+about
+y our
+online
+br owsing
+activities
+monit or ed
+and
+collected
+.
+W e
+do
+not
+tr ack
+information
+about
+users
+or
+visit ors
+t o
+the
+Site
+o v er
+time
+and
+acr oss
+thir d
+par ty
+websites
+t o
+pr o vide
+tar geted
+adv er tising
+and
+ther e
+is
+no
+uniform
+technology
+standar d
+for
+r ecognizing
+and
+implementing
+DN T
+signals,
+so
+we
+do
+not
+r espond
+t o
+Do
+Not
+T r ack
+(DN T)
+signals.
+Howe v er ,
+some
+thir d
+par ty
+sites
+do
+k eep
+tr ack
+of
+y our
+br owsing
+activities
+when
+the y
+ser v e
+y ou
+content,
+which
+enables
+them
+t o
+tailor
+what
+the y
+pr esent
+t o
+y ou.
+Y ou
+ma y
+set
+y our
+web
+br owser
+t o
+tr ansmit
+a
+"Do
+Not
+T r ack"
+signal
+t o
+websites
+and
+online
+ser vices
+y ou
+visit.
+F or
+mor e
+information
+on
+Do
+Not
+T r ack,
+please
+visit
+www .allaboutdnt.com
+.
+I n f o r m a t i o n
+f r o m
+M i n o r s
+W e
+do
+not
+knowingly
+collect
+personal
+information
+fr om
+persons
+under
+the
+age
+of
+18.
+By
+using
+the
+Ser vices,
+y ou
+r epr esent
+that
+y ou
+ar e
+at
+least
+18
+or
+that
+y ou
+ar e
+the
+par ent
+or
+guar dian
+of
+such
+a
+minor
+and
+consent
+t o
+such
+minor
+using
+the
+Ser vices.
+If
+y ou
+ha v e
+r eason
+t o
+belie v e
+that
+a
+minor
+has
+pr o vided
+personal
+information
+thr ough
+the
+Site,
+please
+contact
+us
+b y
+email
+at
+team@ourr esear ch.or g
+.
+If
+we
+learn
+we
+ha v e
+collected
+or
+r eceiv ed
+personal
+information
+fr om
+a
+minor
+under
+18
+without
+v eriﬁcation
+of
+par ental
+consent,
+we
+will
+delete
+that
+information.
+H o w
+&
+W h y
+W e
+U s e
+Y o u r
+I n f o r m a t i o nThe
+wa ys
+we
+use
+and
+disclose
+y our
+P ersonal
+Information
+as
+described
+in
+this
+P olicy
+ar e
+necessar y
+for
+our
+legitimate
+business
+inter ests
+or
+for
+r easons
+r elated
+t o
+an
+agr eement
+between
+y ou
+and
+Impactst or y .
+Our
+legitimate
+business
+inter ests
+include
+without
+limitation,
+facilitating
+the
+Ser vice,
+e v aluating
+and
+maintaining
+the
+functionality
+and
+security
+of
+the
+Ser vice,
+de v eloping
+and
+off ering
+additional
+f eatur es
+and
+ser vices
+t o
+beneﬁt
+all
+Users,
+and
+for
+purposes
+r elated
+t o
+fur thering
+the
+sales
+and
+use
+of
+our
+technology
+and
+ser vices.
+In
+situations
+wher e
+we
+ha v e
+collected
+y our
+P ersonal
+Information,
+we
+ma y
+use
+it
+t o:
+●
+Communicate
+with
+y ou.
+○
+F or
+example,
+we
+ma y
+use
+y our
+email
+addr ess
+t o
+contact
+y ou
+in
+r esponse
+t o
+y our
+question
+or
+r equest,
+solicit
+f eedback
+fr om
+y ou
+about
+the
+Ser vice,
+pr o vide
+technical
+suppor t
+and
+ser vice
+update
+notices,
+and
+inform
+y ou
+about
+new
+f eatur es
+and
+t ools
+we
+ma y
+off er .
+●
+F acilitate
+and
+carr y
+out
+the
+functions
+of
+the
+Ser vice;
+●
+T o
+carr y
+out
+our
+obligations
+and
+enfor ce
+our
+rights
+arising
+fr om
+any
+contr acts
+enter ed
+int o
+between
+y ou
+and
+us,
+including
+for
+billing
+and
+collection;
+●
+Enfor ce
+our
+T erms
+of
+Ser vice
+and
+other
+policies,
+and
+pr e v enting
+pr ohibited
+or
+illegal
+activities,
+or
+violations
+of
+our
+T erms
+of
+Ser vice;
+●
+Impr o v e
+the
+Ser vice;
+○
+F or
+example,
+we
+ma y
+identify
+wa ys
+t o
+impr o v e
+the
+Ser vice
+based
+on
+y our
+IP
+addr ess
+activity
+or
+suppor t
+r equests
+y ou
+submit.
+●
+T o
+allow
+y ou
+t o
+par ticipate
+in
+inter activ e
+f eatur es
+on
+the
+Site;
+●
+Administer
+r ef err al
+pr ogr ams,
+r ewar ds,
+sur v e ys,
+contests,
+or
+other
+pr omotional
+activities
+or
+sponsor ed
+e v ents;
+●
+Comply
+with
+our
+legal
+obligations,
+r esolv e
+any
+disputes
+that
+we
+ma y
+ha v e
+with
+any
+of
+our
+users,
+and
+enfor ce
+our
+agr eements;
+●
+F or
+any
+other
+purpose
+disclosed
+t o
+y ou
+and
+t o
+which
+y ou
+consent.W e
+use
+Non-P ersonal
+Information
+t o
+help
+us
+t o
+tr ack
+tr ends
+and
+analyz e
+use
+patterns
+on
+the
+Site,
+and
+t o
+assess
+and
+impr o v e
+the
+Ser vice.
+Our
+ser v er
+logs
+IP
+addr esses
+of
+all
+r equests,
+but
+we
+do
+not
+link
+IP
+addr esses
+t o
+any
+P ersonal
+Information,
+cookies,
+usage
+data,
+or
+any
+other
+user
+br owsing
+data.
+IP
+addr esses
+ar e
+used
+only
+for
+technical
+purposes
+lik e
+ser v er
+load-balancing
+or
+bug
+ﬁxing.
+Impactst or y
+ma y
+compile
+information
+and
+data
+in
+an
+aggr egated
+form
+r elated
+t o
+the
+per formance,
+oper ation,
+and
+use
+of
+the
+Ser vice
+(collectiv ely ,
+"Data
+Repor ts"),
+and
+ma y
+use
+such
+Data
+Repor ts
+for
+security ,
+statistical,
+or
+oper ations
+analyses,
+and
+for
+r esear ch
+and
+de v elopment
+purposes.
+Data
+Repor ts
+shall
+not
+incorpor ate
+any
+information
+in
+a
+form
+that
+would
+identify
+any
+individual.
+Impactst or y
+r etains
+all
+right,
+title,
+and
+inter est
+in
+and
+t o
+the
+Data
+Repor ts,
+including
+all
+associated
+intellectual
+pr oper ty
+rights.
+If
+y ou
+ar e
+located
+in
+the
+EU
+or
+UK,
+this
+section
+applies
+t o
+y ou.
+The
+Gener al
+Data
+Pr otection
+Regulation
+(GDPR)
+and
+UK
+GDPR
+r equir e
+us
+t o
+explain
+the
+v alid
+legal
+bases
+we
+r ely
+on
+in
+or der
+t o
+pr ocess
+y our
+personal
+information.
+As
+such,
+we
+ma y
+r ely
+on
+the
+following
+legal
+bases
+t o
+pr ocess
+y our
+personal
+information:
+Consent
+.
+W e
+ma y
+pr ocess
+y our
+information
+if
+y ou
+ha v e
+giv en
+us
+permission
+(i.e.,
+consent)
+t o
+use
+y our
+personal
+information
+for
+a
+speciﬁc
+purpose.
+Y ou
+can
+withdr aw
+y our
+consent
+at
+any
+time.
+P er formance
+of
+a
+Contr act
+.
+W e
+ma y
+pr ocess
+y our
+personal
+information
+when
+we
+belie v e
+it
+is
+necessar y
+t o
+fulﬁll
+our
+contr actual
+obligations
+t o
+y ou,
+including
+pr o viding
+our
+Ser vices
+or
+at
+y our
+r equest
+prior
+t o
+entering
+int o
+a
+contr act
+with
+y ou.
+Legitimate
+Inter ests
+.
+W e
+ma y
+pr ocess
+y our
+information
+when
+we
+belie v e
+it
+is
+r easonably
+necessar y
+t o
+achie v e
+our
+legitimate
+business
+inter ests
+and
+those
+inter ests
+do
+not
+outweigh
+y our
+inter ests
+and
+fundamental
+rights
+and
+fr eedoms.Legal
+Obligations
+.
+W e
+ma y
+pr ocess
+y our
+information
+wher e
+we
+belie v e
+it
+is
+necessar y
+for
+compliance
+with
+our
+legal
+obligations,
+such
+as
+t o
+cooper ate
+with
+a
+law
+enfor cement
+body
+or
+r egulat or y
+agency ,
+ex er cise
+or
+def end
+our
+legal
+rights,
+or
+disclose
+y our
+information
+as
+e vidence
+in
+litigation
+in
+which
+we
+ar e
+inv olv ed.
+Vital
+Inter ests
+.
+W e
+ma y
+pr ocess
+y our
+information
+wher e
+we
+belie v e
+it
+is
+necessar y
+t o
+pr otect
+y our
+vital
+inter ests
+or
+the
+vital
+inter ests
+of
+a
+thir d
+par ty ,
+such
+as
+situations
+inv olving
+potential
+thr eats
+t o
+the
+saf ety
+of
+any
+person.
+If
+y ou
+ar e
+located
+in
+the
+Canada,
+this
+section
+applies
+t o
+y ou.
+W e
+ma y
+pr ocess
+y our
+information
+if
+y ou
+ha v e
+giv en
+us
+speciﬁc
+permission
+(i.e.,
+expr ess
+consent)
+t o
+use
+y our
+personal
+information
+for
+a
+speciﬁc
+purpose,
+or
+in
+situations
+wher e
+y our
+permission
+can
+be
+inf err ed
+(i.e.,
+implied
+consent).
+Y ou
+can
+withdr aw
+y our
+consent
+at
+any
+time.
+In
+some
+ex ceptional
+cases,
+we
+ma y
+be
+legally
+permitted
+under
+applicable
+law
+t o
+pr ocess
+y our
+information
+without
+y our
+consent,
+including,
+for
+example
+If
+collection
+is
+clearly
+in
+the
+inter ests
+of
+an
+individual
+and
+consent
+cannot
+be
+obtained
+in
+a
+timely
+wa y
+F or
+inv estigations
+and
+fr aud
+detection
+and
+pr e v ention
+F or
+business
+tr ansactions
+pr o vided
+cer tain
+conditions
+ar e
+met
+If
+it
+is
+contained
+in
+a
+witness
+statement
+and
+the
+collection
+is
+necessar y
+t o
+assess,
+pr ocess,
+or
+settle
+an
+insur ance
+claim
+F or
+identifying
+injur ed,
+ill,
+or
+deceased
+persons
+and
+communicating
+with
+next
+of
+kin
+If
+we
+ha v e
+r easonable
+gr ounds
+t o
+belie v e
+an
+individual
+has
+been,
+is,
+or
+ma y
+be
+victim
+of
+ﬁnancial
+abuseIf
+it
+is
+r easonable
+t o
+expect
+collection
+and
+use
+with
+consent
+would
+compr omise
+the
+a v ailability
+or
+the
+accur acy
+of
+the
+information
+and
+the
+collection
+is
+r easonable
+for
+purposes
+r elated
+t o
+inv estigating
+a
+br each
+of
+an
+agr eement
+or
+a
+contr a v ention
+of
+the
+laws
+of
+Canada
+or
+a
+pr o vince
+If
+disclosur e
+is
+r equir ed
+t o
+comply
+with
+a
+subpoena,
+warr ant,
+cour t
+or der ,
+or
+rules
+of
+the
+cour t
+r elating
+t o
+the
+pr oduction
+of
+r ecor ds
+If
+it
+was
+pr oduced
+b y
+an
+individual
+in
+the
+course
+of
+their
+emplo yment,
+business,
+or
+pr of ession
+and
+the
+collection
+is
+consistent
+with
+the
+purposes
+for
+which
+the
+information
+was
+pr oduced
+If
+the
+collection
+is
+solely
+for
+journalistic,
+ar tistic,
+or
+liter ar y
+purposes
+If
+the
+information
+is
+publicly
+a v ailable
+and
+is
+speciﬁed
+b y
+the
+r egulations
+H o w
+W e
+D i s c l o s e
+Y o u r
+I n f o r m a t i o n
+W e
+ma y
+disclose
+any
+P ersonal
+Information
+or
+Non-P ersonal
+Information
+y ou
+shar e
+with
+us
+t o
+cer tain
+thir d
+par ties
+for
+the
+purpose
+of
+facilitating
+and
+carr ying
+out
+the
+Ser vice,
+such
+as
+the
+pr o viders
+of
+ser v ers
+for
+our
+email
+communications
+who
+ar e
+pr o vided
+access
+t o
+user ' s
+email
+addr ess
+for
+purposes
+of
+sending
+emails
+fr om
+us.
+Those
+v endors
+use
+y our
+P ersonal
+Information
+only
+at
+our
+dir ection
+and
+in
+accor dance
+with
+our
+Priv acy
+P olicy .
+W e
+ma y
+disclose
+aggr egated,
+anonymous
+information
+about
+our
+users
+and
+any
+information
+that
+does
+not
+identify
+any
+speciﬁc
+individual
+for
+business
+purposes.
+W e
+ma y
+also
+disclose
+y our
+personal
+information:
+(1)
+t o
+comply
+with
+any
+cour t
+or der ,
+law ,
+or
+legal
+pr ocess,
+including
+t o
+r espond
+t o
+any
+go v ernment
+or
+r egulat or y
+r equest;
+(2)
+t o
+ensur e
+compliance
+with
+our
+T erms
+of
+Ser vice
+and
+other
+agr eements,
+such
+as
+billing;
+(3)
+t o
+pr otect
+the
+rights,
+pr oper ty ,
+or
+saf etyof
+Impactst or y ,
+our
+cust omers,
+or
+others;
+and
+(4)
+in
+connection
+with
+or
+during
+negotiations
+of,
+any
+mer ger ,
+sale
+of
+company
+assets,
+ﬁnancing,
+or
+acquisition
+of
+all
+or
+a
+por tion
+of
+our
+business
+t o
+another
+company .
+Ex cept
+as
+other wise
+stated
+in
+this
+P olicy ,
+we
+do
+not
+sell,
+tr ade,
+r ent,
+or
+other wise
+shar e
+y our
+P ersonal
+Information
+with
+thir d
+par ties
+without
+y our
+consent.
+D a t a
+S e c u r i t y
+W e
+implement
+security
+measur es
+designed
+t o
+pr otect
+y our
+information
+fr om
+unauthoriz ed
+access,
+use,
+or
+disclosur e.
+W e
+pr otect
+y our
+information
+fr om
+potential
+security
+br eaches
+b y
+implementing
+cer tain
+technological
+security
+measur es
+including
+encr yption,
+ﬁr ewalls
+and
+secur e
+sock et
+la y er
+technology .
+Howe v er ,
+these
+measur es
+do
+not
+guar antee
+that
+y our
+information
+will
+not
+be
+accessed,
+disclosed,
+alter ed
+or
+destr o y ed
+b y
+br each
+of
+such
+ﬁr ewalls
+and
+secur e
+ser v er
+softwar e.
+By
+using
+our
+Ser vice,
+y ou
+acknowledge
+that
+y ou
+understand
+and
+agr ee
+t o
+assume
+these
+risks,
+and
+Impactst or y
+shall
+not
+be
+r esponsible
+for
+the
+cir cumv ention
+of
+any
+of
+the
+Ser vice ' s
+priv acy
+settings
+or
+security
+measur es.
+If
+y ou
+ha v e
+a
+unique
+API
+k e y
+we
+ur ge
+y ou
+t o
+tak e
+steps
+t o
+k eep
+y our
+API
+k e y
+pr otected
+fr om
+unauthoriz ed
+use
+b y
+others.
+W e
+ma y
+st or e
+y our
+information
+for
+up
+t o
+six
+months
+after
+y ou
+st op
+using
+the
+Ser vice,
+unless
+y ou
+r equest
+that
+we
+delete
+y our
+information
+sooner
+in
+accor dance
+with
+this
+P olicy .
+Y o u r
+R i g h t s
+R e l a t e d
+t o
+Y o u r
+I n f o r m a t i o n
+In
+some
+r egions
+(lik e
+the
+EEA,
+UK,
+Switz erland,
+and
+Canada),
+y ou
+ha v e
+cer tain
+rights
+under
+applicable
+data
+pr otection
+laws.
+These
+ma y
+include
+the
+right
+(i)
+t o
+r equest
+access
+and
+obtain
+a
+cop y
+of
+y our
+personal
+information,
+(ii)
+t o
+r equest
+r ectiﬁcation
+or
+er asur e;
+(iii)
+t o
+r estrict
+the
+pr ocessing
+of
+y our
+personal
+information;
+(vi)
+if
+applicable,
+t o
+data
+por tability;
+and
+(vii)
+not
+t o
+be
+subject
+t o
+aut omated
+decision-making.
+In
+cer tain
+cir cumstances,
+y ou
+ma y
+also
+ha v e
+theright
+t o
+object
+t o
+the
+pr ocessing
+of
+y our
+personal
+information.
+W e
+will
+consider
+and
+act
+upon
+any
+r equest
+in
+accor dance
+with
+the
+applicable
+data
+pr otection
+laws.
+Y ou
+ma y
+r equest
+a
+cop y
+of
+y our
+personal
+data
+fr om
+us
+at
+any
+time.
+If
+y ou
+r equest
+a
+cop y
+of
+y our
+data,
+we
+will
+pr o vide
+y ou
+a
+cop y
+in
+a
+structur ed,
+electr onic
+format.
+Y ou
+ma y
+also
+r equest
+that
+y our
+personal
+data
+be
+corr ected
+if
+y ou
+belie v e
+it
+is
+incorr ect
+or
+incomplete,
+or
+that
+it
+be
+deleted
+entir ely .
+W e
+will
+delete
+y our
+personal
+data
+upon
+y our
+r equest
+if
+y ou
+send
+us
+a
+r equest
+with
+a
+description
+of
+the
+basis
+for
+y our
+r equest;
+howe v er ,
+we
+ma y
+ﬁrst
+r estrict
+pr ocessing
+of
+y our
+data
+as
+permitted
+under
+applicable
+law
+in
+or der
+t o
+assess
+y our
+r equest
+prior
+t o
+any
+deletion
+of
+data.
+Finally ,
+y ou
+ma y
+object
+t o
+our
+pr ocessing
+of
+y our
+personal
+data,
+or
+r equest
+that
+we
+r estrict
+the
+pr ocessing
+of
+y our
+personal
+data.
+If
+y ou
+r equest
+that
+we
+r estrict
+pr ocessing
+of
+y our
+data,
+we
+will
+st op
+pr ocessing
+y our
+data,
+but
+we
+ma y
+still
+st or e
+y our
+data
+as
+permitted
+under
+applicable
+law
+pending
+an
+assessment
+of
+y our
+r equest.
+W e
+ma y
+not
+be
+able
+t o
+delete
+y our
+personal
+data
+ex cept
+b y
+also
+deleting
+y our
+account,
+if
+applicable.
+W e
+ma y
+not
+be
+able
+t o
+accommodate
+a
+r equest
+t o
+change
+or
+delete
+information
+if
+we
+the
+change
+would
+violate
+any
+law
+or
+legal
+r equir ement,
+or
+if
+such
+change
+would
+cause
+the
+information
+t o
+be
+incorr ect.
+Y ou
+ma y
+r e v ok e
+consent
+t o
+our
+pr ocessing
+activities
+that
+ar e
+based
+on
+y our
+consent,
+if
+and
+when
+applicable.
+If
+y ou
+withdr aw
+y our
+consent,
+we
+ma y
+not
+be
+able
+t o
+pr o vide
+cer tain
+pr oducts
+or
+ser vices
+t o
+y ou.
+W e
+will
+advise
+y ou
+if
+this
+is
+the
+case
+at
+the
+time
+y ou
+withdr aw
+y our
+consent.
+Please
+dir ect
+all
+r equests
+r elated
+t o
+y our
+information
+t o
+Jason
+Priem
+at
+team@ourr esear ch.or g.If
+y ou
+ar e
+a
+r esident
+of
+the
+E ur opean
+E conomic
+Ar ea
+or
+UK
+and
+y ou
+belie v e
+we
+ar e
+unlawfully
+pr ocessing
+y our
+personal
+information,
+y ou
+also
+ha v e
+the
+right
+t o
+complain
+t o
+y our
+local
+data
+pr otection
+super visor y
+authority .
+Y ou
+can
+ﬁnd
+their
+contact
+details
+her e:
+https:/ /ec.eur opa.eu/justice/data-pr otection/bodies/authorities/index_en.htm
+R i g h t s
+A v a i l a b l e
+t o
+C e r t a i n
+U n i t e d
+S t a t e s
+R e s i d e n t s
+Residents
+of
+cer tain
+states
+within
+the
+United
+States
+ar e
+gr anted
+speciﬁc
+rights
+r elated
+t o
+access
+and
+pr ocessing
+of
+personal
+information.
+What
+categories
+of
+personal
+information
+do
+we
+collect?
+W e
+ha v e
+collected
+the
+following
+categories
+of
+personal
+information
+in
+the
+past
+twelv e
+months:
+A.
+Identiﬁers
+a.
+Examples:
+Contact
+details,
+such
+as
+r eal
+name,
+alias,
+postal
+addr ess,
+telephone
+or
+mobile
+contact
+number ,
+unique
+personal
+identiﬁer ,
+online
+identiﬁer ,
+Internet
+Pr ot ocol
+addr ess,
+email
+addr ess,
+and
+account
+name
+W e
+ha v e
+NO T
+collected
+the
+following
+categories
+of
+information
+in
+the
+past
+twelv e
+months:
+A.
+P ersonal
+information
+as
+deﬁned
+in
+the
+California
+Consumer
+Recor ds
+statute
+B.
+Pr otected
+classiﬁcation
+char acteristics
+under
+state
+or
+f eder al
+law
+C.
+Commer cial
+information
+(such
+as
+tr ansaction
+information,
+pur chase
+hist or y ,
+pa yment
+information)
+D .
+Biometric
+information
+E.
+Internet
+or
+other
+similar
+network
+activity
+(such
+as
+br owsing
+hist or y ,
+sear ch
+hist or y ,
+online
+beha vior
+or
+inter est
+data)F .
+Geolocation
+data
+G.
+A udio,
+electr onic,
+visual,
+thermal,
+olfact or y ,
+or
+similar
+information
+H.
+Pr of essional
+or
+emplo yment-r elated
+information
+I.
+E ducation
+information
+J.
+Inf er ences
+dr awn
+fr om
+personal
+information
+K.
+Sensitiv e
+personal
+information
+How
+do
+we
+use
+and
+shar e
+y our
+personal
+information?
+See
+“How
+and
+Why
+W e
+Use
+Y our
+Information ”
+abo v e.
+Will
+y our
+information
+be
+shar ed
+with
+any one
+else?
+W e
+ma y
+disclose
+y our
+personal
+information
+with
+our
+ser vice
+pr o viders
+pursuant
+t o
+a
+written
+contr act
+between
+us
+and
+each
+ser vice
+pr o vider .
+W e
+ma y
+use
+y our
+personal
+information
+for
+our
+own
+business
+purposes,
+such
+as
+for
+under taking
+r esear ch
+for
+technological
+de v elopment
+and
+demonstr ation.
+This
+is
+not
+consider ed
+“ selling”
+y our
+personal
+information.
+W e
+ha v e
+not
+disclosed,
+sold,
+or
+shar ed
+any
+personal
+information
+t o
+thir d
+par ties
+for
+a
+business
+or
+commer cial
+purpose
+in
+the
+pr eceding
+twelv e
+(12)
+months.
+W e
+will
+not
+sell
+or
+shar e
+personal
+information
+in
+the
+futur e
+belonging
+t o
+website
+visit ors,
+users,
+and
+other
+consumers
+See
+also,
+“How
+W e
+Disclose
+Y our
+Information ”
+abo v e.
+California
+Residents
+California
+Civil
+Code
+Section
+1798.83,
+also
+known
+as
+the
+"Shine
+The
+Light"
+law
+permits
+our
+users
+who
+ar e
+California
+r esidents
+t o
+r equest
+and
+obtain
+fr om
+us,
+once
+a
+y ear
+and
+fr ee
+of
+char ge,
+information
+about
+categories
+of
+personal
+information
+(if
+any)
+we
+disclosed
+t o
+thir d
+par ties
+for
+dir ect
+mark eting
+purposes
+and
+the
+names
+and
+addr esses
+of
+all
+thir d
+par ties
+with
+which
+we
+shar edpersonal
+information
+in
+the
+immediately
+pr eceding
+calendar
+y ear .
+If
+y ou
+ar e
+a
+California
+r esident
+and
+would
+lik e
+t o
+mak e
+such
+a
+r equest,
+please
+submit
+y our
+r equest
+in
+writing
+t o
+us
+using
+the
+contact
+information
+pr o vided
+below .
+If
+y ou
+ar e
+under
+18
+y ears
+of
+age,
+r eside
+in
+California,
+and
+ha v e
+a
+r egister ed
+account
+with
+the
+Ser vices,
+y ou
+ha v e
+the
+right
+t o
+r equest
+r emo v al
+of
+unwanted
+data
+that
+y ou
+publicly
+post
+on
+the
+Ser vices.
+T o
+r equest
+r emo v al
+of
+such
+data,
+please
+contact
+us
+using
+the
+contact
+information
+pr o vided
+below
+and
+include
+the
+email
+addr ess
+associated
+with
+y our
+account
+and
+a
+statement
+that
+y ou
+r eside
+in
+California.
+W e
+will
+mak e
+sur e
+the
+data
+is
+not
+publicly
+displa y ed
+on
+the
+Ser vices,
+but
+please
+be
+awar e
+that
+the
+data
+ma y
+not
+be
+completely
+or
+compr ehensiv ely
+r emo v ed
+fr om
+all
+our
+systems
+(e.g.,
+backups,
+etc.).
+CCP A
+Priv acy
+Notice
+This
+section
+applies
+only
+t o
+California
+r esidents.
+Under
+the
+California
+Consumer
+Priv acy
+Act
+(CCP A),
+y ou
+ha v e
+the
+rights
+listed
+below .
+The
+California
+Code
+of
+Regulations
+deﬁnes
+a
+"r esidents"
+as:
+(1)
+e v er y
+individual
+who
+is
+in
+the
+State
+of
+California
+for
+other
+than
+a
+tempor ar y
+or
+tr ansit or y
+purpose
+and
+(2)
+e v er y
+individual
+who
+is
+domiciled
+in
+the
+State
+of
+California
+who
+is
+outside
+the
+State
+of
+California
+for
+a
+tempor ar y
+or
+tr ansit or y
+purpose
+All
+other
+individuals
+ar e
+deﬁned
+as
+" non-r esidents. "
+If
+this
+deﬁnition
+of
+"r esident"
+applies
+t o
+y ou,
+we
+must
+adher e
+t o
+cer tain
+rights
+and
+obligations
+r egar ding
+y our
+personal
+information
+Y our
+rights
+with
+r espect
+t o
+y our
+personal
+data
+Right
+t o
+r equest
+deletion
+of
+the
+data
+–Request
+t o
+deleteY ou
+can
+ask
+for
+the
+deletion
+of
+y our
+personal
+information.
+If
+y ou
+ask
+us
+t o
+delete
+y our
+personal
+information,
+we
+will
+r espect
+y our
+r equest
+and
+delete
+y our
+personal
+information,
+subject
+t o
+cer tain
+ex ceptions
+pr o vided
+b y
+law ,
+such
+as
+(but
+not
+limited
+t o)
+the
+ex er cise
+b y
+another
+consumer
+of
+his
+or
+her
+right
+t o
+fr ee
+speech,
+our
+compliance
+r equir ements
+r esulting
+fr om
+a
+legal
+obligation,
+or
+any
+pr ocessing
+that
+ma y
+be
+r equir ed
+t o
+pr otect
+against
+illegal
+activities.
+Right
+t o
+be
+informed
+–
+Request
+t o
+know
+Depending
+on
+the
+cir cumstances,
+y ou
+ha v e
+a
+right
+t o
+know:
+-
+whether
+we
+collect
+and
+use
+y our
+personal
+information;
+-
+the
+categories
+of
+personal
+information
+that
+we
+collect;
+-
+the
+purposes
+for
+which
+the
+collected
+personal
+information
+is
+used;
+-
+whether
+we
+sell
+or
+shar e
+personal
+information
+t o
+thir d
+par ties;
+-
+the
+categories
+of
+personal
+information
+that
+we
+sold,
+shar ed,
+or
+disclosed
+for
+a
+business
+purpose;
+-
+the
+categories
+of
+thir d
+par ties
+t o
+whom
+the
+personal
+information
+was
+sold,
+shar ed,
+or
+disclosed
+for
+a
+business
+purpose;
+-
+the
+business
+or
+commer cial
+purpose
+for
+collecting,
+selling,
+or
+sharing
+personal
+information;
+and
+-
+the
+speciﬁc
+pieces
+of
+personal
+information
+we
+collected
+about
+y ou.
+In
+accor dance
+with
+applicable
+law ,
+we
+ar e
+not
+obligated
+t o
+pr o vide
+or
+delete
+consumer
+information
+that
+is
+de-identiﬁed
+in
+r esponse
+t o
+a
+consumer
+r equest
+or
+t o
+r e-identify
+individual
+data
+t o
+v erify
+a
+consumer
+r equest.
+Right
+t o
+Non-Discrimination
+for
+the
+Ex er cise
+of
+a
+Consumer
+Priv acy
+Rights
+W e
+will
+not
+discriminate
+against
+y ou
+if
+y ou
+ex er cise
+y our
+priv acy
+rights.
+Right
+t o
+Limit
+Use
+and
+Disclosur e
+of
+Sensitiv e
+P ersonal
+Information
+W e
+do
+not
+pr ocess
+consumer ' s
+sensitiv e
+personal
+information.
+V eriﬁcation
+pr ocessUpon
+r eceiving
+y our
+r equest,
+we
+will
+need
+t o
+v erify
+y our
+identity
+t o
+determine
+y ou
+ar e
+the
+same
+person
+about
+whom
+we
+ha v e
+the
+information
+in
+our
+system.
+These
+v eriﬁcation
+effor ts
+r equir e
+us
+t o
+ask
+y ou
+t o
+pr o vide
+information
+so
+that
+we
+can
+match
+it
+with
+information
+y ou
+ha v e
+pr e viously
+pr o vided
+us.
+F or
+instance,
+depending
+on
+the
+type
+of
+r equest
+y ou
+submit,
+we
+ma y
+ask
+y ou
+t o
+pr o vide
+cer tain
+information
+so
+that
+we
+can
+match
+the
+information
+y ou
+pr o vide
+with
+the
+information
+we
+alr eady
+ha v e
+on
+ﬁle,
+or
+we
+ma y
+contact
+y ou
+thr ough
+a
+communication
+method
+(e.g.,
+phone
+or
+email)
+that
+y ou
+ha v e
+pr e viously
+pr o vided
+t o
+us.
+W e
+ma y
+also
+use
+other
+v eriﬁcation
+methods
+as
+the
+cir cumstances
+dictate.
+W e
+will
+only
+use
+personal
+information
+pr o vided
+in
+y our
+r equest
+t o
+v erify
+y our
+identity
+or
+authority
+t o
+mak e
+the
+r equest.
+T o
+the
+extent
+possible,
+we
+will
+a v oid
+r equesting
+additional
+information
+fr om
+y ou
+for
+the
+purposes
+of
+v eriﬁcation.
+Howe v er ,
+if
+we
+cannot
+v erify
+y our
+identity
+fr om
+the
+information
+alr eady
+maintained
+b y
+us,
+we
+ma y
+r equest
+that
+y ou
+pr o vide
+additional
+information
+for
+the
+purposes
+of
+v erifying
+y our
+identity
+and
+for
+security
+or
+fr aud-
+pr e v ention
+purposes.
+W e
+will
+delete
+such
+additionally
+pr o vided
+information
+as
+soon
+as
+we
+ﬁnish
+v erifying
+y ou.
+Other
+priv acy
+rights
+Y ou
+ma y
+object
+t o
+the
+pr ocessing
+of
+y our
+personal
+information.
+Y ou
+ma y
+r equest
+corr ection
+of
+y our
+personal
+data
+if
+it
+is
+incorr ect
+or
+no
+longer
+r ele v ant,
+or
+ask
+t o
+r estrict
+the
+pr ocessing
+of
+the
+information.
+Y ou
+can
+designate
+an
+authoriz ed
+agent
+t o
+mak e
+a
+r equest
+under
+the
+CCP A
+on
+y our
+behalf.
+W e
+ma y
+deny
+a
+r equest
+fr om
+an
+authoriz ed
+agent
+that
+does
+not
+submit
+pr oof
+that
+the y
+ha v e
+been
+v alidly
+authoriz ed
+t o
+act
+on
+y our
+behalf
+in
+accor dance
+with
+the
+CCP A.
+Y ou
+ma y
+r equest
+t o
+opt
+out
+fr om
+futur e
+selling
+or
+sharing
+of
+y our
+personal
+information
+t o
+thir d
+par ties.
+Upon
+r eceiving
+an
+opt-out
+r equest,
+we
+will
+act
+upon
+the
+r equest
+as
+soon
+as
+f easibly
+possible,
+but
+no
+later
+than
+ﬁfteen
+(15)
+da ys
+fr om
+the
+date
+of
+the
+r equest
+submission.T o
+ex er cise
+these
+rights,
+y ou
+can
+contact
+us
+b y
+visiting
+https:/ /openalex.or g/help
+,
+b y
+visiting
+https:/ /openalex.or g
+/help
+,
+or
+b y
+r ef erring
+t o
+the
+contact
+details
+at
+the
+bott om
+of
+this
+document.
+If
+y ou
+ha v e
+a
+complaint
+about
+how
+we
+handle
+y our
+data,
+we
+would
+lik e
+t o
+hear
+fr om
+y ou.
+Color ado
+Residents
+This
+section
+applies
+only
+t o
+Color ado
+r esidents.
+Under
+the
+Color ado
+Priv acy
+Act
+(CP A),
+y ou
+ha v e
+the
+rights
+listed
+below .
+Howe v er ,
+these
+rights
+ar e
+not
+absolute,
+and
+in
+cer tain
+cases
+we
+ma y
+decline
+y our
+r equest
+as
+permitted
+b y
+law .
+Right
+t o
+be
+informed
+whether
+or
+not
+we
+ar e
+pr ocessing
+y our
+personal
+data
+Right
+t o
+access
+y our
+personal
+data
+Right
+t o
+corr ect
+inaccur acies
+in
+y our
+personal
+data
+Right
+t o
+r equest
+deletion
+of
+y our
+personal
+data
+Right
+t o
+obtain
+a
+cop y
+of
+the
+personal
+data
+y ou
+pr e viously
+shar ed
+with
+us
+Right
+t o
+opt
+out
+of
+the
+pr ocessing
+of
+y our
+personal
+data
+if
+it
+is
+used
+for
+tar geted
+adv er tising,
+the
+sale
+of
+personal
+data,
+or
+pr oﬁling
+in
+fur ther ance
+of
+decisions
+that
+pr oduce
+legal
+or
+similarly
+signiﬁcant
+eff ects
+(" pr oﬁling")
+T o
+submit
+a
+r equest
+t o
+ex er cise
+these
+rights
+described
+abo v e,
+please
+email
+suppor t@ourr esear ch.or g
+or
+visit
+https:/ /openalex.or g/help
+.
+If
+we
+decline
+t o
+tak e
+action
+r egar ding
+y our
+r equest
+and
+y ou
+wish
+t o
+appeal
+our
+decision,
+please
+email
+us
+at
+suppor t@ourr esear ch.or g.
+Within
+for ty-ﬁv e
+(45)
+da ys
+of
+r eceipt
+of
+an
+appeal,
+we
+will
+inform
+y ou
+in
+writing
+of
+any
+action
+tak en
+or
+not
+tak en
+in
+r esponse
+t o
+the
+appeal,
+including
+a
+written
+explanation
+of
+the
+r easons
+for
+the
+decisions.
+Connecticut
+Residents
+This
+section
+applies
+only
+t o
+Connecticut
+r esidents.
+Under
+the
+Connecticut
+Data
+Priv acy
+Act
+(C TDP A),
+y ou
+ha v e
+the
+rights
+listed
+below .
+Howe v er ,
+theserights
+ar e
+not
+absolute,
+and
+in
+cer tain
+cases
+we
+ma y
+decline
+y our
+r equest
+as
+permitted
+b y
+law .
+Right
+t o
+be
+informed
+whether
+or
+not
+we
+ar e
+pr ocessing
+y our
+personal
+data
+Right
+t o
+access
+y our
+personal
+data
+Right
+t o
+corr ect
+inaccur acies
+in
+y our
+personal
+data
+Right
+t o
+r equest
+deletion
+of
+y our
+personal
+data
+Right
+t o
+obtain
+a
+cop y
+of
+the
+personal
+data
+y ou
+pr e viously
+shar ed
+with
+us
+Right
+t o
+opt
+out
+of
+the
+pr ocessing
+of
+y our
+personal
+data
+if
+it
+is
+used
+for
+tar geted
+adv er tising,
+the
+sale
+of
+personal
+data,
+or
+pr oﬁling
+in
+fur ther ance
+of
+decisions
+that
+pr oduce
+legal
+or
+similarly
+signiﬁcant
+eff ects
+(“ pr oﬁling”).
+T o
+submit
+a
+r equest
+t o
+ex er cise
+these
+rights
+described
+abo v e,
+please
+email
+suppor t@ourr esear ch.or g
+or
+visit
+https:/ /openalex.or g/help
+.
+If
+we
+decline
+t o
+tak e
+action
+r egar ding
+y our
+r equest
+and
+y ou
+wish
+t o
+appeal
+our
+decision,
+please
+email
+us
+at
+suppor t@ourr esear ch.or g.
+Within
+sixty
+(60)
+da ys
+of
+r eceipt
+of
+an
+appeal,
+we
+will
+inform
+y ou
+in
+writing
+of
+any
+action
+tak en
+or
+not
+tak en
+in
+r esponse
+t o
+the
+appeal,
+including
+a
+written
+explanation
+of
+the
+r easons
+for
+the
+decisions.
+Vir ginia
+Residents
+Under
+the
+Vir ginia
+Consumer
+Data
+Pr otection
+Act
+( V CDP A):
+"Consumer "
+means
+a
+natur al
+person
+who
+is
+a
+r esident
+of
+the
+Commonwealth
+acting
+only
+in
+an
+individual
+or
+household
+context.
+It
+does
+not
+include
+a
+natur al
+person
+acting
+in
+a
+commer cial
+or
+emplo yment
+context.
+"P ersonal
+data "
+means
+any
+information
+that
+is
+link ed
+or
+r easonably
+linkable
+t o
+an
+identiﬁed
+or
+identiﬁable
+natur al
+person.
+"P ersonal
+data "
+does
+not
+include
+de-identiﬁed
+data
+or
+publicly
+a v ailable
+information."Sale
+of
+personal
+data "
+means
+the
+ex change
+of
+personal
+data
+for
+monetar y
+consider ation.
+If
+this
+deﬁnition
+of
+" consumer "
+applies
+t o
+y ou,
+we
+must
+adher e
+t o
+cer tain
+rights
+and
+obligations
+r egar ding
+y our
+personal
+data.
+Y our
+rights
+with
+r espect
+t o
+y our
+personal
+data
+Right
+t o
+be
+informed
+whether
+or
+not
+we
+ar e
+pr ocessing
+y our
+personal
+data
+Right
+t o
+access
+y our
+personal
+data
+Right
+t o
+corr ect
+inaccur acies
+in
+y our
+personal
+data
+Right
+t o
+r equest
+deletion
+of
+y our
+personal
+data
+Right
+t o
+obtain
+a
+cop y
+of
+the
+personal
+data
+y ou
+pr e viously
+shar ed
+with
+us
+Right
+t o
+opt
+out
+of
+the
+pr ocessing
+of
+y our
+personal
+data
+if
+it
+is
+used
+for
+tar geted
+adv er tising,
+the
+sale
+of
+personal
+data,
+or
+pr oﬁling
+in
+fur ther ance
+of
+decisions
+that
+pr oduce
+legal
+or
+similarly
+signiﬁcant
+eff ects
+(" pr oﬁling")
+Ex er cise
+y our
+rights
+pr o vided
+under
+the
+Vir ginia
+V CDP A
+Y ou
+ma y
+contact
+us
+b y
+email
+at
+suppor t@ourr esear ch.or g
+or
+visit
+https:/ /openalex.or g/help
+.
+If
+y ou
+ar e
+using
+an
+authoriz ed
+agent
+t o
+ex er cise
+y our
+rights,
+we
+ma y
+deny
+a
+r equest
+if
+the
+authoriz ed
+agent
+does
+not
+submit
+pr oof
+that
+the y
+ha v e
+been
+v alidly
+authoriz ed
+t o
+act
+on
+y our
+behalf.
+V eriﬁcation
+pr ocess
+W e
+ma y
+r equest
+that
+y ou
+pr o vide
+additional
+information
+r easonably
+necessar y
+t o
+v erify
+y ou
+and
+y our
+consumer ' s
+r equest.
+If
+y ou
+submit
+the
+r equest
+thr ough
+an
+authoriz ed
+agent,
+we
+ma y
+need
+t o
+collect
+additional
+information
+t o
+v erify
+y our
+identity
+befor e
+pr ocessing
+y our
+r equest.
+Upon
+r eceiving
+y our
+r equest,
+we
+will
+r espond
+without
+undue
+dela y ,
+but
+in
+all
+cases,
+within
+for ty-ﬁv e
+(45)
+da ys
+of
+r eceipt.
+The
+r esponse
+period
+ma y
+be
+extended
+once
+b y
+for ty-ﬁv e
+(45)
+additional
+da ys
+when
+r easonably
+necessar y .W e
+will
+inform
+y ou
+of
+any
+such
+extension
+within
+the
+initial
+45-da y
+r esponse
+period,
+t ogether
+with
+the
+r eason
+for
+the
+extension.
+Right
+t o
+appeal
+If
+we
+decline
+t o
+tak e
+action
+r egar ding
+y our
+r equest,
+we
+will
+inform
+y ou
+of
+our
+decision
+and
+r easoning
+behind
+it.
+If
+y ou
+wish
+t o
+appeal
+our
+decision,
+please
+email
+us
+at
+suppor t@ourr esear ch.or g.
+Within
+sixty
+(60)
+da ys
+of
+r eceipt
+of
+an
+appeal,
+we
+will
+inform
+y ou
+in
+writing
+of
+any
+action
+tak en
+or
+not
+tak en
+in
+r esponse
+t o
+the
+appeal,
+including
+a
+written
+explanation
+of
+the
+r easons
+for
+the
+decisions.
+If
+y our
+appeal
+is
+denied,
+y ou
+ma y
+contact
+the
+A tt orne y
+Gener al
+t o
+submit
+a
+complaint
+F a i l u r e
+t o
+P r o v i d e
+P e r s o n a l
+I n f o r m a t i o n
+If
+y ou
+fail
+t o
+pr o vide
+P ersonal
+Information
+when
+it
+is
+r equir ed
+b y
+law
+or
+necessar y
+for
+us
+t o
+per form
+our
+obligations
+under
+a
+contr act
+with
+y ou,
+we
+ma y
+not
+be
+able
+t o
+per form
+the
+contr act.
+F or
+example,
+if
+y ou
+fail
+t o
+pr o vide
+us
+with
+y our
+billing
+information
+t o
+pa y
+for
+a
+Data
+F eed
+Subscription,
+we
+ma y
+not
+be
+able
+t o
+pr o vide
+y ou
+with
+the
+Data
+F eed
+Subscription
+y ou
+r equested.
+D a t a
+R e t e n t i o n
+In
+gener al,
+we
+will
+only
+r etain
+P ersonal
+Information
+for
+as
+long
+as
+y ou
+ar e
+using
+the
+Ser vices
+or
+as
+other wise
+needed
+t o
+pr o vide
+y ou
+the
+Ser vices.
+W e
+ma y
+also
+r etain
+and
+use
+y our
+P ersonal
+Information
+as
+necessar y
+t o
+satisfy
+any
+legal
+r equir ements,
+including
+enfor cing
+our
+rights
+and
+agr eements
+and
+r esolving
+disputes.
+W e
+will
+tr y
+t o
+delete
+y our
+information
+pr omptly
+consistent
+with
+these
+data
+r etention
+pr actices.
+Howe v er ,
+ther e
+might
+be
+some
+technical
+dela y
+inv olv ed
+in
+deleting
+information
+fr om
+our
+ser v ers,
+and
+back ed-up
+v ersions
+might
+still
+exist
+after
+deletion.
+In
+addition,
+we
+do
+not
+delete
+any
+data
+that
+has
+been
+r ender ed
+completely
+anonymous
+or
+maintained
+in
+de-identiﬁed,
+aggr egated
+form
+with
+data
+of
+other
+users
+(such
+as
+usage
+tr end
+r epor ts).T o
+determine
+the
+appr opriate
+r etention
+period
+for
+P ersonal
+Information,
+we
+consider
+the
+amount,
+natur e,
+and
+sensitivity
+of
+the
+personal
+data,
+the
+potential
+risk
+of
+harm
+fr om
+unauthoriz ed
+use
+or
+disclosur e
+of
+y our
+personal
+data,
+the
+purposes
+for
+which
+we
+pr ocess
+y our
+personal
+data
+and
+whether
+we
+can
+achie v e
+those
+purposes
+thr ough
+other
+means,
+and
+the
+applicable
+legal
+r equir ements.
+I n t e r n a t i o n a l
+T r a n s f e r s
+o f
+D a t a
+Impactst or y ' s
+principal
+business
+oper ations
+ar e
+conducted
+in
+the
+United
+States,
+but
+the
+Ser vice
+ma y
+be
+a v ailable
+t o
+users
+outside
+the
+United
+States.
+If
+y ou
+ar e
+visiting
+this
+Site
+fr om
+a
+countr y
+other
+than
+the
+United
+States,
+y our
+communications
+with
+us
+ma y
+r esult
+in
+the
+tr ansf er
+of
+information
+outside
+of
+the
+countr y
+fr om
+which
+y ou
+r eside
+or
+use
+the
+Ser vice.
+By
+visiting
+the
+Site,
+communicating
+electr onically
+with
+us,
+and/or
+using
+the
+Ser vice,
+y ou
+consent
+t o
+any
+and
+all
+such
+tr ansf ers.
+L i n k s
+t o
+O t h e r
+W e b s i t e s
+As
+par t
+of
+the
+Ser vice,
+we
+ma y
+pr o vide
+links
+t o
+or
+compatibility
+with
+other
+websites
+or
+applications.
+Howe v er ,
+we
+ar e
+not
+r esponsible
+for
+the
+priv acy
+pr actices
+emplo y ed
+b y
+those
+websites
+or
+the
+information
+or
+content
+the y
+contain.
+This
+P olicy
+applies
+solely
+t o
+information
+collected
+b y
+us
+thr ough
+the
+Site
+and
+the
+Ser vice.
+Ther efor e,
+this
+P olicy
+does
+not
+apply
+t o
+y our
+use
+of
+a
+thir d
+par ty
+website
+accessed
+b y
+selecting
+a
+link
+on
+our
+Site
+or
+via
+our
+Ser vice.
+T o
+the
+extent
+that
+y ou
+access
+or
+use
+the
+Ser vice
+thr ough
+or
+on
+another
+website
+or
+application,
+then
+the
+priv acy
+P olicy
+of
+that
+other
+website
+or
+application
+will
+apply
+t o
+y our
+access
+or
+use
+of
+that
+site
+or
+application.
+W e
+encour age
+our
+users
+t o
+r ead
+the
+priv acy
+statements
+of
+other
+websites
+befor e
+pr oceeding
+t o
+use
+them.C h a n g e s
+t o
+O u r
+P r i v a c y
+P o l i c y
+W e
+r eser v e
+the
+right
+t o
+change
+this
+P olicy
+and
+our
+T erms
+of
+Ser vice
+at
+any
+time.
+W e
+will
+notify
+y ou
+of
+signiﬁcant
+changes
+t o
+our
+P olicy
+b y
+sending
+a
+notice
+t o
+the
+primar y
+email
+addr ess
+speciﬁed
+in
+y our
+account
+or
+b y
+placing
+a
+pr ominent
+notice
+on
+our
+site.
+Signiﬁcant
+changes
+will
+go
+int o
+eff ect
+thir ty
+(30)
+da ys
+following
+such
+notiﬁcation.
+Non-material
+changes
+or
+clariﬁcations
+will
+tak e
+eff ect
+immediately .
+Y ou
+should
+periodically
+check
+the
+Site
+and
+this
+priv acy
+page
+for
+updates.
+In
+the
+e v ent
+we
+under go
+a
+business
+tr ansaction
+such
+as
+a
+mer ger ,
+acquisition
+b y
+another
+company ,
+or
+sale
+of
+all
+or
+a
+por tion
+of
+our
+assets,
+y our
+P ersonal
+Information
+ma y
+be
+among
+the
+assets
+tr ansf err ed.
+Y ou
+acknowledge
+and
+consent
+that
+such
+tr ansf ers
+ma y
+occur
+and
+ar e
+permitted
+b y
+this
+Priv acy
+P olicy ,
+and
+that
+any
+acquir er
+of
+our
+assets
+ma y
+continue
+t o
+pr ocess
+y our
+P ersonal
+Information
+as
+set
+for th
+in
+this
+Priv acy
+P olicy .
+C o n t a c t
+U s
+Y ou
+ha v e
+the
+right
+t o
+mak e
+a
+complaint
+at
+any
+time
+t o
+y our
+local
+data
+pr otection
+authority
+if
+y ou
+ha v e
+concerns
+r egar ding
+y our
+rights
+under
+applicable
+law .
+W e
+would,
+howe v er ,
+appr eciate
+the
+chance
+t o
+addr ess
+y our
+concerns
+so
+please
+contact
+us
+ﬁrst
+so
+that
+we
+can
+discuss
+a
+r esolution
+with
+y ou
+dir ectly .
+If
+y ou
+ha v e
+any
+questions
+r egar ding
+this
+P olicy
+or
+our
+data
+pr ocessing
+pr actices,
+please
+contact
+us
+b y
+sending
+an
+email
+t o
+team@ourr esear ch.or g.
+Our
+full
+details
+ar e:
+F ull
+name
+of
+legal
+entity:
+Impactst or y ,
+Inc.
+Individual
+Contact:
+Jason
+Priem
+Email
+addr ess:
+team@ourr esear ch.or g
+P ostal
+addr ess:
+500
+W est o v er
+Dr
+#8234
+Sanfor d,
+NC
+27330-8941
+T elephone
+number:
+778-848-4724

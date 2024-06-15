@@ -1,0 +1,520 @@
+Privacy Policy   
+We, Pineapple Builder (hereinafter "Pineapple Builder" or "we") would like to use this privacy policy to inform 
+Pineapple Builder users and visitors to our website www.pineapplebuilder.com about the purpose, nature and extent 
+of the processing of personal data.  
+ 
+The Controller  
+The party responsible for data processing on this website within the meaning of the General Data Protection 
+Regulation (GDPR) and the UK's Data Protection Act (DPA) is:  
+ 
+Aurity Ltd trading as "Pineapple Builder"  
+Kemp House, 152 City Road,  
+London EC1V 2NX  
+V AT: GB206025750  
+Company Registration No: 09428494  
+ 
+Email: support@aurity.co  
+Web: www.pineapplebuilder.com  
+ 
+ 
+Our websites and services are constantly being revised and further developed. This also means that this pri vacy 
+policy is regularly revised and updated. This applies in particular with regard to the procedures we use for usage 
+analysis, for measuring the effectiveness of advertising methods and comparable services, in particular from third -
+party providers. The current status can be found in this privacy policy at any time.  
+ 
+A few words in advance regarding the use of service providers outside the European Union: Pineapple Builder is a 
+service that is offered internationally. It therefore does not only extend to the United Kingdom  or the European 
+Union. We operate worldwide, and our customers are spread across the planet. Generally, we prefer to use UK or 
+EU based  service providers for certain services if they can provide the required services for us in an equally  good 
+and comparably priced manner. However, we want to be honest. For many services we use, there are currently no 
+providers or the existing providers do not represent an acceptable alternative. We therefore use a whole range of 
+service providers from out side the European Union and in particular from the USA. We ensure that all measures are 
+taken that are required under UK or European data protection law to guarantee an appropriate level of data 
+protection.  
+ 
+Use of personal data  
+We collect, process and use  personal data in order to provide our services. This includes promoting our products 
+and informing prospective customers and Pineapple Builder users about features. The extent to which personal data 
+is processed depends firstly on whether one of our websi tes is merely "visited" or whether websites are used as 
+Pineapple Builder users or registration as a user takes place.  
+ 
+Privacy of children  
+Our websites are generally accessible websites and are not intended for children. We do not knowingly collect 
+person al data from users who are considered children under their respective national laws.  
+ 
+Processing of personal data  
+ 
+The purposes of the processing  
+Pineapple Builder uses the Pineapple Builder User's personal data in order to fulfil and perform the contract with 
+the Pineapple Builder User and to provide our services (Art. 6(1)(b) GDPR), to comply with our legal obligation 
+(Art. 6(1)(c) GDPR) or to protect the vital interests of the Pineapple Builder User (Art. 6(1)(d) GDPR). This includes 
+the following cases:  
+ 
+• to provide access to and use of our Services (including billing), in particular to publish advertisements and 
+other content of the User, and  
+• to measure and improve the quality and success of our Services,  
+• to keep our Services secure and operational, and  Privacy Policy   
+• to adapt the content of the website and Services to what the Pineapple Builder User might like based on the 
+actions taken by the Pineapple Builder User;  
+• to contact the Pineapple Builder user regarding his or her account by email, or live chat;  
+• to resolve problems with the account, to resolve disputes, to enforce claims for fees; or  
+• to provide other necessary customer services;  
+• to de tect, prevent and investigate fraud, security breaches or other potentially prohibited or unlawful 
+activities;  
+• to enforce our terms and conditions, this Privacy Policy or other policies.  
+ 
+We use the Pineapple Builder User's personal data to pursue our legi timate interests, provided that the interests or 
+fundamental rights and freedoms are not overridden (Art. 6 para. 1 lit. f) GDPR). We have implemented control 
+mechanisms to align our interests with the Pineapple Builder user's rights. On this basis, we use  the data as follows:  
+ 
+• to improve our services, for example by reviewing information related to blocked or crashed pages so that 
+we can identify and fix problems and provide a better user experience;  
+• to monitor and improve the information security of our S ervices;  
+• for advertising/marketing purposes.  
+ 
+Our interest in addressing advertising in a needs -based manner is to be regarded as legitimate within the meaning 
+of the aforementioned provisions:  
+• to personalise, measure and improve our advertising based on what the Pineapple Builder User might like;  
+• for the purpose of direct marketing, to contact the Pineapple Builder User by email or post to the extent 
+permitted by applicable law, to offer coupons, discounts and special promotions,  
+• to solicit the Pineapple  Builder User's opinion through surveys or questionnaires and to inform the 
+Pineapple Builder User about our services;  
+• to provide the Pineapple Builder User with targeted marketing, service updates and promotional offers that 
+the Pineapple Builder User may  like; 
+• to review the quality and success of our email marketing campaigns (e.g., by analysing open and click -
+through rates);  
+ 
+With the Pineapple Builder user's consent (Article 6(1)(a) of the GDPR), we may also use their personal data:  
+• to provide advertising by email;  
+• to provide advertising from third parties;  
+ 
+We limit the amount of personal data we share to what is directly relevant and necessary to achieve the stated 
+purpose.  
+ 
+What information is stored, and how is it used?  
+ 
+Information provided  by the user when opening a customer account and for contract processing:  
+When registering for a Pineapple Builder website, it is necessary to provide an email address and password and to 
+create a customer account. The username can be published as part of the subdomain or web address generated by 
+the system. The email address is used, among other things, to send notifications about the Pineapple Builder Page 
+to the Pineapple Builder user. This includes, for example, access data, announcements, information, etc. For certain 
+service packages and/or certain functions, such as the Shop, it is necessary to enter further contact data and payment 
+information.  
+ 
+Pursuant to Art. 6 para. 1 lit. b GDPR, personal data will continue to be collected and processed if the u ser provides 
+it to us for the performance of a contract or when opening a customer account. Which data is collected can be seen 
+from the respective input forms.  
+ 
+Deletion of the customer account is possible at any time and can be effected by sending a mes sage to the address of 
+the responsible party (Pineapple Builder) given above . We store and use the data provided by the Pineapple Builder 
+user for the purpose of processing the contract. After complete execution of the contract or deletion of the customer 
+account, the data will be blocked with regard to retention periods under tax and commercial law and deleted after Privacy Policy   
+expiry of these periods, unless the Pineapple Builder user has expressly consented to further use of his or her data 
+or a legally permitted fu rther use of data has been reserved on our part, about which we inform the user accordingly 
+below.  
+ 
+Login with GitHub  and Google+  
+If a user has a profile on GitHub /Google+, he or she can log in to our website to create a customer account or register 
+using the social plugin, GitHub or Google+, as part of the so -called Single Sign On technology.  
+ 
+When the site visitor calls up a page of our website that contains such a plugin, his or her browser establishes a 
+direct connection to the servers of the respective service. The content of the plugin is transmitted by GitHub  or 
+Google directly to the browser and integrated into the page. Through this integration, GitHub  or Go ogle receives 
+the information that the browser has called up the corresponding page of our website, even if the visitor/user does 
+not have a GitHub  or Google+ profile or is not currently logged in to the respective service. This information 
+(including the IP address) is transmitted by the browser directly to a Facebook or Google server in the USA and 
+stored there.  
+ 
+These data processing operations are carried out in accordance with Art. 6 (1) f GDPR on the basis of 
+Facebook/Google's legitimate interest in d isplaying personalised advertising based on browsing behaviour.  
+ 
+Exclusively if the user gives his or her express consent prior to the registration process on the basis of a 
+corresponding notice about the exchange of data with GitHub  or Google+, we receive  the general and publicly 
+accessible information stored in the respective profile when using the GitHub  or Google+ button, depending on the 
+privacy settings personally made with the respective service. This information includes the user ID, name, profile 
+picture and age. The data transmitted by GitHub  is stored and processed by us in order to create a user account with 
+the necessary data, if this has been released by the user on GitHub  for this purpose (title, first name, last name, 
+address data, country, a nd e-mail address). Conversely, data (e.g., information on surfing or purchasing behaviour) 
+may be transferred from us to the corresponding GitHub  profile on the basis of consent.  
+ 
+GitHub  Inc. and Google LLC are based in the USA. The purpose and scope of t he data collection and the further 
+processing and use of the data by Facebook or Google as well as the related rights and setting options for the 
+protection of privacy can be found in the respective privacy policies of GitHub  or Google.  
+ 
+If the user does n ot want GitHub  or Google to assign the data collected via our website directly to his or her GitHub  
+or Google profile, he must log out of GitHub  before visiting our website. The visitor can also completely prevent 
+the loading of the Facebook plugins with a dd-ons for the browser, e.g., with "Adblock Plus".  
+ 
+Use of payment service providers  
+As part of the ordering process, the information provided by the Pineapple Builder User together with information 
+about the order (name, address, account number, bank routing number, credit card number (if applicable), invoice 
+amount, currency and transaction number) will be passed on to the payment service provider chosen by the 
+Pineapple Builder User in accordance with Art. 6 (1) lit. b GDPR. The data will be passed o n solely for the purpose 
+of processing payment with the payment service provider and only to the extent necessary for this purpose. The 
+processing of the data can be objected to at any time by sending a message to the payment service provider.  
+ 
+Information  (log information) about the use of a Pineapple Builder website  
+The Pineapple Builder server automatically records data about the way Pineapple Builder is used by Pineapple 
+Builder users who are logged on to a website in a so -called activity log. This incl udes information about the activity 
+(including storage space used, number of logins, etc.) as well as statistical data (such as browser, date, and time of 
+access, cookie ID and referrer URL) and the IP address of the Pineapple Builder user. The processing is carried out 
+in accordance with Art. 6 (1) f GDPR on the basis of our legitimate interest in improving the stability and 
+functionality of our website. The data is not passed on or used in any other way. However, we reserve the right to 
+check the server l og files retrospectively if there are concrete indications of illegal use. However, Pineapple Builder 
+does not record when and at what point on the website content was created, modified or deleted.  
+ 
+When you visit a Pineapple Builder website (www.pineapple builder.com, your own Pineapple Builder website or 
+the pages of other Pineapple Builder users), the Pineapple Builder servers automatically store the information that Privacy Policy   
+the browser sends when this page is visited. The information includes the request, the IP  address, browser type and 
+language, and the date and time of the request.  
+ 
+The information is used to analyse and maintain the technical operation of our servers and network as well as to 
+combat abuse and is automatically deleted after 7 days. The process ing is carried out in accordance with Art. 6 para. 
+1 lit. f GDPR on the basis of our legitimate interest in improving the stability and functionality of our websites. The 
+data is not passed on or used in any other way. However, we reserve the right to chec k the server log files 
+retrospectively if there are concrete indications of illegal use.  
+ 
+Third -party services and tools  
+ 
+Storage of cookies on the end device:  
+Cookies are small text files that are usually stored in the browser of the Pineapple Builder use r's terminal device for 
+the duration of the current session, i.e., until the browser is closed, but in some cases even longer. A more 
+comprehensive overview of the cookies we use and the option to object to data processing through cookies ("opt -
+out") can b e found in the list in the Pineapple Builder Cookie Policy.  
+ 
+The Pineapple Builder user can also object to the use of cookies by third -party providers on the following website 
+of the Digital Advertising Alliance: https://www.aboutads.info/choices .  
+ 
+Deactivating cookies may lead to functional limitations of the Pineapple Builder website.  
+ 
+Web analysis  
+On the basis of our legitimate interests (i.e,. interest in the analysis, optimisation and economic operation of our 
+online offer within the meaning of Art. 6 (1) lit. f. GDPR), we use web analytics services. In addition to third -party 
+analysis services, w e also use a web analysis tool developed by ourselves ("Pineapple Builder Tracking"). With 
+these measures, we want to ensure a needs -based design and the ongoing optimisation of our website. These interests 
+are to be regarded as legitimate.  
+ 
+Google Univer sal Analytics and Google Optimise  
+Pineapple Builder uses Google Analytics for its own websites and, in some cases, also for websites of our users, 
+e.g. when activating the statistics function. The web analysis and optimisation service "Google Optimise" is also 
+used on our website. Both Google Analytics and Google Optimise are web analytics services provided by Google 
+Ireland Ltd. In this context, cookies are stored on the end device of the visitor or Pineapple Builder user that enable 
+an analysis of the use  of the website. The information generated by the cookie is transmitted to a Google server in 
+the USA and stored there. We use the IP anonymisation option so that the IP address is generally shortened by 
+Google within member states of the European Union an d in other contracting states to the Agreement on the 
+European Economic Area before being transmitted to the USA. Only in exceptional cases will the full IP address be 
+transmitted to a Google server in the USA and shortened there. Google Analytics will use  this information on our 
+behalf for the purpose of evaluating your use of the website, compiling reports on website activity for website 
+operators and providing other services relating to website activity and internet usage. Google Optimise will use this 
+information on our behalf to improve the attractiveness, content and functionality of our website by enabling us to 
+offer new features and content to a percentage of our users and to statistically evaluate the change in usage. The IP 
+address transmitted by the browser as part of Google Analytics or Google Optimise will not be merged with other 
+Google data. The setting of cookies can be prevented by a corresponding setting in the browser; however, we would 
+like to point out that in this case not all functions  of this website can be used to their full extent. The collection and 
+storage of the IP address and the data generated by cookies can be objected to at any time with effect for the future. 
+The corresponding plugin for your browser can be found here: https://tools.google.com/dlpage/gaoptout .  
+ 
+Retargeting / Remarketing / Referral Advertising / Conversion Tracking / Online Marketing  
+Based on our legitimate interests, i.e. interest in  the optimal marketing of our website, as well as in the analysis of 
+user behaviour in order to optimise both the Pineapple Builder website and Pineapple Builder advertising, and where 
+applicable based on the express consent of the site visitor, Pineapple Builder uses the following online marketing 
+services on www.www.pineapplebuilder.com websites.  
+ 
+Facebook Custom Audience via the pixel process  Privacy Policy   
+On www.www.pineapplebuilder.com websites, Pineapple Builder uses the "Facebook Pixel" of Facebook Inc.  
+ 
+In the case of explicit consent, this allows the behaviour of users to be tracked after they have seen or clicked on a 
+Facebook ad. This procedure is used to evaluate the effectiveness of Facebook ads for statistical and market research 
+purposes and can help to o ptimise future advertising measures.  
+ 
+The data collected is anonymous for us, so it does not allow us to draw any conclusions about the identity of the 
+users. However, the data is stored and processed by Facebook so that a connection to the respective user  profile is 
+possible and Facebook can use the data for its own advertising purposes in accordance with the Facebook data usage 
+policy.  
+ 
+The site visitor can also deactivate the use of cookies by third -party providers such as Facebook on the following 
+websi te of the Digital Advertising Alliance: https://www.aboutads.info/choices .  
+ 
+Google AdWords and Google AdWords Remarketing  
+The Pineapple Builder website www.www.pineapplebuilder.com uses  Google AdWords, an analytics service 
+provided by Google, and, as part of Google AdWords, conversion tracking and Google AdWords remarketing.  
+ 
+Google AdWords places a cookie for conversion tracking on the computer's hard drive (a so -called "conversion 
+cook ie") when the site visitor clicks on an ad placed by Google. These cookies lose their validity after 30 days and 
+are not used for personal identification. If certain pages on our website are visited, Google and we can recognise 
+that the site visitor has cl icked on the advertisement and been redirected to this page.  
+ 
+The information obtained using the conversion cookies is used to create statistics for AdWords customers who use 
+conversion tracking. Through these statistics, we learn the total number of users  who clicked on the ad placed by 
+Google and accessed a page tagged with a conversion tracking tag. Further information on the terms of use and data 
+protection in the context of Google AdWords can be found here.  
+ 
+With Google Remarketing, Google sets a cooki e in the browser of the end device, which automatically enables 
+interest -based advertising by means of a pseudonymous cookie ID and on the basis of the pages visited by the 
+Pineapple Builder user/page visitor. Any further data processing will only take pla ce if the site visitor has consented 
+to Google linking their internet and app browsing history to their Google account and allowing information from 
+their Google account to be used to personalise advertisements. In this case, if the page visitor is logged in to Google 
+while visiting the Pineapple Builder website, Google will use his or her data together with Google Analytics data 
+and Google Adwords data to create and define target group lists for cross -device remarketing. For this purpose, the 
+personal data  of the site visitor will be temporarily linked by Google with Google Analytics and Google Adwords 
+data in order to form target groups.  
+ 
+The site visitor can permanently deactivate the setting of cookies for advertising preferences by installing the 
+browse r plug -in available at the following link: https://www.google.com/settings/ads/onweb/ .  
+ 
+Google AdWords and Google DoubleClick  
+Pineapple Builder also uses the cross -device featu res of Google AdWords and Google DoubleClick. The provider 
+is Google Ireland Limited, Google Building Gordon House, 4 Barrow St, Dublin, D04 E5W5, Ireland.  
+ 
+This function makes it possible to link the advertising target groups created with Google Analytics  Remarketing 
+with the cross -device functions of Google AdWords and Google DoubleClick. In this way, interest -based, 
+personalised advertising messages that have been adapted to the respective user depending on their previous usage 
+and surfing behaviour on o ne end device (e.g., mobile phone) can also be displayed on another end device (e.g., 
+tablet or PC) of the user. If the user has given the corresponding consent, Google will link the web and app browsing 
+history with the corresponding Google account for th is purpose. In this way, the same personalised advertising 
+messages can be displayed on every end device on which the user logs in with their Google account.  
+ 
+To support this feature, Google Analytics collects Google -authenticated IDs of users, which are t emporarily linked 
+to our Google Analytics data to define and create target groups for cross -device ad advertising.  
+ Privacy Policy   
+The site visitor can permanently object to cross -device remarketing/targeting by deactivating personalised 
+advertising in their Google accou nt: https://www.google.com/settings/ads/onweb/ .If the site visitor wishes to object 
+to Google's participation in the general tracking process, the cookies for conversion tracking can be deactivated by 
+setting the browser to block cookies from the domain www.googleadservices.com :  
+https://www.google.de/settings/ads .  
+ 
+The aggregation of the collected data in the Google account of the site visitor takes place exclusively on the basis 
+of his consent, which he gives to Google or can revoke (Art. 6 para. 1 lit. a GDPR). In the case of data collection 
+processes that are not merged in his Google account (e.g., because he does not have a Google account or has objected 
+to the merging), the collection of the data is based on Art. 6 (1) lit. f GDPR. The legitimate interest results from the 
+fact that the website operator has an interest in the anonymised analysis of website visitors for advertising purposes.  
+ 
+Further information and the privacy policy can be found in Google's privacy policy at: 
+https://www.google.com/policies/technologies/ads/ .  
+ 
+LinkedIn Conversion Tracking  
+On our website, we use the retargeting, analysis and conversion tracking technology of the LinkedIn platform. With 
+the aforementioned technology from LinkedIn, site visitors can be shown more relevant advertisements based on 
+their interests.  
+ 
+We also receiv e aggregated and anonymous reports from LinkedIn of ad activity and information about how the site 
+visitor interacts with our website. Further information on LinkedIn's data protection can be found on the LinkedIn 
+website: https://www.linkedin.com/legal/privacy -policy .  
+ 
+The site visitor can object to the analysis of his usage behaviour by LinkedIn as well as the display of interest -based 
+recommendations ("Opt -Out"); to do so,  he clicks on the field "Refuse on LinkedIn" (for LinkedIn members) or 
+"Refuse" (for other users) at the following link: https://www.linkedin.com/psettings/guest -contr ols/retargeting -opt-
+out.  
+ 
+Personalised advertising by Pineapple Builder  
+Pineapple Builder uses the Site Visitor's (as well as the Pineapple Builder User's) data to provide the Site Visitor 
+with targeted marketing, service updates, and pro motional offers that the Site Visitor may like; as well as to design 
+Personalised Advertisements and perform pseudonymised usage analysis.  
+ 
+If the site visitor does not wish to receive personalised advertisements or does not want us to collect pseudonymise d 
+data in relation to their visit to our website and use of our services, applications and tools, they may object or 
+withdraw their consent by following the instructions in the relevant advertisement or in our Cookie Policy.  
+ 
+Information on the display of usage -based online advertising on our and third -party websites and on how the site 
+visitor can deactivate this can be found in the respective third -party provider's privacy policy, which is linked in the 
+listing at the end of this privacy policy. The conse quence of an objection or deactivation is that the site visitor will 
+no longer receive personalised advertising, but personal data may still be collected as described in this privacy 
+policy. Without explicit consent, we do not allow third parties to track or collect the site visitor's personal data on 
+our websites for their own advertising purposes.  
+ 
+Use of social media  
+ 
+Facebook, LinkedIn, Twitter and Instagram  
+Our website www.www.pineapplebuilder.com uses social plugins ("plugins") of the social networks Facebook, 
+LinkedIn, Twitter and Instagram, which is operated by Facebook, Inc., LinkedIn Corp., Twitter Inc., and Instagram, 
+LLC, respectively.  
+ 
+When a website of our website is accessed that contains such a plugin, the browser establishes a direct connect ion 
+with the servers of the respective social media service. The content of the plugin is transmitted directly to the browser 
+by the service and integrated into the website by the browser. By integrating the plugins, the provider of the social 
+media servic e receives the information that the corresponding page of our website has been accessed by the Privacy Policy   
+respective visitor or Pineapple Builder user. If the visitor has his or her own profile with the respective service, the 
+provider can assign the visit to the acc ount of the visitor or Pineapple Builder user by storing cookies and using 
+JavaScript. If the plugins are interacted with, for example the "Like" button is clicked or a comment is made, the 
+corresponding information is transmitted from the browser directly  to the provider and stored there. This can be 
+prevented with suitable browser plugins; in this case, the social plugins may no longer function as a result.  
+ 
+The described data processing operations are carried out in accordance with Art. 6 (1) f GDPR on t he basis of the 
+legitimate interests of Facebook, LinkedIn, Twitter and Instagram in displaying personalised advertising in order to 
+inform other users of the social network about relevant activities on our website and for the needs -based design of 
+the ser vice.  
+ 
+The purpose and scope of the data collection and the further processing and use of the data by Facebook, LinkedIn, 
+Twitter and Instagram as well as the related rights and setting options for the protection of privacy can be found in 
+the privacy poli cies of Facebook, LinkedIn, Twitter and Instagram.  
+ 
+Google reCAPTCHA  
+On this website we also use the reCAPTCHA function from Google. This function is primarily used to distinguish 
+whether an entry is made by a natural person or improperly by machine and automated processing. The service 
+involves sending the IP address and any other data required by Google for the reCAPTCHA service to Google.  
+ 
+Further information on Google reCAPTCHA and Google's privacy policy can be found at: 
+https://policies.google.com/privacy .  
+ 
+Your communication with Pineapple Builder  
+ 
+Customer Support  
+A site visitor or  Pineapple Builder user can contact us at any time with questions via email, via a private message 
+in the administration area of the website or on social media platforms via our support team . We store the request in 
+a ticket system in order to process this  request and to make the service traceable and improve it. Personal details are 
+only used to process the enquiry. The legal basis for the processing of the data is our legitimate interest in answering 
+customer queries and improving our support service, in accordance with Art. 6 (1) lit. f GDPR. If the contact is 
+aimed at concluding a contract, the additional legal basis for the processing is Art. 6 (1) lit. b GDPR. The data will 
+be deleted as soon as it is no longer necessary to achieve the respective purpo se, i.e. there is no longer a legitimate 
+interest, and we are also no longer obliged to keep records that may contain personal data.  
+ 
+Newsletter and Newsletter Performance Measurement  
+Our newsletter regularly informs Pineapple Builder users about Pineapple  Builder's products, services and 
+promotions, surveys, competitions, blog articles and other similar content. The legal basis for sending the newsletter 
+in connection with a sale of Pineapple Builder's goods or services is your consent (Art. 6 para. 1 lit.  a GDPR).  
+ 
+The Pineapple Builder User may at any time object to the storage and use of his or her data for the purpose of 
+sending the newsletter with effect for the future or revoke his or her consent thereto, without this requiring any 
+justification, with out incurring any disadvantages and without incurring any costs other than the transmission costs 
+according to the basic rates. This can be done by clicking on the unsubscribe link at the end of each newsletter. 
+Alternatively, the Pineapple Builder User ma y uncheck the "Newsletter" box in his or her customer account.  
+ 
+This will also terminate the consent to the statistical analyses. Unfortunately, a separate revocation against the 
+statistical analysis in our newsletter is not possible. The legality of the d ata processing operations already carried 
+out remains unaffected by the revocation. In the event of a revocation, the personal data used for this data processing 
+will be anonymised or deleted. Data stored by us for other purposes (e.g. email addresses for the member area) will 
+remain unaffected.  
+ 
+Rights of the data subjects  
+Pursuant to the relevant legislation and the GDPR, the Pineapple Builder user (or site visitor, hereinafter collectively 
+referred to as the "Pineapple Builder User"), as well as the Pine apple Builder site visitor, if applicable, has certain 
+rights with respect to his or her personal data. In particular, he has the right to information, correction, data Privacy Policy   
+portability or deletion of his or her data and a right to data portability. The Pineapp le Builder user also has the right 
+to object to certain processing of his or her data.  
+ 
+In some cases, once content has been published on the Pineapple Builder website, it is no longer possible to modify 
+or remove it. Upon receipt of a request to do so, Pi neapple Builder may close the relevant Pineapple Builder account 
+and remove the offending personal data from public areas as soon as practicable based on the account activity and 
+in accordance with applicable law. This does not affect the legal right to ac cess, correct or delete the personal data.  
+ 
+Information and Access  
+Pineapple Builder users can usually access, review and edit their personal data in their Pineapple Builder account 
+by logging in and updating or deleting the information directly.  
+ 
+We will be happy to inform the user which personal data we have stored about him or her and what fees, if any, are 
+applicable under applicable law. The information will be processed by us immediately and is usually sent by e -mail 
+(or by post on request). In order to receive detailed information, please state, if possible, the type of personal data 
+for which information is requested. In order to ensure that the person requesting information is also the person he 
+or she claims to be, we require proof of identity. Thi s can be a copy of an official identification document. Please 
+black out or make unrecognisable any serial numbers, passport numbers or similar. We will only use this copy for 
+identification purposes and to process the enquiry.  
+ 
+Right of objection  
+If the p ersonal data of the Pineapple Builder user or visitor is processed on the basis of legitimate interests pursuant 
+to Article 6 (1) sentence 1 lit. f GDPR, the data subject has the right to object to the processing of his or her personal 
+data pursuant to Art icle 21 GDPR, provided that there are grounds for doing so which arise from the particular 
+situation of the data subject. In particular, the objection may be made to processing for direct marketing purposes 
+by the Pineapple Builder user using the "unsubscr ibe link" at the end of such communications. In the case of 
+processing for direct marketing purposes, the data subject has a general right to object, which will be implemented 
+by us without specifying a particular situation.  
+ 
+If the Pineapple Builder user exercises his or her right to object, we will stop processing the data concerned. 
+However, we reserve the right to continue processing if we can demonstrate compelling legitimate grounds for the 
+processing that override the interests, fundamen tal rights and freedoms of the Pineapple Builder User, or if the 
+processing serves to assert, exercise or defend legal claims.  
+ 
+The Pineapple Builder User also has the right to object, on grounds relating to his or her particular situation, to the 
+processi ng of personal data concerning him or her which is carried out for statistical purposes pursuant to Article 
+89(1) of the GDPR. If the data subject wishes to exercise his or her right of withdrawal or objection, a corresponding 
+e-mail to support@aurity.co w ill suffice.  
+ 
+Data portability  
+In certain cases, which are listed in detail in Article 20 of the GDPR, the site visitor or Pineapple Builder user has 
+the right to receive the personal data concerning him or her in a structured, common and machine -readable format 
+or to request the transfer of such data to a third party.  
+ 
+Exercise of rights  
+In order to exercise these and other data subject rights, as well as to find out about any fees that may be charged for 
+doing so under applicable law, a data subject may c ontact us at any time at the contact address provided below. If 
+the Pineapple Builder user makes a legal claim for access, correction, data portability or deletion of his or her 
+personal data, Pineapple Builder may, in certain circumstances, refuse to prov ide such access or refuse to correct or 
+delete the personal data in accordance with applicable law. However, Pineapple Builder will provide the reasons in 
+such cases.  
+ 
+Right to complain  
+Without prejudice to any other administrative or judicial remedy, the Pineapple Builder User has the right to lodge 
+a complaint pursuant to Article 77 of the GDPR with a supervisory authority, in particular in the Member State of 
+his or her place of residence, place of work or place of the alleged infringement, if the Pineap ple Builder User 
+considers that the processing of personal data concerning him or her infringes the GDPR.  Privacy Policy   
+ 
+Data Security  
+The Pineapple Builder User's data is protected by technical and organisational security measures in order to 
+minimise risks in connection with its loss, misuse, unauthorised access and unauthorised disclosure and 
+modification. To this end, we use, for example, firewalls and data encryption, as well as physical access restrictions 
+for our data centres and authorisation controls for  data access.  
+ 
+Duration of storage of personal data  
+The data we process will be deleted or its processing restricted in accordance with Articles 17 and 18 of the GDPR. 
+Unless expressly stated in this privacy policy, the data stored by us will be deleted as  soon as it is no longer required 
+for its intended purpose and the deletion does not conflict with any statutory retention obligations and/or there is no 
+legitimate interest on our part in continuing to store it. If the data is not deleted because it is re quired for other and 
+legally permissible purposes, its processing will be restricted. i.e. the data will be blocked and not processed for 
+other purposes. This applies, for example, to data that must be retained for reasons of commercial or tax law.  
+ 
+Disclo sure of data  
+Pineapple Builder users' data will not be sold to third parties. We will not disclose any personal data without consent 
+unless:  
+ 
+• we are required to do so by law.  
+• to perform contractual services for Pineapple Builder users and/or to enforce rig hts and obligations arising 
+from our Terms and Conditions  or the contractual relationship between the Pineapple Builder user and 
+Pineapple Builder.  
+ 
+Economic analyses and market research  
+For business reasons and in order to be able to recognise market tre nds, wishes of contractual partners and users, 
+we analyse the data we have on business transactions, contracts, inquiries, etc., whereby the group of persons 
+concerned may include contractual partners, interested parties, customers, visitors, and users of our online offer.  
+ 
+The analyses are carried out for the purpose of business evaluations, marketing, and market research (e.g., to 
+determine customer groups with different characteristics). In doing so, we may, if available, take into account the 
+profiles of registered users together with their details, e.g., regarding services used. The analyses serve us alone and 
+are not disclosed externally, unless they are anonymous analyses with summarised, i.e., anonymised values. 
+Furthermore, we take the pri vacy of users into consideration and process the data for analysis purposes as 
+pseudonymously as possible and, if feasible, anonymously (e.g., as summarised data).  
+ 
+Children Data  
+Our website is not intended for children, and we do not knowingly collect dat a relating to children. If you become 
+aware that your Child has provided us with Personal Data, without parental consent, please contact us, and we take 
+the necessary steps to remove that information from our server.  
+ 
+Accuracy  
+It is important that the data  we hold about you is accurate and current, therefore please keep us informed of any 
+changes to your personal data.  
+ 
+Obligation to provide personal data  
+You are not obliged to provide us with personal data. However, depending on the individual case, the pr ovision of 
+certain personal data may be necessary for the provision of the above services. If you do not provide us with this 
+personal data, we may not be able to provide the service.  
+ 
+Do Not Sell My Personal Information  
+We do not sell information that dir ectly identifies you, like your name, address, or phone records.  
+ 
+Hosting  
+The services for hosting and displaying the website are partly provided by our service provider as part of processing 
+on our behalf. Unless otherwise explained in this privacy polic y, all access data and all data collected in forms Privacy Policy   
+provided for this purpose on this website are processed on their servers. If you have any questions about our service 
+providers and the basis of our relationship with them, please contact us.  
+ 
+Content Deli very Network  
+For the purpose of a shorter loading time, we use a so -called Content Delivery Network (“CDN") for some offers. 
+With this service, content, e.g., large media files, are delivered via regionally distributed servers of external CDN 
+service provi ders. Therefore, access data is processed on the servers of the service providers. Our service providers 
+work for us within the framework of order processing. If you have any questions about our service providers and 
+the basis of our cooperation with them,  please contact us.  
+ 
+Changes to the privacy policy  
+Pineapple Builder reserves the right to change this privacy policy should this be necessary due to a change in the 
+legal situation or due to additional or changed services used or offered by Pineapple Buil der. The current version 
+can be found here. If Pineapple Builder intends to process the Pineapple Builder User's data for purposes other than 
+those for which it was collected, we will notify the Pineapple Builder User in advance in accordance with the 
+applicable legal provisions.  

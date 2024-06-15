@@ -1,0 +1,467 @@
+DR POL INS 
+ 
+DR POL INS  
+POLÍTICA DE PRIVACIDAD  DR POL INS 
+ED 7 / ABR 2024  HOJA DE VIDA 
+ 
+POLÍTICA DE PRIVACIDAD 
+ 
+EDICIÓN 
+N° ENMIENDA 
+N° PARTE AFECTADA DEL DCTO. DISPUESTO POR 
+CAPÍTULO SECCIÓN RESOLUCIÓN 
+EXENTA FECHA  
+6  Todo  Todas 04/1/0054/0574  20 /MAR/ 2023 
+7  Todo  Todas 04/1/0071/0817  24/ ABR/ 2024 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+ 
+ 
+  OBJ.:   Aprueba la Séptima Edición de la 
+Política de Privacidad. 
+_________________________________ 
+ 
+EXENTA Nº 04 / 1 / 0071 / 0817 / 
+ 
+SANTIAGO,  24.ABR.2024 
+ 
+RESOLUCIÓN DE LA DIRECCIÓN GENERAL DE AERONÁUTICA CI VIL 
+ 
+VISTOS: 
+ 
+a) Ley N° 16.752, de 1968, que Fija Organización y Funciones y Establece D isposiciones 
+Generales a la Dirección General de Aeronáutica Civil. 
+b) Decreto Supremo N.º 222, de 2004, del Ministerio de Defensa Nacional, que aprue ba el 
+Reglamento Orgánico y de Funcionamiento (ROF) de la Dirección General de Aeronáutica 
+Civil. 
+c) Decreto N° 28, de fecha 16 de enero de 2024, del Ministerio de Defensa Nacional, que 
+nombra al General de Aviación Carlos Eduardo Madina Díaz como Director General de 
+Aeronáutica Civil, contar del 24 de noviembre de 2023.  
+d) Resolución N° 7, de fecha 26 de marzo de 2019, de la Contraloría General de  la 
+República, que fija Normas sobre Exención del Trámite de Razón. 
+e) Resolución Exenta N° 04/2/655/0872, de fecha 02 de septiembre de 2019, de l a Dirección 
+General de Aeronáutica Civil, que aprueba el Plan Estratégico Instituciona l para el período 
+2019-2030. 
+ 
+ 
+CONSIDERANDO: 
+ 
+1) La necesidad Institucional de mantener actualizada la Política de Privacida d de la 
+Información de Usuarios de página Web, lo que permitirá entregar i nformación sobre las 
+directrices de la DGAC a los usuarios en todos los sitios Web, conforme a lo dispuesto 
+en el art. 12 y 17 del Decreto señalado en la letra g) de los Vistos de la presente 
+Resolución, como también, incorporar las aplicaciones móviles Institucionales, cuyo 
+objetivo es entregar la información relativa al tratamiento de datos personales. 
+2) La presente Política Institucional será actualizada y controlada en su cumplimiento p or 
+el Departamento de Planificación, Subdepartamento Planes y Proyectos, según l o 
+establece la Quinta Edición del Documento Rector Orgánico y Funcionamiento (DROF ) 
+del Departamento Planificación.  DIRECCIÓN GENERAL DE AERONÁUTICA CIVIL 
+DEPARTAMENTO PLANIFICACIÓN   RESUELVO: 
+ 
+1. APRUÉBASE,  la Séptima Edición de la Política de Privacidad en la forma que se  indica: 
+ 
+Nombre:  Política de Privacidad 
+Edición: Séptima Edición, de fecha 24.ABR.2024 
+Clasificación: Público. 
+Organismo encargado de su actualización: Departamento de Planificación. 
+Organización encargada de su protocolización: Departamento de Planificación. 
+ 
+ 
+2. DERÓGASE, la Resolución Exenta N° 04/1/0054/0574 del 20 de marzo de 2023, de la 
+Dirección General de Aeronáutica Civil, que aprueba la Sexta Edición Política de 
+Privacidad. 
+ 
+POLÍTICA DE PRIVACIDAD  
+ 
+PRESENTACIÓN 
+La Dirección General de Aeronáutica Civil (DGAC) pone en conocimiento de todas las personas 
+que acceden a sus Sitios Web y Aplicaciones Móviles Institucionales, la siguiente Política de  
+Privacidad, a fin de garantizar el debido respeto y protección a la vida privada, a l a honra de las 
+personas y sus familias como, asimismo, garantizar la protección de sus datos personales.  
+ 
+I. PROPÓSITO 
+Establecer las directrices en el tratamiento de los datos personales de los usuarios q ue, 
+mediante los formularios establecidos, se registren como tales en los sitios Web de la 
+DGAC y/o realicen descargas de Aplicaciones Móviles institucionales, cuyo propósito está 
+asociado al Objetivo Estratégico N° 3, el cual tiene relación con “ Mantener altos estándares 
+de calidad en los servicios que son de su responsabilidad ”.  
+ 
+II. ANTECEDENTES 
+A. Decreto N°100, de 2005, que Fija el Texto Refundido, Coordinado y Sistematizad o de 
+la Constitución Política de la República de Chile. 
+B. DFL 1-19.653, de 2000, que Fija Texto Refundido, Coordinado y Sist ematizado de la 
+Ley N°18.575, Orgánica Constitucional de Bases Generales de la Administración del 
+Estado. 
+C. Ley N° 16.752, que Fija la Organización y Funciones y Establece Disposiciones 
+Generales a la Dirección General de Aeronáutica Civil. 
+D. Ley N° 19.799, Sobre Documentos Electrónicos, Firma Electrónica y  Servicios de 
+Certificación de dicha firma.   E. Ley N° 19.628, sobre Protección de la Vida Privada. 
+F. Ley N° 20.285, sobre Acceso a la Información Pública. 
+G. Decreto Supremo N° 779, de 2000, del Ministerio de Justicia, que aprueba el 
+Reglamento de Registro de Banco de Datos Personales a Cargo de Organismos 
+Públicos. 
+H. Decreto Supremo N° 1, de 2015, del Ministerio Secretaría General de la Presi dencia, 
+que aprueba Normas Técnicas sobre Sistemas y Sitios Web de los Órganos de la 
+Administración del Estado. 
+I. Decreto N° 222, de 2004, del Ministerio de Defensa Nacional, que aprueba el 
+Reglamento Orgánico y de Funcionamiento (ROF) de la Dirección General de 
+Aeronáutica Civil. 
+J. Decreto Nº 28, de 16 de enero de 2024, del Ministerio de Defensa Nacional, que nombra 
+al General de Aviación, Sr. Carlos MADINA Diaz, como Director General de Aeronáutica 
+Civil a contar del x de diciembre de 2023. 
+K. Decreto 181, del Ministerio de Economía, Fomento y Reconstrucción, que Aprueba 
+Reglamento de la Ley 19.799, sobre Documentos Electrónicos, Firma Electrónica y la  
+Certificación de dicha Firma. 
+L. Decreto 13, del Ministerio Secretaría General de la Presidencia, que aprueba el 
+Reglamento de la Ley N° 20.285, Sobre Acceso a la Información Pública. 
+M. Resolución Exenta N° 7, de 26 de marzo de 2019, de la Contraloría General de la 
+República, que fija normas de exención del trámite de toma de razón. 
+N. Resolución Exenta N° 04/3/0085/1306 del 14 de septiembre de 2022, de la Di rección 
+General de Aeronáutica Civil, que aprueba la Primera Enmienda del Documento Rector 
+Orgánico y Funcionamiento (DROF), del Departamento Tecnologías de Información  y 
+Comunicaciones de la DGAC. 
+O. Resolución Exenta N° 04/1/0054/0574 del 20 de marzo de 2023, de la Dirección 
+General de Aeronáutica Civil, que aprueba Sexta Edición de la Política de Pri vacidad 
+de la Información de Usuarios de páginas Web. 
+P. Resolución Exenta N° 04/3/0186/2179 del 17 de noviembre de 2023, de la Dir ección 
+General de Aeronáutica Civil, que aprueba la Sexta Edición del Documento Rector  
+Orgánico y Funcionamiento (DROF), del Departamento Planificación. 
+Q. Resolución Exenta N° 04/3/0056/0910, de 05 de julio de 2022, de la Dirección General 
+de Aeronáutica Civil, que aprueba la Segunda Enmienda a la Cuarta Edición del PRO 
+ADM 02, Estructura, Contenidos y Formatos de la Normativa de la DGAC. 
+    III. EXPOSICIÓN DE LA POLÍTICA 
+A. OBJETIVOS DE LA POLÍTICA 
+1. Velar por el respeto de la intimidad y privacidad de los datos personales de los 
+usuarios de Internet que hacen uso de las Páginas Web y Aplicaciones Móviles 
+Institucionales; conforme a lo establecido en las Leyes vigentes. 
+2. Indicar el tratamiento de los datos personales entregados por el usuari o al utilizar 
+las páginas Web y aplicaciones móviles  institucionales, garantizando que serán 
+usados conforme a la finalidad para la cual han sido recolectados, permitiendo a 
+éste ejercer, los derechos establecidos en la Constitución y las Leyes. 
+ 
+B. FUNDAMENTOS  
+La Política de Privacidad de la Información de los usuarios de Páginas Web y 
+Aplicaciones Móviles de la Dirección General de Aeronáutica Civil, se fundamenta a 
+partir de los principios señalados en la Constitución Política de la República, en la Ley 
+sobre Protección de la Vida Privada 19.628 y lo establecido en el Decreto 1 que 
+aprueba la “ Norma Técnica sobre Sistemas y Sitios Web de los Órganos de la 
+Administración del Estado ” del Ministerio Secretaría General de la Presidenci a. 
+Este documento establece el criterio para el manejo de los datos personales, según lo 
+establecido en las leyes vigentes, lo cual es aplicable a todos los sitios Web 
+institucionales publicados en internet, así como a las Aplicaciones Móviles 
+Institucionales, las cuales pueden ser descargadas de las plataformas Google Play y 
+App Store. 
+ 
+C. CRITERIOS PARA LA TOMA DE DECISIONES EN MATERIAS DE L ÁMBITO DE LA 
+PRIVACIDAD  
+Para efectos de la presente “ Política de Privacidad ”, se entiende por:  
+● Usuario: Persona que voluntariamente se registre en www.dgac.gob.cl , 
+www.escuelaaeronautica.gob.cl  y/o www.meteochile.gob.cl  y los sitios que la 
+componen, mediante los formularios especialmente establecidos para tal efecto 
+o bien realice descarga de Aplicaciones Móviles de la DGAC.  
+● Visitante: Aquella persona que accede libremente a la información disponible 
+en www.dgac.gob.cl , www.escuelaaeronautica.gob.cl  y/o 
+www.meteochile.gob.cl  y los sitios que la componen, sin necesidad de 
+registrarse previamente. 
+● Datos de carácter personal o datos personales, los relativos a cualquier 
+información concerniente a personas naturales, identificadas o identificables. 
+● Dato estadístico, el dato que, en su origen, o como consecuencia de su 
+tratamiento, no puede ser asociado a un titular identificado o identificable.   ● Tratamiento de datos: cualquier operación o complejo de operaciones o 
+procedimientos técnicos, de carácter automatizado o no, que permitan 
+recolectar, almacenar, grabar, organizar, elaborar, seleccionar, extraer, 
+confrontar, interconectar, disociar, comunicar, ceder, transferir, transmitir o 
+cancelar datos de carácter personal, o utilizarlos en cualquier otra forma. 
+Tratamiento de Datos 
+1. El tratamiento de datos personales por parte de la DGAC sólo podrá efectuarse  
+respecto de las materias de su competencia y con sujeción a las reglas señaladas 
+en la Ley 19.628 y su normativa complementaria. En esas condiciones, no 
+necesitará el consentimiento del titular. 
+2. Los datos personales de los usuarios solo serán utilizados en conformidad a la 
+Ley y a la reglamentación vigente, teniendo en consideración los fines indicados 
+en el formulario web correspondiente; 
+3. La DGAC podrá también efectuar el tratamiento de datos personales, resp ecto de 
+aquellos que han sido entregados por los usuarios en los referidos formularios; 
+4. La DGAC podrá comunicar a terceros información estadística elaborada a partir  
+de los datos personales de sus usuarios, sin el consentimiento expreso del titular, 
+cuando desde dichos datos no sea posible identificar individualmente a los 
+titulares, de conformidad a la Ley y se trate de materias de su competencia. 
+5. La DGAC sólo podrá utilizar dicha información, para cumplir con los objetivos 
+señalados. En el caso de disociación de datos, no podrán podrá realizarse 
+tratamientos que impliquen asociar dicha información a algún usuario determ inado 
+o determinable. 
+6. La DGAC no podrá comunicar ni transferir a terceros los datos personales de sus 
+usuarios, sin el consentimiento expreso del titular, salvo en los casos señalados 
+en la Ley. No obstante, lo anterior, en caso de ser requerido judicialmente  y en 
+conformidad a lo señalado en la Constitución Política de la República en el artí culo 
+76, procederá a entregar la información solicitada. 
+7. El cumplimiento efectivo de esta Política, así como de las normas y procedimi entos 
+que de ésta se deriven, lo evaluará periódicamente el Departamento Auditoría 
+Interna y el resultado se informará al Secretario General y a los Directores del 
+Servicio, con el fin de que se adopten medidas correctivas en caso de que se 
+requiera. 
+8. Lo expresado, es sin perjuicio y con respeto a las normas de Seguridad de la 
+Información vigentes en el Estado. En ausencia de normas, al estándar técnico de 
+seguridad de la información más elevado, aplicable a un Organismo de la 
+Administración del Estado.    9. Con la finalidad de resguardar la seguridad de los sistemas y plataformas q ue 
+dispone la DGAC, este servicio se reserva el derecho de bloquear todo acceso de 
+carácter sospechoso y/o malicioso que pueda afectar la seguridad de la 
+información y continuidad de sus plataformas según la normativa y reglamentos 
+vigentes. Para ello la DGAC efectuará un constante monitoreo de las Direcciones 
+IP que ingresen a sus sistemas, bloqueando el acceso a aquellas que presenten 
+potenciales riesgos. Todo lo anterior, de acuerdo con lo dispuesto por el Equipo 
+de Respuesta de Seguridad Informática (CSIRT) perteneciente al Minist erio del 
+Interior y Seguridad Pública; a los Principios y Directrices emanadas del Ministerio 
+de Defensa y/o de la Comandancia en Jefe de la Fuerza Aérea de Chile sobre la 
+materia, o del Organismo Técnico de Seguridad de la Información competente. 
+Derechos del Usuario 
+1. El usuario podrá solicitar información de sus datos personales que se mantienen 
+registrados; 
+2. El usuario podrá solicitar la eliminación o cancelación de los datos entregad os, 
+cuando así lo desee en conformidad a la Ley y reglamentación vigente; 
+3. El usuario podrá oponerse a que sus datos personales sean utilizados para fines 
+estadísticos o para otros fines garantizados en la Ley y la reglamentación vigent e; 
+4. Para ejercer sus derechos, el usuario se dirigirá a 
+https://servicios.dgac.gob.cl/oirs-web/ciudadano.html#/ingreso, indicando 
+claramente su solicitud; 
+5. Solicitar información respecto de los bancos de datos de responsabilidad de la 
+DGAC, el fundamento jurídico de su existencia, su finalidad, tipos de datos 
+almacenados y descripción del universo de personas que comprende; 
+6. Solicitar información sobre los datos relativos a su persona, su procedencia y 
+destinatario, el propósito del almacenamiento y la individualización de las 
+personas u organismos a los cuales sus datos son transmitidos regularmente; 
+7. Solicitar se modifiquen sus datos personales cuando ellos no sean correctos o no 
+estén actualizados, si fuere procedente, en conformidad a la Ley y la 
+reglamentación vigente; 
+8. Solicitar, de conformidad con lo dispuesto en la Ley N° 19.628, copia del registro  
+alterado en la parte pertinente, si fuere del caso;  
+9. Otros derechos señalados en la Ley y la reglamentación vigente, y   10. En caso de no recibir respuesta a su solicitud dentro del plazo de 2 días hábiles, 
+el interesado podrá ejercer la acción de reclamación estipulada en el artículo 16 
+de la Ley N°19.628, la que deberá dirigirse contra el Jefe de Servicio en los datos 
+que se señalan a continuación: 
+Sr. Carlos Madina Díaz 
+Director General de Aeronáutica Civil 
+Miguel Claro 1314, Providencia, Santiago de Chile Clasificador 3, Correo 9. 
+E-mail: director@dgac.gob.cl 
+Teléfono (+56 2) 24392000 
+Compromiso Institucional 
+Los Directores de Departamento, promoverán la difusión y aplicación de la presente 
+política en cada unidad, bajo su responsabilidad, y apoyarán la implementación de 
+normas o procedimientos internos, que permitan dar cumplimiento cabal a los  
+términos y objetivos que aquí se plantean. 
+Responsabilidades Generales 
+Los Departamentos que realicen tratamiento de datos personales de los distintos 
+usuarios, serán responsables de velar por el cumplimiento de la presente Política de 
+Privacidad. 
+Sitios Web y Aplicaciones Móviles  
+El listado de Sitios Web y Aplicaciones Móviles, que son del alcance de esta po lítica, 
+se encuentra detallado en Anexo “Sitios Web y Aplicaciones Móviles”.   
+Las Aplicaciones Móviles, considerando su particularidad y los requisitos 
+establecidos por las empresas de distribución de dichos productos, tendrán el 
+siguiente texto como Política y estará disponible en la web dispuesta para aquello: 
+“POLITICA DE PRIVACIDAD (NOMBRE APLICACIÓN)  
+Nuestra política de privacidad se aplica al uso de las aplicaciones informáticas de l os 
+siguientes medios de comunicación: ( NOMBRE APLICACIÓN DE LA DGAC)  para 
+dispositivos móviles Android, iOs, y es administrado por la Dirección General de  
+Aeronáutica Civil DGAC CHILE. 
+Nuestra política de privacidad incluye las condiciones de uso de las aplicaciones. La 
+utilización de estas implica su aceptación y sin reservas a todas y cada una de las 
+disposiciones incluidas en estas. En caso de no aceptar dichas disposiciones no debe 
+utilizar las aplicaciones antes mencionadas. 
+Nos reservamos el derecho a modificar, total o parcialmente esta Política de 
+Privacidad. Se aconseja que consulte esta Política de Privacidad periódicamente 
+para cualquier cambio, ya que el uso continuado será considerado como la 
+aprobación de todos los cambios.    Información que se obtiene la aplicación y su utilización  
+a. Usuario proporcionó información  
+La aplicación obtiene la información que usted proporciona cuando se descarga y 
+e ingresa la aplicación. Para utilizar algunos de los servicios o acceder a 
+determinados contenidos, deberá proporcionar previamente ciertos datos de 
+carácter personal, que solo serán utilizados para el propósito que fueron 
+recopilados. 
+Para hacer uso de la aplicación, por lo general, deberá proporcionar (a) su nombre  
+de usuario y contraseña, que tiene registrados en el SISTEMA SIPA. 
+b. Protección de datos personales 
+Cómo principio general, esta aplicación no comparte ni revelan información 
+obtenida, excepto cuando haya sido autorizada por usted, o en los siguientes 
+casos: 
+a)  Cuando le sea requerido por una autoridad competente y previo el 
+cumplimiento del trámite legal correspondiente. 
+b) Cuando a juicio de esta aplicación sea necesario para hacer cumplir las 
+condiciones de uso y demás términos de la aplicación, o para salvaguardar la 
+integridad de los demás usuarios o de la aplicación. 
+Deberá estar consciente de que, si usted voluntariamente revela información 
+personal en línea en un área pública, esa información puede ser recogida y usada  
+por otros. Nosotros no controlamos las acciones de nuestros visitantes y usuarios. 
+c. Información recopilada automáticamente 
+Además, la aplicación puede recopilar cierta información automáticamente, 
+incluyendo, pero no limitado a el tipo de dispositivo móvil que utilice, los 
+dispositivos móviles de identificación única del dispositivo, la dirección IP de su 
+dispositivo móvil, el sistema operativo móvil, el tipo de móvil navegadores de 
+Internet que utiliza, y la información sobre el modo de usar la aplicación. 
+d. ¿La aplicación recopila información de ubicación precisa en tiempo real del 
+dispositivo? 
+Esta aplicación no recoge información precisa sobre la ubicación de su dispositivo 
+móvil. 
+e. ¿La aplicación solicita acceso a la cámara del dispositivo? 
+Esta aplicación solicita acceso a la cámara para acceder a la funcionalidad de 
+validación mediante método de código QR.    f. ¿Los terceros pueden ver y/o tener acceso a la información obtenida por la 
+aplicación? 
+Sí. Vamos a compartir su información con terceros sólo en las formas que se 
+describen en esta declaración de privacidad y que por lo tanto hayan sido 
+autorizadas por los usuarios. Podemos revelar información que los usuarios 
+proveen y se recaudan automáticamente por la aplicación: 
+· Cuando creemos de buena fe que dicha divulgación es necesaria para proteger 
+nuestros derechos, la protección de su seguridad o la seguridad de otros, 
+investigar el fraude, o para responder a una solicitud del gobierno; 
+· Con nuestros proveedores de servicios de confianza que trabajan en nuestro 
+nombre, no tienen un uso independiente de la información que divulgamos a 
+ellos, y han acordado adherirse a las reglas establecidas en esta declaración 
+de privacidad. 
+g. ¿Cuáles son mis derechos Opt – out? 
+Existen múltiples opciones de Opt – out para los usuarios de esta aplicación: Opt 
+– out de toda la información recogida por la desinstalación de la aplicación: Puede 
+detener toda la colección de información por la aplicación de forma sencilla 
+mediante la desinstalación de la aplicación. Puede utilizar los procesos estándar 
+de desinstalación que disponibles como parte de su dispositivo móvil o por el 
+mercado de aplicaciones móviles o la red. 
+h. Seguridad 
+Estamos preocupados por salvaguardar la confidencialidad de su información. 
+Proveemos salvaguardas físicas, electrónicas y de procedimiento para proteger la 
+información que procesamos y mantener. 
+i. Su Consentimiento 
+Mediante el uso de la aplicación, usted acepta nuestro procesamiento de sus datos 
+en los términos de esta Política de Privacidad de vez en cuando modificado por 
+nosotros. «Proceso», significa el uso de cookies en un dispositivo de portátil o 
+tocar la información de cualquier manera, no limitado a recoger, almace nar, borrar, 
+utilizar la combinación y la divulgación de la información, todas las actividades q ue 
+se llevarán a cabo en CHILE. Si reside fuera de CHILE su información será 
+transferida, procesada y almacenada allí en CHILE en base a las normas de 
+privacidad. 
+j. Contáctenos 
+Si usted tiene alguna pregunta respecto a la privacidad durante el uso de la 
+aplicación, o si tiene preguntas sobre nuestras prácticas, por favor póngase en 
+contacto con nosotros por correo electrónico a ayudasipa@dgac.gob.cl ”.  
+     IV. VIGENCIA  
+La presente política entrará en vigencia en la fecha de la Resolución Exenta aprobatoria. 
+ 
+Anótese, regístrese y publíquese. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CARLOS MADINA DÍAZ 
+ General de Aviación 
+ DIRECTOR GENERAL 
+ 
+ 
+ 
+ 
+ 
+DISTRIBUCIÓN 
+1.- PLAN “A”  
+2.- DPLAN., SUBDEPARTAMENTO CONTROL DE GESTIÓN.  
+3.- DPLAN., SUBDEPARTAMENTO NORMATIVA AERONÁUTICA. 
+4.- DPLAN., SUBDEPARTAMENTO PLANES Y PROYECTOS, OFICINA PROGRAMACIÓN Y CONTROL (A) 
+  CMD/pgs/jbb/ RES.04.1.0071.0817. 24042024 Séptima Ed. Política de Privacidad.  
+Firmado electrónicamente por 
+CARLOS MADINA DIAZ 
+24/04/2024 19:32:21 -0400 
+Incorpora Firma Electrónica 
+Avanzada 	
+		
+
+	
+
+		
+ 
+POLÍTICA DE PRIVACIDAD  
+ANEXO  
+“SITIOS WEB Y APLICACIONES MÓVILES”  
+ 
+Sitios Web  
+• https://sefaa.dgac.gob.cl/ 
+• https://servicios.dgac.gob.cl/arsv-web/solicitudes. html#/solicitudArsv 
+• https://servicios.dgac.gob.cl/DANG-web/login.xhtml 
+• https://servicios.dgac.gob.cl/oirs-web/ciudadano.ht ml#ingreso 
+• https://servicios.dgac.gob.cl/copae-web 
+• https://museoaeronautico.dgac.gob.cl/ 
+• https://sipa.dgac.gob.cl/ 
+• https://servicios.dgac.gob.cl/sima/inicio.do 
+• https://aipchile.dgac.gob.cl 
+• https://www.dgac.gob.cl/ 
+• https://servicios.dgac.gob.cl/credencialespav/ 
+• https://servicios.dgac.gob.cl/fapa-web/ciudadano.ht ml#/ingreso 
+• https://servicios.dgac.gob.cl/sso 
+• https://servicios.dgac.gob.cl/portal-recaudacion-we b/#/login 
+• https://blog.meteochile.gob.cl/ 
+• https://geonode.meteochile.gob.cl/ 
+• https://servicios.dgac.gob.cl/iprov/inicio.do 
+• https://servicios.dgac.gob.cl/avsecreportes/ 
+• https://servicios.dgac.gob.cl/dgacsiscred/ 
+• https://servicios.dgac.gob.cl/pcp 
+• https://servicios.dgac.gob.cl/corsia/index.xhtml 
+• https://www.escuelaaeronautica.gob.cl/cvirtual/ 
+• https://servicios.dgac.gob.cl/ticaunidades/ 
+• https://servicios.dgac.gob.cl/sice-gui/ 
+• https://servicios.dgac.gob.cl/sigo-web/login.jsp 
+• https://servicios.dgac.gob.cl/tramitesavsec/inicio. do 
+• https://servicios.dgac.gob.cl/ced-web/login.jsp 
+• https://servicios.dgac.gob.cl/aagc-web/login.jsp 
+• https://servicios.dgac.gob.cl/aoc-web/login.jsp 
+• https://servicios.dgac.gob.cl/cma-web/ 
+• https://climatologia.meteochile.gob.cl/ 
+• https://servicios.dgac.gob.cl/siev/ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Aplicaciones Móviles  
+Las siguientes aplicaciones móviles de la DGAC, se encuentran en régimen 
+de operación:  
+• Licencia Digital DGAC:  
+	
+
+			 	
+  
+• Meteochile.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PABLO FRANULICH NAHUELHUAIQUE  
+DIRECTOR  
+DEPARTAMENTO TECNOLOGÍAS DE  
+INFORMACIÓN Y COMUNICACIONES 
+ 
+ 
+ 
+ 
+Firmado electrónicamente por 
+PABLO FRANULICH 
+NAHUELHUAIQUE 
+06/05/2024 15:46:11 -0400 
+Incorpora Firma Electrónica 
+Avanzada 

@@ -1,0 +1,348 @@
+Priv acy
+P olicy
+for
+MindfulGPT
+(mindfulgpt.ai)
+E ff ectiv e
+Date:
+20th
+No v ,
+2023
+Intr oduction
+At
+mindfulgpt.ai
+,
+we
+are
+committed
+to
+maintaining
+the
+trust
+and
+conﬁdence
+of
+our
+users.
+This
+Privacy
+Policy
+provides
+you
+with
+details
+about
+the
+personal
+data
+we
+collect
+and
+the
+ways
+in
+which
+we
+use
+and
+protect
+it.
+Data
+Collection
+and
+Use
+ 
+Meditation
+Script
+Gener ation
+:
+When
+users
+inter act
+with
+our
+service
+to
+create
+meditation
+scripts,
+we
+only
+collect
+and
+process
+the
+textual
+prompts
+provided
+by
+the
+users.
+These
+scripts
+are
+gener ated
+in
+response
+to
+user
+input
+and
+are
+tailor ed
+to
+their
+speciﬁc
+requests.
+ 
+T r ansmission
+t o
+Our
+Ser v er
+:
+The
+meditation
+scripts
+created
+by
+users
+are
+transmitted
+secur ely
+to
+our
+server
+via
+an
+Application
+Programming
+Inter face
+(API)
+for
+further
+processing.
+We
+emplo y
+robust
+security
+measur es
+to
+ensur e
+the
+safe
+transmission
+and
+handling
+of
+this
+data.
+ 
+A udio
+Recor d
+Gener ation
+:
+Upon
+receiving
+a
+meditation
+script,
+our
+system
+gener ates
+an
+audio
+recor d
+of
+the
+script.
+This
+conv ersion
+is
+performed
+to
+enhance
+the
+user
+experience
+by
+providing
+an
+audio
+version
+of
+the
+meditation
+script.
+ 
+St or age
+of
+A udio
+Recor ds
+:
+The
+gener ated
+audio
+recor ds
+are
+stored
+on
+our
+servers.
+This
+is
+done
+to
+provide
+users
+with
+continuous,
+on-demand
+access
+to
+their
+personaliz ed
+meditation
+sessions.
+We
+ensur e
+the
+secur e
+storage
+of
+these
+audio
+ﬁles
+and
+limit
+access
+to
+authoriz ed
+personnel
+only.
+ 
+No
+Additional
+Data
+Collection
+:
+Apar t
+from
+the
+meditation
+script
+content
+and
+the
+resultant
+audio
+recor ds,
+we
+do
+not
+collect,
+store,
+or
+process
+any
+other
+personal
+information
+from
+our
+users.
+Our
+system
+is
+designed
+to
+respect
+user
+privacy
+and
+minimiz e
+data
+collection.
+Data
+Pr otection
+We
+implement
+a
+variety
+of
+security
+measur es
+to
+maintain
+the
+safety
+of
+your
+personal
+information
+when
+you
+submit
+a
+request
+or
+access
+your
+personaliz ed
+meditation
+scripts
+and
+audio
+recor ds.
+Y our
+Consent
+By
+using
+our
+service,
+you
+consent
+to
+our
+privacy
+policy .Changes
+t o
+Our
+Priv acy
+P olicy
+If
+we
+decide
+to
+change
+our
+privacy
+policy ,
+we
+will
+update
+the
+Privacy
+Policy
+modiﬁcation
+date
+above.
+Contacting
+Us
+If
+there
+are
+any
+questions
+regar ding
+this
+privacy
+policy ,
+you
+may
+contact
+us
+using
+the
+information
+below:
+info@gptgeniuslab.com

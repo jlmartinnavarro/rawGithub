@@ -1,0 +1,322 @@
+privacy_policy_en.md 5/28/2023
+1 / 10Information about the Processing of Personal Data
+Hey there! This is the privacy policy of our app "AnkiGPT" (referred to as "App" from now on). In the
+following, we, the Nils Reichardt Agency, Grimmstraße 33, 40235 Düsseldorf, Germany (referred to as
+"AnkiGPT," "we," or "us"), provide information about the collection of personal data when using the app.
+To make these information about data processing easier to understand, we offer simplified
+summaries (referred to as "Simply put:") of certain complex sections in highlighted text boxes.
+Even though we provide the summary, it is important and necessary for you to read the full and
+binding "Information about the Processing of Personal Data."
+Below you'll find an overview of the content. By clicking on a specific heading, you'll be taken directly to the
+relevant section.
+Table of Contents
+Information about the Processing of Personal Data
+Table of Contents
+1. Important Terms
+2. Scope
+3. Controller and Contact
+4. Hosting, Backend Infrastructure, and Data Storage Location
+5. Your Rights
+a. Right to Information
+b. Right to Rectification
+c. Right to Erasure
+d. Right to Restriction of Processing
+e. Right to Object
+f. Right to Withdraw Consent
+g. Right to Data Portability
+h. Right to Lodge a Complaint
+6. Contacting Us
+7. Our Handling of Your Data
+8. Account
+a. Registration with Anonymous Accounts
+b. Registration with Email & Password or Google/Apple Sign In
+9. Processing of the IP Address
+10. Storage Period and Retention Obligations
+11. Use of GPT by OpenAI
+12. Anonymous Statistical Analysis of App Usage
+13. Recipients or Categories of Recipients
+14. SSL/TLS Encryption
+15. Data Transfer to Third Countries outside the EU
+a. Firebase Authentication
+b. Firebase Hosting
+16. Data Protection Officerprivacy_policy_en.md 5/28/2023
+2 / 1017. Reservation of Changes to this Information
+1. Important Terms
+Under the following link, you will find the official explanation of important terms from the General Data
+Protection Regulation (GDPR), some of which are used in this information. Please only click on this link and
+any other links provided in this information if you agree to open these third-party pages and agree to their
+data processing and privacy policies:
+GDPR Art. 4 "Definitions" (dejure.org)
+If you ever come across a word (e.g., "processing," "personal data," etc.) that you don't understand, it may
+be explained in the link mentioned above.
+2. Scope
+This privacy policy applies to this app "AnkiGPT" and to the personal data processed through this app.
+For applications and websites of other providers, which may be referred to, for example, in section 1 of this
+policy through links, only the privacy notices and statements of those respective providers apply. Please
+only access these contents from other third-party providers if you agree to open these third-party contents
+and agree to their data processing and privacy policies.
+3. Controller and Contact
+The controller for the processing of personal data in this app, within the meaning of the GDPR, is:
+Nils Reichardt Agency
+Grimmstraße 33
+40235 Düsseldorf
+hereinafter referred to as "we," "us," or "AnkiGPT"
+Managing Director: Nils Reichardt
+Email: support@ankigpt.wtf
+4. Hosting, Backend Infrastructure, and Data Storage Location
+Our app is hosted on the Google Cloud Platform (with the data center region in Frankfurt am Main and
+Belgium) by Google LLC (hereinafter: "Google"), 1600 Amphitheatre Parkway, Mountain View, California
+94043 USA, on our behalf and according to our instructions, and is technically operated using the backend
+infrastructure and software services of Google Cloud / Google Firebase, unless otherwise described below.
+Your data: The data you add to the app and other additional information (hereinafter referred to as
+"Content") are stored by Google so that they are available to you and your class or group members.
+Only the Firebase Authentication service (required for user authentication) and Firebase Hosting (web
+hosting of the web app) run on Google's data centers in the United States. In this regard, we refer to the EU
+Standard Contractual Clauses of the EU Commission.privacy_policy_en.md 5/28/2023
+3 / 10This measure ensures that the requirements of the GDPR are strictly adhered to during data processing in
+the United States.
+Furthermore, we have concluded a so-called "Data Processing Agreement" with Google, which ensures that
+Google only acts on our instructions and also complies with the provisions of European data protection
+laws, especially the GDPR, based on this agreement.
+You can find more information about the Google Cloud Platform and its IT security and privacy here:
+https://cloud.google.com/security/
+https://privacy.google.com/businesses/
+https://privacy.google.com/businesses/compliance/#!?modal_active=none
+https://privacy.google.com/businesses/security/#!?modal_active=none
+https://cloud.google.com/terms/data-processing-terms
+https://cloud.google.com/terms/data-processing-terms/partner/
+https://cloud.google.com/terms/eu-model-contract-clause
+https://firebase.google.com/support/privacy
+The technically necessary use of Google's services and the storage of your voluntarily provided content are
+based on your and our legitimate interests (Art. 6(1)(f) of the GDPR) in providing a secure, permanently
+available, and high-performance presentation, maintenance, and operation of this app so that you
+can organize your school day quickly and easily with our app and focus on the essentials at school.
+Backups (i.e., copies) are stored both within and outside the Google Cloud with another hosting provider
+within the EU.
+The processing of the aforementioned data is based on your consent (Art. 6(1)(a) of the GDPR).
+5. Your Rights
+Simply put
+You can exercise all your rights under the GDPR:
+Request information about your data that we hold
+Have your data corrected or deleted
+Restrict the processing of your data
+Object to the processing of your data
+Withdraw your consent to the processing of your data
+Request data transfer to yourself and, if applicable, to another company
+Lodge a complaint with the supervisory authority
+Please contact us at the following address:
+Email: support@ankigpt.wtf
+Please note that if you delete or restrict the essential required data, the app cannot be used.
+If you are anonymously registered and you delete the browsing data, you will lose access to your
+account and all data associated with it.privacy_policy_en.md 5/28/2023
+4 / 10As a user of our app, you have various rights under the GDPR, including but not limited to Articles 15 to 18,
+20, 21, 77, etc. of the GDPR:
+a. Right to Information
+You can request information about the personal data we process about you. In your request for information,
+please specify your request to facilitate the compilation of the necessary data.
+b. Right to Rectification
+If the information concerning you is (no longer) correct, you can request rectification. If your data is
+incomplete, you can request completion.
+c. Right to Erasure
+Subject to the conditions of Article 17 of the GDPR, you have the right to request the erasure of your
+personal data. Your right to erasure depends, among other things, on whether the data concerning you is
+covered by a retention obligation or whether we still need it to fulfill our legal rights and obligations.
+d. Right to Restriction of Processing
+Subject to the provisions of Article 18 of the GDPR, you have the right to request the restriction of the
+processing of your data.
+e. Right to Object
+You have the right to object, on grounds relating to your particular situation, at any time to the processing of
+your personal data, especially when we process your data based on legitimate interests. However, we may
+not always be able to comply with this, for example, if we are required to archive the data for tax law
+purposes. In this case, the data will be blocked for further use and deleted after the end of the statutory
+retention period.
+f. Right to Withdraw Consent
+If you have given us consent to process your data, you have the right to withdraw your consent at any time.
+This does not affect the lawfulness of processing based on consent before its withdrawal.
+g. Right to Data Portability
+You have the right to receive the personal data concerning you, which you have provided to us, in a
+structured, commonly used, and machine-readable format. If you have provided the data on the basis of
+consent or a contract, you have the right to have the data transferred to another controller designated by
+you.
+h. Right to Lodge a Complaint
+If you believe that we have violated data protection regulations in the processing of your data, you have the
+right to lodge a complaint with a supervisory authority, which will examine your complaint.
+You can find a list of addresses of the supervisory authorities for data protection here:privacy_policy_en.md 5/28/2023
+5 / 10BFDI - Addresses and Links
+However, we are also open to feedback and will address any issues if you provide us with a notification at
+support@ankigpt.wtf.
+6. Contacting Us
+Simply put
+When you contact us, we only store your data to process your request.
+When you voluntarily contact us (such as by email or WhatsApp), we only store the data and messages you
+provide (such as your email address, phone number, and any other voluntarily provided information) to
+process your inquiry (such as contact request, consultation request, or suggestions for improvement).
+The data generated in connection with the contact will be deleted or permanently anonymized once storage
+is no longer necessary or processing will be restricted if legal retention obligations exist.
+The transmission of your data as a result of such a request is voluntary on your part, and by doing so, you
+simultaneously give your consent (legal basis is Art. 6(1)(a) of the GDPR). In addition, we have a legitimate
+interest in processing the data under Art. 6(1)(f) of the GDPR, as we want to respond to or process your
+request. If your request aims to conclude a contract, the legal basis for processing the data is also provided
+under Art. 6(1)(b) of the GDPR.
+7. Our Handling of Your Data
+Simply put
+We process your data when you:
+Use our app
+Communicate with us
+During the purely informational use of this app, which means if you do not register with your personal data
+(nickname, email, etc.) or otherwise provide us with information, we only collect the access data that your
+device transmits to our server.
+The following non-personally identifiable access data is stored with each use of our app:
+The name of the accessed file and/or content in the app
+The date and time of the request
+The amount of data transferred
+The access status (file transferred, file not found, etc.)
+The type of access (GET, POST)
+The device and operating system used
+Cookies
+For reasons of data security, to investigate unauthorized access or misuse of the app, and to potentially
+pursue resulting legal obligations and claims, the complete IP address of the requesting device is recorded,
+stored, and automatically deleted 6 months after the end of the access.privacy_policy_en.md 5/28/2023
+6 / 10If you want to use our app, we collect the aforementioned data that is technically necessary for us to even
+offer you our app and ensure the improvement of stability, functionality, and security for both parties.
+Therefore, the collection of this data is based on a legitimate interest on both sides (legal basis is Art. 6(1)
+(f) of the GDPR).
+If you are older than 16 years, the processing of the aforementioned data is based on your consent (legal
+basis is Art. 6(1)(a) of the GDPR).
+8. Account
+To use the app, it is necessary to create an account (customer account) or log in with an existing account
+and password and have a nickname, as mentioned below.
+a. Registration with Anonymous Accounts
+The app can be used without providing personal data because it is not necessary to voluntarily provide any
+personal data in the app (except for the IP address).
+If you are under 16 years old, the use of our app is prohibited. It is exclusively intended for students and not
+for school children.
+Every user who presses the "Generate" button is automatically assigned an anonymous account.
+With this registration method, only the IP address is processed temporarily in accordance with section 9
+("9. Processing of the IP address").
+The processing of the IP address is technically necessary for your device to establish a connection to our
+servers and to allow you to access and use the information from your group rooms or other application
+features of the app (purpose of processing).
+The legal basis for the processing of the aforementioned data is our legitimate interest (Art. 6(1)(f) of the
+GDPR) in making the app and its application features permanently available and providing the app with
+stability, functionality, and security, thereby fulfilling your legitimate interest (Art. 6(1)(f) of the GDPR) in
+using the app to organize your school day quickly, easily, and digitally.
+The disadvantage of this registration is that we cannot technically determine to whom a specific account
+belongs. Therefore, the anonymous account is tied to the device with which the registration was made for
+technical reasons. If you log out, uninstall the app, or lose your device, you will lose access to your account.
+b. Registration with Email & Password or Google/Apple Sign In
+In addition to anonymous registration, you can voluntarily register for the use of the app using an email
+address and password or through Google or Apple Sign In (hereinafter referred to as "registration data"). It
+is up to you which registration data you choose to use. It can even be a fantasy address like
+"smartfox[at]xyz.com".
+Registration using the registration data is based on your request, i.e., voluntary on your part, if and because
+you reject anonymous registration in order to experience more services due to technical reasons, namely:
+We store the aforementioned registration data to reset your forgotten password at your request.privacy_policy_en.md 5/28/2023
+7 / 10In addition, during registration using the registration data, we can enable you to log into our app from
+any device and anywhere in the world, allowing you to work flexibly and free from device constraints.
+Furthermore, providing the email address allows us to keep you up to date on activities in "AnkiGPT"
+and updates to the privacy policy/terms and conditions.
+Additionally, we can inform you about security-related information regarding your account (e.g., login
+from a foreign device).
+The purpose of registration and login with the registration data is to allow you to log into your account from
+any device at any time. If you have forgotten your password, you can select the "Forgot password" option.
+We will then send you an email with a link to reset your password. Furthermore, this allows the prevention
+and tracking of app misuse.
+By voluntarily providing your registration data to take advantage of the app's technically necessary benefits,
+you give your consent to the processing of the registration data (legal basis is Art. 6(1)(a) of the GDPR).
+Without giving your consent, the use of this app is only possible according to section 9.a (anonymous
+account).
+9. Processing of the IP Address
+The use of our app requires a connection between your device and our server to retrieve information from
+the app or provide information within the app.
+For this purpose, the IP address is technically necessary to enable communication between your device and
+our servers. This also constitutes the purpose of processing the IP address.
+Another purpose of processing the IP address is to ensure security against attacks. This helps prevent
+unauthorized access by employing automated security mechanisms that protect user data from misuse.
+A note on IP addresses and personal identification: The technically necessary IP address stored at Google
+Firebase is not visible to us. A unique connection between an IP address and a specific internet connection,
+including its owner, can only be established by the user's internet service provider for a limited period. As
+an individual or company, one could only access the owner of the internet connection through a
+sovereign/official act of the state (e.g., court orders, government decision, etc.) upon request, if there is a
+legitimate interest (such as the enforcement of copyright infringements or criminal offenses).
+Additionally, there may be cases where many devices share a single IP address, making it impossible to
+identify an individual accurately (e.g., using the app via a university's Wi-Fi).
+The storage of the IP address is done on Google's servers, and according to Google, it is only temporary.
+Despite written inquiries to Google, it was not possible to determine the exact storage period.
+In addition, we store the IP address when you accept the privacy policy to fulfill our obligation to provide
+evidence.
+Due to statutory limitation periods, we are required to store this data for 3 years. The deletion period begins
+at the end of the year in which the data was stored.
+The legal basis for the technically necessary processing of the IP address is our legitimate interest (Art. 6(1)
+(f) of the GDPR) in making the app and its application features permanently available, providing the app withprivacy_policy_en.md 5/28/2023
+8 / 10stability, functionality, and security, thereby fulfilling your legitimate interest (Art. 6(1)(f) of the GDPR) in
+using the app to organize your school day quickly, easily, and digitally.
+In the cases of section 9.b., the legal basis for the processing of your IP address, in addition to the
+legitimate interest, is your consent in accordance with Art. 6(1)(a) of the GDPR.
+If you do not agree to the storage of your IP address, the app cannot be used for technical reasons.
+10. Storage Period and Retention Obligations
+Unless otherwise specified in this privacy policy, the data collected within the scope of support requests
+through our own services will be stored for a period of 2 years, unless we have a legal obligation to retain
+the data.
+All retention periods begin at the end of the month in which the processing of the request is completed.
+In other cases, the duration of the storage of personal data is determined by legal retention obligations
+(such as commercial or tax law). After the expiration of the retention period, the data will be deleted at the
+end of the month, unless it is necessary for the initiation, performance, and termination of a contract and/or
+there is a legitimate interest on our part in processing the data.
+If the app is not used for more than two years, the account will be automatically deleted.
+11. Use of GPT by OpenAI
+To generate flashcards, the GPT API by OpenAI, L.L.C. is used. Therefore, you are not allowed to insert
+personal data into the text that serves as the basis for generation. As long as you do not insert personal
+data into the text, no personal data will be transmitted to OpenAI, L.L.C.
+You can find the privacy policy of OpenAI, L.L.C. here: OpenAI Privacy Policy
+12. Anonymous Statistical Analysis of App Usage
+To continuously improve and make the app more user-friendly, the app collects completely anonymous
+statistical data on app usage. This data cannot be traced back to any individual user. For example, this data
+helps identify frequently occurring errors in specific sections of the app, which can then be improved.
+13. Recipients or Categories of Recipients
+In general, the personal data you provide to us is only processed by us. However, to fulfill our tasks and
+obligations, it may be necessary for us to disclose your personal data to natural and legal persons,
+authorities, institutions, or other entities. The following categories of recipients may be considered:
+Google Cloud, as mentioned in Section 4. Hosting, Backend Infrastructure, and Storage Location for
+Your Data
+Courts (e.g., in litigation proceedings)
+Non-public entities, if they act as processors
+Lawyers, tax advisors, notaries, auditors
+14. SSL/TLS Encryptionprivacy_policy_en.md 5/28/2023
+9 / 10For the purpose of data security and to protect the transmission of confidential content, such as the
+inquiries you send to us, this app uses SSL/TLS encryption, which is provided by Google Firebase by
+default. You can recognize an encrypted connection by the change of the browser's address bar from
+"http://" to "https://" and the padlock symbol in the browser bar. Through SSL/TLS encryption, the data you
+transmit to us cannot be read by third parties during transmission.
+15. Data Transfer to Third Countries outside the EU
+a. Firebase Authentication
+To use AnkiGPT, it is necessary to have a user account (the reason for this necessity has been explained in
+detail in Section 8. Account).
+For security reasons, the IP address is temporarily logged and may be retained in backups for up to 180
+days according to Google.
+If you have linked your account with an email address or a Google account, this email address (or the email
+address associated with the Google account) is stored in Firebase Authentication because this information
+is required for login.
+The Firebase Authentication service is hosted by Google in the United States. To enable privacy-compliant
+processing, we have concluded EU Standard Contractual Clauses with Google.
+The legal basis for the temporary storage of the IP address, in the case of registration according to section
+9 lit. b, is your consent (Art. 6(1)(a) GDPR) to use the service. Otherwise, the technically necessary storage
+is based on your and our legitimate interest (Art. 6(1)(f) GDPR) in providing the app in a performant manner.
+b. Firebase Hosting
+Firebase Hosting is used for web hosting of the web app (https://ankigpt.wtf). If you use the AnkiGPT web
+app, you send a request to Firebase Hosting to load the page.
+For security reasons, the IP address is logged with each access. This IP address is stored for a few months
+according to Google.
+The Firebase Hosting service is hosted by Google in the United States. To enable privacy-compliant
+processing, we have concluded EU Standard Contractual Clauses with Google.
+The legal basis for the temporary storage of the IP address, in the case of registration according to section
+9 lit. b, is your consent (Art. 6(1)(a) GDPR) to use the service. Otherwise, the technically necessary storage
+is based on your and our legitimate interest (Art. 6(1)(f) GDPR) in providing the web app in a performant
+manner.
+16. Data Protection Officer
+The data controller is required to provide the contact details of their designated data protection officer, if
+the obligation to appoint a data protection officer exists under Article 37 GDPR.
+Currently, we are not obligated to have a data protection officer.
+17. Reservation of Changes to this Informationprivacy_policy_en.md 5/28/2023
+10 / 10Changes in legal requirements or laws may require an adaptation of this information. Therefore, we kindly
+ask you to review this information each time you visit our website.
